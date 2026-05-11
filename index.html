@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The mirror that won't lie to you. An AI that asks the questions you've been avoiding.">
+  <title>TruthMirror — The mirror that won't lie to you</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">TruthMirror</a>
+    <div class="lang-switch">
+      <button data-lang="en" class="active">EN</button>
+      <button data-lang="ro">RO</button>
+      <button data-lang="es">ES</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1 data-i18n="hero.title">The mirror that won't lie to you.</h1>
+      <p class="subtitle" data-i18n="hero.subtitle">An AI that asks the questions you've been avoiding.<br>No advice. No comfort. Just truth.</p>
+
+      <form class="waitlist" id="waitlistForm" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit" data-i18n="hero.cta">Join the waitlist</button>
+      </form>
+      <p class="waitlist-note" data-i18n="hero.note">Get notified when we launch on App Store and Google Play.</p>
+      <div id="waitlistSuccess" class="success-msg hidden" data-i18n="hero.success">Got it. We'll let you know.</div>
+    </div>
+  </section>
+
+  <section class="how">
+    <div class="container">
+      <h2 data-i18n="how.title">How it works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3 data-i18n="how.step1.title">You write what's eating you.</h3>
+          <p data-i18n="how.step1.body">No format. No template. Just dump it.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3 data-i18n="how.step2.title">It sees the patterns you don't.</h3>
+          <p data-i18n="how.step2.body">Avoidance, blame, intellectualizing, victim-story. It tags them across conversations.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3 data-i18n="how.step3.title">It asks what you refuse to ask.</h3>
+          <p data-i18n="how.step3.body">No advice. No prescriptions. Just the questions that crack the story.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="not-for">
+    <div class="container">
+      <h2 data-i18n="notfor.title">Not for everyone.</h2>
+      <ul>
+        <li data-i18n="notfor.item1">If you want validation, this isn't it.</li>
+        <li data-i18n="notfor.item2">If you want comfort, find a friend.</li>
+        <li data-i18n="notfor.item3">If you want therapy, find a therapist.</li>
+        <li data-i18n="notfor.item4">If you want a coach with positive vibes, find one.</li>
+      </ul>
+      <p class="emphasis" data-i18n="notfor.emphasis">For anyone tired of lying to themselves and ready to see it clearly.</p>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="container">
+      <h2 data-i18n="pricing.title">Pricing</h2>
+      <div class="tiers">
+        <div class="tier">
+          <h3 data-i18n="pricing.free.name">Free</h3>
+          <p class="price" data-i18n="pricing.free.price">€0</p>
+          <p data-i18n="pricing.free.detail">3 questions per day</p>
+        </div>
+        <div class="tier highlight">
+          <div class="badge" data-i18n="pricing.popular">POPULAR</div>
+          <h3 data-i18n="pricing.pro.name">Mirror Pro</h3>
+          <p class="price" data-i18n="pricing.pro.price">€9.99/mo</p>
+          <p data-i18n="pricing.pro.detail">100 questions per day<br>Pattern analysis<br>Evolution tracking</p>
+        </div>
+        <div class="tier">
+          <h3 data-i18n="pricing.elite.name">Mirror Elite</h3>
+          <p class="price" data-i18n="pricing.elite.price">€19.99/mo</p>
+          <p data-i18n="pricing.elite.detail">Unlimited questions<br>Monthly deep-dive analysis</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <div class="container">
+      <h2 data-i18n="ctafinal.title">Look in the mirror.</h2>
+      <p data-i18n="ctafinal.subtitle">Launch coming soon. Join the waitlist above.</p>
+      <div class="stores">
+        <div class="store-badge disabled">📱 App Store — <span data-i18n="ctafinal.soon">Coming soon</span></div>
+        <div class="store-badge disabled">🤖 Google Play — <span data-i18n="ctafinal.soon">Coming soon</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">TruthMirror</p>
+          <p class="footer-tagline" data-i18n="footer.tagline">The mirror that won't lie to you.</p>
+        </div>
+        <div>
+          <p class="footer-heading" data-i18n="footer.legal">Legal</p>
+          <a href="/terms" data-i18n="footer.terms">Terms of Service</a>
+          <a href="/privacy" data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+        <div>
+          <p class="footer-heading" data-i18n="footer.company">Company</p>
+          <a href="/contact" data-i18n="footer.contact">Contact</a>
+          <p class="footer-info">Social Media Group SRL</p>
+          <p class="footer-info">București, România</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Social Media Group SRL. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
