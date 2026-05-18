@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The mirror that won't lie to you. An AI that asks the questions you've been avoiding.">
   <title>TruthMirror — The mirror that won't lie to you</title>
+  <meta name="description" content="An AI that asks the questions you've been avoiding. No advice. No comfort. Just truth.">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <nav class="navbar">
     <a href="/" class="logo">TruthMirror</a>
     <div class="lang-switch">
@@ -20,108 +19,195 @@
     </div>
   </nav>
 
+  <!-- HERO -->
   <section class="hero">
     <div class="container">
       <h1 data-i18n="hero.title">The mirror that won't lie to you.</h1>
-      <p class="subtitle" data-i18n="hero.subtitle">An AI that asks the questions you've been avoiding.<br>No advice. No comfort. Just truth.</p>
-
-      <form class="waitlist" id="waitlistForm" action="https://formspree.io/f/mqennowj" method="POST">
-        <input type="email" name="email" placeholder="your@email.com" required>
-        <button type="submit" data-i18n="hero.cta">Join the waitlist</button>
+      <p class="hero-sub" data-i18n="hero.subtitle">An AI that asks the questions you've avoided. No advice. No comfort. Just truth.</p>
+      <form id="waitlistFormHero" class="waitlist-hero" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+        <input type="email" name="email" placeholder="your@email.com" required data-i18n-placeholder="waitlist.placeholder">
+        <button type="submit" data-i18n="waitlist.button">Join the waitlist</button>
       </form>
-      <p class="waitlist-note" data-i18n="hero.note">Get notified when we launch on App Store and Google Play.</p>
-      <div id="waitlistSuccess" class="success-msg hidden" data-i18n="hero.success">Got it. We'll let you know.</div>
+      <p class="hero-note" data-i18n="hero.note">We'll notify you when we launch on App Store and Google Play.</p>
     </div>
   </section>
 
-  <section class="how">
+  <!-- HOW IT WORKS -->
+  <section id="how" class="section how-section">
     <div class="container">
-      <h2 data-i18n="how.title">How it works</h2>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">01</div>
-          <h3 data-i18n="how.step1.title">You write what's eating you.</h3>
-          <p data-i18n="how.step1.body">No format. No template. Just dump it.</p>
+      <h2 class="section-title" data-i18n="how.title">How it works</h2>
+      <div class="how-grid">
+        <div class="how-step">
+          <div class="step-num">1</div>
+          <h3 data-i18n="how.s1.title">You write</h3>
+          <p data-i18n="how.s1.desc">Anything you're avoiding, repeating, or lying to yourself about.</p>
         </div>
-        <div class="step">
-          <div class="step-num">02</div>
-          <h3 data-i18n="how.step2.title">It sees the patterns you don't.</h3>
-          <p data-i18n="how.step2.body">Avoidance, blame, intellectualizing, victim-story. It tags them across conversations.</p>
+        <div class="how-step">
+          <div class="step-num">2</div>
+          <h3 data-i18n="how.s2.title">It sees what you don't</h3>
+          <p data-i18n="how.s2.desc">The AI names your patterns: avoidance, victim-story, intellectualizing.</p>
         </div>
-        <div class="step">
-          <div class="step-num">03</div>
-          <h3 data-i18n="how.step3.title">It asks what you refuse to ask.</h3>
-          <p data-i18n="how.step3.body">No advice. No prescriptions. Just the questions that crack the story.</p>
+        <div class="how-step">
+          <div class="step-num">3</div>
+          <h3 data-i18n="how.s3.title">It asks. You answer.</h3>
+          <p data-i18n="how.s3.desc">No advice. No comfort. The questions you've been avoiding.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="not-for">
+  <!-- PRICING -->
+  <section id="pricing" class="section pricing-section">
     <div class="container">
-      <h2 data-i18n="notfor.title">Not for everyone.</h2>
-      <ul>
-        <li data-i18n="notfor.item1">If you want validation, this isn't it.</li>
-        <li data-i18n="notfor.item2">If you want comfort, find a friend.</li>
-        <li data-i18n="notfor.item3">If you want therapy, find a therapist.</li>
-        <li data-i18n="notfor.item4">If you want a coach with positive vibes, find one.</li>
-      </ul>
-      <p class="emphasis" data-i18n="notfor.emphasis">For anyone tired of lying to themselves and ready to see it clearly.</p>
+      <h2 class="section-title" data-pricing-i18n="pricing.title">What you get</h2>
+      <p class="section-sub" data-pricing-i18n="pricing.subtitle">Transparent pricing. 30 days money-back. Cancel anytime.</p>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <div class="tier-name" data-pricing-i18n="pricing.glimpse.name">Glimpse</div>
+          <div class="tier-price">€0</div>
+          <div class="tier-period" data-pricing-i18n="pricing.glimpse.period">forever</div>
+          <p class="tier-desc" data-pricing-i18n="pricing.glimpse.desc">Try the mirror</p>
+          <ul class="features">
+            <li data-pricing-i18n="pricing.glimpse.f1">3 questions per day</li>
+            <li data-pricing-i18n="pricing.glimpse.f2">Pattern detection</li>
+            <li data-pricing-i18n="pricing.glimpse.f3">7 days history</li>
+            <li data-pricing-i18n="pricing.glimpse.f4">Crisis support</li>
+            <li data-pricing-i18n="pricing.glimpse.f5">EN / RO / ES</li>
+          </ul>
+          <a href="#waitlist" class="tier-cta" data-pricing-i18n="pricing.glimpse.cta">Start free</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="tier-name" data-pricing-i18n="pricing.reflection.name">Reflection</div>
+          <div class="tier-price">€4.99</div>
+          <div class="tier-period" data-pricing-i18n="pricing.reflection.period">per month</div>
+          <p class="tier-desc" data-pricing-i18n="pricing.reflection.desc">Daily practice</p>
+          <ul class="features">
+            <li data-pricing-i18n="pricing.reflection.f1">20 questions per day</li>
+            <li data-pricing-i18n="pricing.reflection.f2">Full history</li>
+            <li data-pricing-i18n="pricing.reflection.f3">Pattern Evolution chart</li>
+            <li data-pricing-i18n="pricing.reflection.f4">Honesty Score tracking</li>
+            <li data-pricing-i18n="pricing.reflection.f5">Daily reminder</li>
+            <li data-pricing-i18n="pricing.reflection.f6">Streak counter</li>
+            <li data-pricing-i18n="pricing.reflection.f7">3 separate contexts</li>
+            <li data-pricing-i18n="pricing.reflection.f8">PDF export (1/month)</li>
+          </ul>
+          <div class="tier-annual" data-pricing-i18n="pricing.reflection.annual">Annual: €49 (2 months free)</div>
+          <a href="#waitlist" class="tier-cta" data-pricing-i18n="pricing.reflection.cta">Join waitlist</a>
+        </div>
+
+        <div class="pricing-card recommended">
+          <div class="tier-badge" data-pricing-i18n="pricing.recommended">Most chosen</div>
+          <div class="tier-name" data-pricing-i18n="pricing.mirror.name">Mirror</div>
+          <div class="tier-price">€9.99</div>
+          <div class="tier-period" data-pricing-i18n="pricing.mirror.period">per month</div>
+          <p class="tier-desc" data-pricing-i18n="pricing.mirror.desc">Deep work</p>
+          <ul class="features">
+            <li data-pricing-i18n="pricing.mirror.f1">100 questions per day</li>
+            <li data-pricing-i18n="pricing.mirror.f2">Everything in Reflection, plus:</li>
+            <li data-pricing-i18n="pricing.mirror.f3">Voice mode (talk to AI)</li>
+            <li data-pricing-i18n="pricing.mirror.f4">Weekly Insights Report</li>
+            <li data-pricing-i18n="pricing.mirror.f5">Unlimited PDF export</li>
+            <li data-pricing-i18n="pricing.mirror.f6">Conversation tagging</li>
+            <li data-pricing-i18n="pricing.mirror.f7">Custom personality (Gentle / Direct / Brutal)</li>
+            <li data-pricing-i18n="pricing.mirror.f8">6 separate contexts</li>
+            <li data-pricing-i18n="pricing.mirror.f9">Priority support 24h</li>
+          </ul>
+          <div class="tier-annual" data-pricing-i18n="pricing.mirror.annual">Annual: €99 (2 months free)</div>
+          <a href="#waitlist" class="tier-cta primary" data-pricing-i18n="pricing.mirror.cta">Join waitlist</a>
+        </div>
+
+        <div class="pricing-card coming-soon">
+          <div class="tier-badge soon" data-pricing-i18n="pricing.comingSoon">In ~6 months</div>
+          <div class="tier-name" data-pricing-i18n="pricing.truth.name">Truth</div>
+          <div class="tier-price">€19.99</div>
+          <div class="tier-period" data-pricing-i18n="pricing.truth.period">per month</div>
+          <p class="tier-desc" data-pricing-i18n="pricing.truth.desc">Total clarity</p>
+          <ul class="features">
+            <li data-pricing-i18n="pricing.truth.f1">Unlimited questions</li>
+            <li data-pricing-i18n="pricing.truth.f2">Everything in Mirror, plus:</li>
+            <li data-pricing-i18n="pricing.truth.f3">Early access to new features</li>
+            <li data-pricing-i18n="pricing.truth.f4">Custom AI voice (5 voices)</li>
+            <li data-pricing-i18n="pricing.truth.f5">Unlimited contexts</li>
+            <li data-pricing-i18n="pricing.truth.f6">Monthly deep analysis report</li>
+            <li data-pricing-i18n="pricing.truth.f7">Data deletion on demand (24h)</li>
+          </ul>
+          <div class="tier-annual" data-pricing-i18n="pricing.truth.annual">Annual: €199 (2 months free)</div>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <section class="pricing">
+  <!-- GUARANTEES -->
+  <section id="guarantees" class="section guarantees-section">
     <div class="container">
-      <h2 data-i18n="pricing.title">Pricing</h2>
-      <div class="tiers">
-        <div class="tier">
-          <h3 data-i18n="pricing.free.name">Free</h3>
-          <p class="price" data-i18n="pricing.free.price">€0</p>
-          <p data-i18n="pricing.free.detail">3 questions per day</p>
+      <h2 class="section-title" data-pricing-i18n="guarantees.title">No fine print</h2>
+      <p class="section-sub" data-pricing-i18n="guarantees.subtitle">If we ask for your money, we earn it.</p>
+      <div class="guarantees-grid">
+        <div class="guarantee">
+          <div class="g-icon">⏱</div>
+          <h3 data-pricing-i18n="guarantees.refund.title">30 days money-back</h3>
+          <p data-pricing-i18n="guarantees.refund.desc">Full refund within 30 days. No questions, no friction.</p>
         </div>
-        <div class="tier highlight">
-          <div class="badge" data-i18n="pricing.popular">POPULAR</div>
-          <h3 data-i18n="pricing.pro.name">Mirror Pro</h3>
-          <p class="price" data-i18n="pricing.pro.price">€9.99/mo</p>
-          <p data-i18n="pricing.pro.detail">100 questions per day<br>Pattern analysis<br>Evolution tracking</p>
+        <div class="guarantee">
+          <div class="g-icon">✕</div>
+          <h3 data-pricing-i18n="guarantees.cancel.title">Cancel in 2 taps</h3>
+          <p data-pricing-i18n="guarantees.cancel.desc">Settings → Subscription → Cancel. No retention tricks.</p>
         </div>
-        <div class="tier">
-          <h3 data-i18n="pricing.elite.name">Mirror Elite</h3>
-          <p class="price" data-i18n="pricing.elite.price">€19.99/mo</p>
-          <p data-i18n="pricing.elite.detail">Unlimited questions<br>Monthly deep-dive analysis</p>
+        <div class="guarantee">
+          <div class="g-icon">🎁</div>
+          <h3 data-pricing-i18n="guarantees.trial.title">7 days free trial</h3>
+          <p data-pricing-i18n="guarantees.trial.desc">Reflection and Mirror come with free 7-day trial. Cancel before, pay nothing.</p>
+        </div>
+        <div class="guarantee">
+          <div class="g-icon">🚫</div>
+          <h3 data-pricing-i18n="guarantees.ads.title">No ads. Ever.</h3>
+          <p data-pricing-i18n="guarantees.ads.desc">A self-reflection tool with ads makes no sense.</p>
+        </div>
+        <div class="guarantee">
+          <div class="g-icon">🔒</div>
+          <h3 data-pricing-i18n="guarantees.data.title">Your data is yours</h3>
+          <p data-pricing-i18n="guarantees.data.desc">Export anytime, delete anytime. Never sold. GDPR.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="cta-final">
+  <!-- WAITLIST CTA -->
+  <section id="waitlist" class="section waitlist-section">
     <div class="container">
-      <h2 data-i18n="ctafinal.title">Look in the mirror.</h2>
-      <p data-i18n="ctafinal.subtitle">Launch coming soon. Join the waitlist above.</p>
-      <div class="stores">
-        <div class="store-badge disabled">📱 App Store — <span data-i18n="ctafinal.soon">Coming soon</span></div>
-        <div class="store-badge disabled">🤖 Google Play — <span data-i18n="ctafinal.soon">Coming soon</span></div>
-      </div>
+      <h2 class="section-title" data-i18n="waitlist.title">Join the waitlist</h2>
+      <p class="section-sub" data-i18n="waitlist.subtitle">Get early access. First month free for waitlist members.</p>
+      <form id="waitlistForm" class="waitlist" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+        <input type="email" name="email" placeholder="your@email.com" required data-i18n-placeholder="waitlist.placeholder">
+        <button type="submit" data-i18n="waitlist.button">Join the waitlist</button>
+      </form>
+      <p class="waitlist-success" id="waitlistSuccess" data-i18n="waitlist.success">Got it. We'll let you know.</p>
     </div>
   </section>
 
-  <footer>
+  <!-- FOOTER -->
+  <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <div>
-          <p class="footer-brand">TruthMirror</p>
-          <p class="footer-tagline" data-i18n="footer.tagline">The mirror that won't lie to you.</p>
+        <div class="footer-col">
+          <div class="footer-logo">TruthMirror</div>
+          <p class="footer-tag" data-i18n="footer.tag">The mirror that won't lie to you.</p>
         </div>
-        <div>
-          <p class="footer-heading" data-i18n="footer.legal">Legal</p>
-          <a href="/terms" data-i18n="footer.terms">Terms of Service</a>
-          <a href="/privacy" data-i18n="footer.privacy">Privacy Policy</a>
+        <div class="footer-col">
+          <h4 data-i18n="footer.legal">Legal</h4>
+          <a href="/terms.html" data-i18n="footer.terms">Terms of Service</a>
+          <a href="/privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="/contact.html" data-i18n="footer.contact">Contact</a>
         </div>
-        <div>
-          <p class="footer-heading" data-i18n="footer.company">Company</p>
-          <a href="/contact" data-i18n="footer.contact">Contact</a>
-          <p class="footer-info">Social Media Group SRL</p>
-          <p class="footer-info">București, România</p>
+        <div class="footer-col">
+          <h4 data-i18n="footer.company">Company</h4>
+          <p>Social Media Group SRL</p>
+          <p>Bucharest, Romania</p>
+          <p><a href="mailto:truthmirrorapp@gmail.com">truthmirrorapp@gmail.com</a></p>
         </div>
       </div>
       <div class="footer-bottom">
@@ -131,5 +217,6 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="pricing-i18n.js"></script>
 </body>
 </html>
