@@ -1,74 +1,183 @@
-window.TERMS_ES = `TÉRMINOS Y CONDICIONES
-
-Fecha de entrada en vigor: 11 de mayo de 2026
-Versión: 2026-05-11
-
-Estos Términos y Condiciones ("Términos") rigen el uso de la aplicación móvil TruthMirror ("Aplicación"). Al crear una cuenta o usar la Aplicación, confirmas que has leído, entendido y aceptas estos Términos en su totalidad. Si no aceptas estos Términos, no uses la Aplicación.
+window.TERMS_ES = `TÉRMINOS DE SERVICIO
+TruthMirror
+Fecha de entrada en vigor: 19 de mayo de 2026
+Versión: 2026-05-19
 
 1. QUIÉNES SOMOS
-La Aplicación es operada por Social Media Group SRL, una empresa registrada en Rumanía, con domicilio social en Bucarest, Rumanía ("nosotros"). Puedes contactarnos en truthmirrorapp@gmail.com. Nuestro sitio web es truthmirror.net.
 
-2. ELEGIBILIDAD
-La Aplicación está disponible exclusivamente para usuarios de 18 años o más. Al usar la Aplicación confirmas que tienes al menos 18 años. Podemos solicitar prueba de edad en cualquier momento. Si creemos que eres menor de 18 años, terminaremos tu acceso sin previo aviso y reembolsaremos prorrata las cantidades de suscripción no utilizadas, conforme a la ley aplicable.
+La aplicación móvil TruthMirror y el sitio web ("App", "TruthMirror", "Servicio") son operados por:
 
-3. QUÉ ES LA APLICACIÓN — Y QUÉ NO ES
-3.1 La Aplicación es una herramienta de autorreflexión basada en inteligencia artificial. Está diseñada para ayudar a usuarios adultos a examinar sus propios pensamientos, comportamientos y patrones mediante feedback directo, no consejero.
-3.2 LA APLICACIÓN NO ES UN DISPOSITIVO MÉDICO, UN SERVICIO DE SALUD, UN SERVICIO DE PSICOTERAPIA, UN SERVICIO DE ASESORAMIENTO NI UNA LÍNEA DE CRISIS. La Aplicación no proporciona asesoramiento médico, psiquiátrico, psicológico, legal o financiero. No debe usarse como sustituto de atención profesional.
-3.3 Las respuestas generadas por la Aplicación son producidas por un modelo de inteligencia artificial. Pueden ser inexactas, incompletas, inapropiadas o dañinas. Debes usar tu propio juicio al interpretar y actuar sobre cualquier respuesta.
-3.4 La Aplicación no debe ser usada por personas que experimenten una crisis de salud mental, pensamientos suicidas, pensamientos de autolesión, daño a otros o síntomas de enfermedad psiquiátrica severa. Si estás en crisis, contacta inmediatamente con los servicios locales de emergencia o una línea de crisis reconocida. Consulta los recursos de Apoyo en Crisis dentro de la Aplicación.
+Social Media Group SRL
+Domicilio social: Bucarest, Rumanía
+Contacto: truthmirrorapp@gmail.com
+Sitio web: https://truthmirror.net
 
-4. CUENTA Y DATOS
-4.1 Eres responsable de la seguridad del dispositivo donde está instalada la Aplicación y de toda actividad realizada a través de la Aplicación en ese dispositivo.
-4.2 Las conversaciones se almacenan principalmente de forma local en tu dispositivo. Podemos ofrecer sincronización en la nube cifrada opcional en futuras versiones.
-4.3 Procesamos datos personales conforme a nuestra Política de Privacidad, que forma parte de estos Términos.
+A efectos de estos Términos, "nosotros", "nuestro" y "nos" se refieren a Social Media Group SRL.
 
-5. SUSCRIPCIONES, PAGOS Y REEMBOLSOS
-5.1 La Aplicación ofrece niveles gratuitos y de pago. El nivel gratuito proporciona un número limitado de interacciones diarias. Los niveles de pago se venden a través de Apple App Store y Google Play y están sujetos a sus respectivos términos de facturación.
-5.2 Las suscripciones se renuevan automáticamente hasta su cancelación. Puedes gestionar y cancelar tu suscripción a través de la configuración de tu cuenta Apple ID o Google Play.
-5.3 Para consumidores en la Unión Europea, tienes derecho a desistir de una nueva suscripción dentro de los 14 días posteriores a la compra sin dar razón alguna, conforme a la Directiva 2011/83/UE. Para ejercer este derecho, contacta truthmirrorapp@gmail.com o usa el proceso de reembolso de la tienda correspondiente. El derecho de desistimiento puede perderse si el servicio digital ha sido utilizado sustancialmente en ese período, donde hayas dado consentimiento expreso previo y reconocido la pérdida del derecho.
-5.4 No proporcionamos reembolsos fuera de las condiciones descritas en la sección 5.3 excepto cuando lo exija la ley.
+2. ACEPTACIÓN DE ESTOS TÉRMINOS
 
-6. USO ACEPTABLE
+Al crear una cuenta, instalar la App o usar de cualquier otro modo el Servicio, aceptas quedar vinculado por estos Términos de Servicio ("Términos") y nuestra Política de Privacidad. Si no estás de acuerdo, no uses el Servicio.
+
+Debes aceptar afirmativamente estos Términos durante el proceso de onboarding en la app antes de poder usar TruthMirror.
+
+3. REQUISITO DE EDAD — 18+
+
+TruthMirror está destinado exclusivamente a adultos de 18 años o más. Debes confirmar tu año de nacimiento durante el onboarding y no debes usar el Servicio si eres menor de 18 años.
+
+Si descubrimos que un usuario es menor de 18 años, terminaremos su acceso y eliminaremos los datos asociados sin previo aviso.
+
+4. NATURALEZA DEL SERVICIO — IMPORTANTE
+
+TruthMirror es una herramienta de autorreflexión impulsada por inteligencia artificial. La App usa modelos de lenguaje grandes (LLM) para hacerte preguntas sobre evitación, autoengaño y patrones de comportamiento, basándose en el texto que proporcionas.
+
+TruthMirror NO es:
+(a) un dispositivo médico, tratamiento de salud mental o servicio de terapia;
+(b) un sustituto de atención profesional de salud mental, psicológica o psiquiátrica;
+(c) un servicio de emergencia o intervención en crisis;
+(d) asesoramiento legal, financiero o de relaciones;
+(e) una herramienta de diagnóstico.
+
+El Servicio se proporciona para reflexión personal y entretenimiento. Reconoces que las respuestas de la IA pueden ser inexactas, inapropiadas o inadecuadas para tu situación, y asumes plena responsabilidad por cualquier decisión que tomes.
+
+Si estás experimentando una crisis de salud mental, pensamientos suicidas, o estás en peligro para ti mismo o para otros, deja de usar la App y contacta a los servicios de emergencia de tu país (p. ej., 112 en la UE, 988 en EE. UU., 116 123 en el Reino Unido) o visita findahelpline.com.
+
+5. PLANES DE SUSCRIPCIÓN Y PRECIOS
+
+5.1 Ofrecemos los siguientes planes:
+
+GLIMPSE (GRATIS):
+- 3 preguntas de IA al día
+- Detección básica de patrones
+- Historial de 7 días
+- Recursos de crisis
+- Disponible en inglés, rumano y español
+
+REFLECTION (€4,99/mes o €49/año):
+- 20 preguntas de IA al día
+- Historial completo de conversaciones
+- Gráfico de evolución de patrones
+- Seguimiento de Honesty Score
+- Recordatorio diario
+- Contador de racha
+- 3 contextos separados
+- Exportar PDF (1/mes)
+
+MIRROR (€9,99/mes o €99/año):
+- 100 preguntas de IA al día
+- Todo en Reflection
+- Modo voz (habla con la IA)
+- Informe semanal de insights
+- Exportar PDF ilimitado
+- Etiquetas en conversaciones
+- Personalidad ajustable
+- 6 contextos separados
+- Soporte prioritario
+
+TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses después del lanzamiento público:
+- Preguntas de IA ilimitadas
+- Todo en Mirror
+- Voz de IA personalizada (5 voces)
+- Informe mensual de análisis profundo
+- Eliminación de datos bajo petición (24h)
+
+5.2 Las suscripciones anuales ofrecen aproximadamente 2 meses gratis en comparación con la facturación mensual.
+
+5.3 Los precios pueden cambiar con un preaviso de al menos 30 días. Los suscriptores existentes serán notificados a través de la App y/o correo electrónico. Los cambios de precio no se aplican a tu período de facturación actual.
+
+6. PRUEBA GRATUITA
+
+6.1 Los planes de pago (Reflection y Mirror) incluyen una prueba gratuita de 7 días.
+
+6.2 Si no cancelas antes de que termine la prueba, se te cobrará automáticamente a la tarifa estándar.
+
+6.3 Cada usuario tiene derecho a una prueba gratuita por plan. El abuso repetido de pruebas puede resultar en la denegación de la prueba.
+
+7. FACTURACIÓN, RENOVACIÓN AUTOMÁTICA Y REEMBOLSOS
+
+7.1 Las suscripciones se compran y facturan a través de Apple App Store o Google Play, sujetas a sus respectivos términos.
+
+7.2 Las suscripciones se renuevan automáticamente a menos que se cancelen al menos 24 horas antes del final del período de facturación actual. Gestiona tu suscripción en:
+- iOS: Ajustes → Apple ID → Suscripciones → TruthMirror
+- Android: Google Play → Perfil → Pagos y suscripciones
+
+7.3 GARANTÍA DE 30 DÍAS DE DEVOLUCIÓN. Si TruthMirror no cumple tus expectativas, puedes solicitar un reembolso completo dentro de los 30 días posteriores a tu primer cargo, escribiendo a truthmirrorapp@gmail.com con tu ID de transacción. Los reembolsos se procesan en 5 días hábiles a través del método de pago original. No se requiere motivo.
+
+7.4 DESISTIMIENTO DEL CONSUMIDOR UE. Los consumidores de la UE/EEE tienen derecho legal a desistir de los contratos de servicios digitales dentro de los 14 días posteriores a la compra. Para ejercer este derecho, contacta truthmirrorapp@gmail.com. Al comenzar a usar el Servicio inmediatamente después de la compra, puedes renunciar a este derecho según el Artículo 16(m) de la Directiva 2011/83/UE.
+
+7.5 La garantía de 30 días de devolución de la sección 7.3 se añade, no reemplaza, tus derechos legales bajo la legislación de protección al consumidor de la UE.
+
+8. CANCELACIÓN
+
+Puedes cancelar tu suscripción en cualquier momento, sin necesidad de motivo, a través de los ajustes de tu cuenta de App Store o Google Play. La cancelación entra en vigor al final del período de facturación actual; conservas el acceso a las funciones de pago hasta entonces. No usamos tácticas de retención, encuestas de salida ni fricción para desalentar la cancelación.
+
+9. SIN PUBLICIDAD
+
+TruthMirror no muestra publicidad y no introduciremos publicidad en el Servicio. El Servicio se financia íntegramente con ingresos de suscripción.
+
+10. USO ACEPTABLE
+
 Aceptas no:
-(a) usar la Aplicación violando ninguna ley;
-(b) intentar hacer ingeniería inversa, descompilar o extraer el código fuente de la Aplicación;
-(c) intentar eludir los límites de tasa, paywalls o mecanismos de seguridad;
-(d) usar herramientas automatizadas o scripts para interactuar con la Aplicación;
-(e) usar la Aplicación para generar contenido ilegal, abusivo, difamatorio, dañino o que infrinja los derechos de otros;
-(f) revender, sublicenciar o explotar comercialmente el acceso a la Aplicación;
-(g) usar la Aplicación para cualquier propósito distinto a la autorreflexión personal.
-Podemos suspender o terminar tu acceso si creemos razonablemente que has violado esta sección.
+(a) usar el Servicio para cualquier propósito ilegal o para facilitar actividad ilegal;
+(b) intentar extraer, hacer ingeniería inversa o copiar nuestros modelos de IA, prompts o arquitectura del sistema;
+(c) enviar contenido que represente o amenace con violencia, abuso, contenido sexual con menores o autolesión dirigida a otros;
+(d) usar el Servicio para acosar, perseguir o dañar a cualquier persona;
+(e) intentar eludir los límites de tasa, sistemas de pago o controles de acceso;
+(f) suplantar a otra persona o falsear tu edad o identidad;
+(g) usar sistemas automatizados (bots, scrapers) para acceder al Servicio;
+(h) compartir tus credenciales de cuenta con otros.
 
-7. PROPIEDAD INTELECTUAL
-La Aplicación, su diseño, código, modelos, prompts y marca son propiedad nuestra o de nuestros licenciantes. Las conversaciones que generas siguen siendo tu contenido; nos otorgas una licencia limitada, no exclusiva, para procesarlas con el fin de operar el servicio, incluida la transmisión a proveedores de IA para la generación de respuestas. No usamos tus conversaciones para entrenar modelos de IA.
+Nos reservamos el derecho de suspender o terminar cuentas que violen estas reglas, con o sin previo aviso.
 
-8. LIMITACIONES Y DESCARGOS DE RESPONSABILIDAD DE IA
-8.1 La Aplicación genera resultados utilizando modelos lingüísticos grandes (actualmente proporcionados por Anthropic). Estos modelos pueden producir contenido inexacto, sesgado o dañino a pesar de nuestras salvaguardas.
-8.2 Reconoces que las respuestas de IA son probabilísticas, no autoritativas, y no deben usarse para ninguna decisión consecuencial.
-8.3 La Aplicación puede no estar disponible debido a mantenimiento, actualizaciones, interrupciones de terceros o fallos técnicos. No garantizamos acceso ininterrumpido.
+11. CONTENIDO QUE PROPORCIONAS
 
-9. LIMITACIÓN DE RESPONSABILIDAD
-9.1 En la medida máxima permitida por la ley aplicable, nuestra responsabilidad acumulada total derivada o relacionada con la Aplicación se limita a la cantidad que nos hayas pagado por la Aplicación en los doce (12) meses anteriores al evento que dio lugar a la reclamación.
-9.2 Excluimos la responsabilidad por daños indirectos, incidentales, especiales, consecuenciales o punitivos, incluyendo pérdida de beneficios, pérdida de datos, pérdida de reputación o daños psicológicos, salvo cuando dicha exclusión esté prohibida por ley.
-9.3 Nada en estos Términos excluye la responsabilidad por muerte o lesiones personales causadas por nuestra negligencia, por fraude o por cualquier otra responsabilidad que no pueda excluirse según la ley aplicable.
-9.4 La Aplicación se proporciona "tal cual" y "según disponibilidad" sin garantías de ningún tipo, expresas o implícitas, incluidas garantías de comerciabilidad, idoneidad para un propósito particular y no infracción, en la medida máxima permitida por la ley.
+Conservas la propiedad del texto que escribes en TruthMirror ("Tu Contenido"). Al usar el Servicio, nos otorgas una licencia limitada, no exclusiva, para procesar Tu Contenido únicamente para proporcionarte el Servicio (generar respuestas de IA, detectar patrones, calcular estadísticas, almacenar historial de conversaciones).
 
-10. TERMINACIÓN
-10.1 Puedes dejar de usar la Aplicación en cualquier momento. Puedes borrar tus datos y cuenta a través de los ajustes de la aplicación.
-10.2 Podemos suspender o terminar tu acceso si violas estos Términos, si sospechamos razonablemente fraude o abuso, o si descontinuamos la Aplicación. Daremos aviso razonable cuando sea practicable.
+NO usamos Tu Contenido para entrenar modelos de IA. NO vendemos Tu Contenido a ningún tercero. Consulta nuestra Política de Privacidad para los detalles completos de manejo de datos.
 
-11. CAMBIOS EN ESTOS TÉRMINOS
-Podemos actualizar estos Términos de vez en cuando. Si hacemos cambios materiales, te notificaremos a través de la Aplicación o mediante los datos de contacto asociados a tu cuenta, y se te pedirá que aceptes los Términos actualizados antes de continuar usando la Aplicación.
+12. CONTENIDO GENERADO POR IA
 
-12. LEY APLICABLE Y DISPUTAS
-12.1 Estos Términos se rigen por la ley rumana, sin perjuicio de las protecciones obligatorias del consumidor disponibles bajo la ley de tu país de residencia.
-12.2 Cualquier disputa que surja de o en relación con estos Términos será sometida a los tribunales competentes de Bucarest, Rumanía, excepto cuando la ley obligatoria te otorgue el derecho a iniciar procedimientos en los tribunales de tu país de residencia.
-12.3 Los consumidores de la Unión Europea también pueden usar la plataforma de Resolución de Litigios en Línea de la Comisión Europea: https://ec.europa.eu/consumers/odr
+Las respuestas de IA producidas por el Servicio pueden ser incorrectas, sesgadas o inapropiadas. La App usa modelos de IA de terceros (Anthropic Claude) sujetos a sus propias limitaciones. No ofrecemos ninguna garantía sobre la exactitud, integridad o idoneidad para un propósito de cualquier salida de IA.
 
-13. CONTACTO
+Eres el único responsable de evaluar críticamente las respuestas de IA y de cualquier acción que tomes basándote en ellas.
+
+13. PROPIEDAD INTELECTUAL
+
+Todos los derechos sobre la App, incluyendo su diseño, código, marca, nombre "TruthMirror", logotipos, prompts del sistema y funciones de audio, son propiedad de Social Media Group SRL. Recibes una licencia limitada, intransferible y revocable para usar la App solo con fines personales y no comerciales.
+
+14. LIMITACIÓN DE RESPONSABILIDAD
+
+14.1 En la máxima medida permitida por la ley aplicable, el Servicio se proporciona "TAL CUAL" y "SEGÚN DISPONIBILIDAD" sin garantías de ningún tipo, expresas o implícitas.
+
+14.2 No somos responsables de:
+(a) cualquier decisión que tomes basándote en la salida de IA;
+(b) consecuencias emocionales, psicológicas o físicas del uso del Servicio;
+(c) pérdida de datos por fallo técnico (recomendamos exportar tus datos regularmente);
+(d) interrupciones del servicio, errores o tiempo de inactividad;
+(e) servicios de terceros (Apple, Google, Anthropic) de los que dependemos.
+
+14.3 Nuestra responsabilidad agregada máxima hacia ti en cualquier período de 12 meses se limita a la cantidad que nos pagaste por el Servicio en los 12 meses anteriores, o €100, lo que sea mayor.
+
+14.4 Nada en estos Términos limita la responsabilidad por (i) negligencia grave o mala conducta intencional, (ii) muerte o lesiones personales causadas por nuestra negligencia, o (iii) cualquier otra responsabilidad que no pueda limitarse bajo la ley aplicable.
+
+15. CAMBIOS EN ESTOS TÉRMINOS
+
+Podemos actualizar estos Términos de vez en cuando. Si hacemos cambios materiales, te notificaremos a través de la App o mediante los datos de contacto asociados a tu cuenta, y se te pedirá que aceptes los Términos actualizados antes de continuar usando la App.
+
+16. LEY APLICABLE Y DISPUTAS
+
+16.1 Estos Términos se rigen por la ley rumana, sin perjuicio de las protecciones obligatorias del consumidor disponibles bajo la ley de tu país de residencia.
+
+16.2 Cualquier disputa que surja de o en conexión con estos Términos se someterá a los tribunales competentes de Bucarest, Rumanía, excepto cuando la ley obligatoria te otorgue el derecho de iniciar procedimientos en los tribunales de tu país de residencia.
+
+16.3 Los consumidores de la Unión Europea también pueden usar la plataforma de Resolución de Disputas en Línea de la Comisión Europea: https://ec.europa.eu/consumers/odr
+
+17. CONTACTO
+
 Para cualquier pregunta, queja o solicitud legal relacionada con estos Términos, contacta:
+
 Social Media Group SRL
 Bucarest, Rumanía
-truthmirrorapp@gmail.com
+Email: truthmirrorapp@gmail.com
 
-Al usar la Aplicación confirmas que has leído y entendido estos Términos y que los aceptas en su totalidad.`;
+Al usar la App, confirmas que has leído y entendido estos Términos y que los aceptas en su totalidad.
+`;

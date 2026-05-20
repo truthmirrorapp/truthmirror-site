@@ -1,74 +1,183 @@
 window.TERMS_RO = `TERMENI ȘI CONDIȚII
-
-Data intrării în vigoare: 11 mai 2026
-Versiunea: 2026-05-11
-
-Acești Termeni și Condiții ("Termeni") guvernează utilizarea aplicației mobile TruthMirror ("Aplicația"). Prin crearea unui cont sau prin utilizarea Aplicației, confirmi că ai citit, ai înțeles și accepți în totalitate acești Termeni. Dacă nu accepți acești Termeni, nu utiliza Aplicația.
+TruthMirror
+Data intrării în vigoare: 19 mai 2026
+Versiunea: 2026-05-19
 
 1. CINE SUNTEM
-Aplicația este operată de Social Media Group SRL, societate înregistrată în România, cu sediul social în București, România ("noi"). Ne poți contacta la truthmirrorapp@gmail.com. Site-ul nostru este truthmirror.net.
 
-2. ELIGIBILITATE
-Aplicația este disponibilă exclusiv utilizatorilor de 18 ani și peste. Prin utilizarea Aplicației confirmi că ai cel puțin 18 ani. Putem solicita oricând dovada vârstei. Dacă avem motive să credem că ai sub 18 ani, vom termina accesul fără preaviz și vom rambursa pro rata sumele neutilizate, conform legii aplicabile.
+Aplicația mobilă TruthMirror și website-ul ("Aplicația", "TruthMirror", "Serviciul") sunt operate de:
 
-3. CE ESTE APLICAȚIA — ȘI CE NU ESTE
-3.1 Aplicația este un instrument de auto-reflecție bazat pe inteligență artificială. Este concepută pentru a ajuta utilizatorii adulți să își examineze propriile gânduri, comportamente și tipare prin feedback direct, fără caracter de sfat.
-3.2 APLICAȚIA NU ESTE UN DISPOZITIV MEDICAL, UN SERVICIU DE SĂNĂTATE, UN SERVICIU DE PSIHOTERAPIE, UN SERVICIU DE CONSILIERE SAU O LINIE DE URGENȚĂ. Aplicația nu oferă sfaturi medicale, psihiatrice, psihologice, juridice sau financiare. Nu trebuie folosită ca substitut pentru îngrijire profesională.
-3.3 Răspunsurile generate de Aplicație sunt produse de un model de inteligență artificială. Pot fi inexacte, incomplete, inadecvate sau dăunătoare. Trebuie să folosești propriul discernământ atunci când interpretezi și acționezi pe baza oricărui răspuns.
-3.4 Aplicația nu trebuie utilizată de persoane care trec printr-o criză de sănătate mintală, gânduri suicidare, gânduri de auto-vătămare, de vătămare a altora sau simptome de boală psihiatrică severă. Dacă ești în criză, contactează imediat serviciile locale de urgență sau o linie de criză recunoscută. Vezi resursele de Asistență în Criză din Aplicație.
+Social Media Group SRL
+Sediu social: București, România
+Contact: truthmirrorapp@gmail.com
+Website: https://truthmirror.net
 
-4. CONT ȘI DATE
-4.1 Ești responsabil pentru securitatea dispozitivului pe care este instalată Aplicația și pentru toate activitățile desfășurate prin Aplicație pe acel dispozitiv.
-4.2 Conversațiile sunt stocate inițial local pe dispozitivul tău. Putem oferi sincronizare cloud criptată opțională în versiunile viitoare.
-4.3 Prelucrăm date personale conform Politicii noastre de Confidențialitate, care face parte din acești Termeni.
+În scopul acestor Termeni, "noi", "nostru" și "ne" se referă la Social Media Group SRL.
 
-5. ABONAMENTE, PLĂȚI ȘI RAMBURSĂRI
-5.1 Aplicația oferă tarife gratuite și plătite. Tariful gratuit oferă un număr limitat de interacțiuni zilnice. Tarifele plătite sunt vândute prin Apple App Store și Google Play și sunt supuse condițiilor lor de facturare.
-5.2 Abonamentele se reînnoiesc automat până la anulare. Poți gestiona și anula abonamentul prin setările contului tău Apple ID sau Google Play.
-5.3 Pentru consumatorii din Uniunea Europeană, ai dreptul de a te retrage dintr-un abonament nou în termen de 14 zile de la achiziție, fără a oferi un motiv, conform Directivei 2011/83/UE. Pentru a exercita acest drept, contactează truthmirrorapp@gmail.com sau folosește procesul de rambursare al magazinului relevant. Dreptul de retragere poate fi pierdut dacă serviciul digital a fost utilizat substanțial în acea perioadă, în cazul în care ai dat consimțământ expres prealabil și ai confirmat pierderea dreptului.
-5.4 Nu oferim rambursări în afara condițiilor descrise la secțiunea 5.3, cu excepția cazurilor impuse de lege.
+2. ACCEPTAREA ACESTOR TERMENI
 
-6. UTILIZARE ACCEPTABILĂ
-Te angajezi să nu:
-(a) folosești Aplicația cu încălcarea oricărei legi;
-(b) încerci să faci inginerie inversă, decompilare sau extragere a codului sursă al Aplicației;
-(c) încerci să ocolești limitele de rată, paywall-urile sau mecanismele de securitate;
-(d) folosești unelte automate sau scripturi pentru a interacționa cu Aplicația;
-(e) folosești Aplicația pentru a genera conținut ilegal, abuziv, defăimător, dăunător sau care încalcă drepturile altora;
-(f) revinzi, sublicențiezi sau exploatezi comercial accesul la Aplicație;
-(g) folosești Aplicația în alt scop decât reflecția personală.
-Putem suspenda sau termina accesul tău dacă avem motive rezonabile să credem că ai încălcat această secțiune.
+Prin crearea unui cont, instalarea Aplicației sau utilizarea în alt mod a Serviciului, ești de acord să te supui acestor Termeni și Condiții ("Termeni") și Politicii noastre de Confidențialitate. Dacă nu ești de acord, nu folosi Serviciul.
 
-7. PROPRIETATE INTELECTUALĂ
-Aplicația, designul, codul, modelele, prompturile și brandingul sunt deținute de noi sau de licențiatorii noștri. Conversațiile pe care le generezi rămân conținutul tău; ne acorzi o licență limitată, neexclusivă, pentru a le procesa în vederea operării serviciului, inclusiv transmiterea lor către furnizorii de AI pentru generarea răspunsurilor. Nu folosim conversațiile tale pentru antrenarea modelelor AI.
+Trebuie să accepți explicit acești Termeni în fluxul de onboarding din aplicație înainte de a putea folosi TruthMirror.
 
-8. LIMITĂRI ȘI DECLARAȚII PRIVIND AI
-8.1 Aplicația generează rezultate folosind modele lingvistice mari (furnizate în prezent de Anthropic). Aceste modele pot produce conținut inexact, părtinitor sau dăunător în ciuda măsurilor noastre de protecție.
-8.2 Recunoști că răspunsurile AI sunt probabilistice, nu autoritare, și nu trebuie să fie folosite pentru nicio decizie cu consecințe.
-8.3 Aplicația poate fi indisponibilă din cauza întreținerii, actualizărilor, întreruperilor terților sau defecțiunilor tehnice. Nu garantăm acces neîntrerupt.
+3. CERINȚA DE VÂRSTĂ — 18+
 
-9. LIMITAREA RĂSPUNDERII
-9.1 În măsura maximă permisă de legea aplicabilă, răspunderea noastră cumulată totală care decurge din sau în legătură cu Aplicația este limitată la suma pe care ne-ai plătit-o pentru Aplicație în cele douăsprezece (12) luni anterioare evenimentului care a generat cererea.
-9.2 Excludem răspunderea pentru daune indirecte, incidentale, speciale, consecutive sau punitive, inclusiv pierderea profiturilor, pierderea datelor, pierderea reputației sau daune psihologice, cu excepția cazului în care o astfel de excludere este interzisă de lege.
-9.3 Nimic din acești Termeni nu exclude răspunderea pentru deces sau vătămare corporală cauzată de neglijența noastră, pentru fraudă sau pentru orice altă răspundere care nu poate fi exclusă conform legii aplicabile.
-9.4 Aplicația este furnizată "ca atare" și "așa cum este disponibilă", fără garanții de niciun fel, exprese sau implicite, inclusiv garanții de vandabilitate, adecvare la un scop specific și neîncălcare, în măsura maximă permisă de lege.
+TruthMirror este destinat exclusiv adulților de 18 ani sau mai mult. Trebuie să confirmi anul nașterii în timpul onboarding-ului și nu trebuie să folosești Serviciul dacă ai sub 18 ani.
 
-10. REZILIERE
-10.1 Poți înceta să folosești Aplicația oricând. Poți șterge datele și contul prin setările din aplicație.
-10.2 Putem suspenda sau termina accesul tău dacă încalci acești Termeni, dacă suspectăm rezonabil fraudă sau abuz, sau dacă oprim Aplicația. Vom da preaviz rezonabil acolo unde este posibil.
+Dacă aflăm că un utilizator are sub 18 ani, vom termina accesul acestuia și vom șterge datele asociate fără preaviz.
 
-11. MODIFICĂRI ALE ACESTOR TERMENI
-Putem actualiza acești Termeni periodic. Dacă facem modificări semnificative, te vom anunța prin Aplicație sau prin datele de contact asociate contului tău, și ți se va cere să accepți Termenii actualizați înainte de a continua să folosești Aplicația.
+4. NATURA SERVICIULUI — IMPORTANT
 
-12. LEGE APLICABILĂ ȘI LITIGII
-12.1 Acești Termeni sunt guvernați de legea română, fără a aduce atingere protecțiilor obligatorii ale consumatorilor disponibile în legea țării tale de reședință.
-12.2 Orice litigiu care decurge din sau în legătură cu acești Termeni va fi supus instanțelor competente din București, România, cu excepția cazului în care legea obligatorie îți acordă dreptul de a iniția proceduri în instanțele țării tale de reședință.
-12.3 Consumatorii din Uniunea Europeană pot folosi și platforma Comisiei Europene pentru Soluționarea Online a Litigiilor: https://ec.europa.eu/consumers/odr
+TruthMirror este un tool de auto-reflecție bazat pe inteligență artificială. Aplicația folosește modele lingvistice mari (LLM) pentru a-ți pune întrebări despre evitare, auto-amăgire și pattern-uri comportamentale, bazate pe textul pe care îl furnizezi.
 
-13. CONTACT
+TruthMirror NU este:
+(a) dispozitiv medical, tratament de sănătate mentală sau serviciu de terapie;
+(b) substitut pentru îngrijirea profesională de sănătate mentală, psihologică sau psihiatrică;
+(c) serviciu de urgență sau intervenție în criză;
+(d) consultanță juridică, financiară sau de relații;
+(e) tool de diagnostic.
+
+Serviciul este furnizat pentru reflecție personală și divertisment. Recunoști că răspunsurile AI pot fi inexacte, nepotrivite sau improprii situației tale și îți asumi întreaga responsabilitate pentru deciziile pe care le iei.
+
+Dacă te confrunți cu o criză de sănătate mentală, gânduri suicidare sau ești în pericol pentru tine sau alții, oprește utilizarea Aplicației și contactează serviciile de urgență din țara ta (de ex., 112 în UE, 988 în SUA, 116 123 în Marea Britanie) sau vizitează findahelpline.com.
+
+5. PLANURI DE ABONAMENT ȘI PREȚURI
+
+5.1 Oferim următoarele planuri:
+
+GLIMPSE (GRATIS):
+- 3 întrebări AI pe zi
+- Detectare pattern-uri de bază
+- Istoric 7 zile
+- Resurse de criză
+- Disponibil în engleză, română și spaniolă
+
+REFLECTION (€4,99/lună sau €49/an):
+- 20 întrebări AI pe zi
+- Istoric complet al conversațiilor
+- Grafic Pattern Evolution
+- Honesty Score în timp
+- Reminder zilnic
+- Streak counter
+- 3 contexte separate
+- Export PDF (1/lună)
+
+MIRROR (€9,99/lună sau €99/an):
+- 100 întrebări AI pe zi
+- Tot ce e în Reflection
+- Voice mode (vorbește cu AI)
+- Raport săptămânal de insights
+- Export PDF nelimitat
+- Etichete pe conversații
+- Personalitate ajustabilă
+- 6 contexte separate
+- Suport prioritar
+
+TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lansarea publică:
+- Întrebări AI nelimitate
+- Tot ce e în Mirror
+- Voce AI personalizată (5 voci)
+- Raport lunar de analiză profundă
+- Ștergere date la cerere (24h)
+
+5.2 Abonamentele anuale oferă aproximativ 2 luni gratis comparativ cu facturarea lunară.
+
+5.3 Prețurile se pot schimba cu un preaviz de cel puțin 30 zile. Abonații existenți vor fi notificați prin Aplicație și/sau email. Schimbările de preț nu se aplică perioadei tale curente de facturare.
+
+6. TRIAL GRATIS
+
+6.1 Planurile plătite (Reflection și Mirror) includ un trial gratis de 7 zile.
+
+6.2 Dacă nu anulezi înainte de încheierea trialului, vei fi taxat automat la tariful standard.
+
+6.3 Fiecare utilizator are dreptul la un singur trial gratis per plan. Abuzul repetat al trialurilor poate duce la refuzul trialului.
+
+7. FACTURARE, REÎNNOIRE AUTOMATĂ ȘI RAMBURSĂRI
+
+7.1 Abonamentele sunt cumpărate și facturate prin Apple App Store sau Google Play, sub rezerva termenilor lor respectivi.
+
+7.2 Abonamentele se reînnoiesc automat dacă nu sunt anulate cu cel puțin 24 ore înainte de încheierea perioadei curente de facturare. Gestionează-ți abonamentul în:
+- iOS: Setări → Apple ID → Abonamente → TruthMirror
+- Android: Google Play → Profil → Plăți și abonamente
+
+7.3 GARANȚIE 30 ZILE MONEY-BACK. Dacă TruthMirror nu îți îndeplinește așteptările, poți cere rambursare integrală în 30 zile de la prima taxare, scriind la truthmirrorapp@gmail.com cu ID-ul tranzacției. Rambursările sunt procesate în 5 zile lucrătoare prin metoda originală de plată. Nu e necesar un motiv.
+
+7.4 RETRAGERE CONSUMATOR UE. Consumatorii din UE/SEE au dreptul legal de a se retrage din contractele pentru servicii digitale în 14 zile de la cumpărare. Pentru a exercita acest drept, contactează truthmirrorapp@gmail.com. Prin începerea utilizării Serviciului imediat după cumpărare, poți renunța la acest drept conform Articolului 16(m) din Directiva 2011/83/UE.
+
+7.5 Garanția de 30 zile money-back din secțiunea 7.3 se adaugă, nu înlocuiește, drepturile tale legale conform legislației UE de protecție a consumatorilor.
+
+8. ANULARE
+
+Îți poți anula abonamentul oricând, fără să fie necesar un motiv, prin setările contului tău App Store sau Google Play. Anularea intră în vigoare la sfârșitul perioadei curente de facturare; păstrezi accesul la funcțiile plătite până atunci. Nu folosim tactici de retenție, survey-uri de ieșire, sau friction pentru a descuraja anularea.
+
+9. FĂRĂ RECLAME
+
+TruthMirror nu afișează reclame și nu vom introduce reclame în Serviciu. Serviciul este finanțat integral din venituri de abonament.
+
+10. UTILIZARE ACCEPTABILĂ
+
+Ești de acord să nu:
+(a) folosești Serviciul în scop ilegal sau pentru a facilita activitate ilegală;
+(b) încerci să extragi, faci reverse-engineering, sau copiezi modelele noastre AI, prompturile sau arhitectura sistemului;
+(c) trimiți conținut care prezintă sau amenință cu violență, abuz, conținut sexual cu minori sau auto-vătămare adresată altora;
+(d) folosești Serviciul pentru a hărțui, urmări sau a face rău unei persoane;
+(e) încerci să eludezi limitele de rată, sistemele de plată sau controalele de acces;
+(f) impersonezi altă persoană sau prezinți greșit vârsta sau identitatea ta;
+(g) folosești sisteme automate (bot-uri, scraper-uri) pentru a accesa Serviciul;
+(h) împărtășești credențialele contului tău cu alții.
+
+Ne rezervăm dreptul de a suspenda sau termina conturile care încalcă aceste reguli, cu sau fără preaviz.
+
+11. CONȚINUTUL PE CARE ÎL FURNIZEZI
+
+Păstrezi proprietatea asupra textului pe care îl scrii în TruthMirror ("Conținutul tău"). Prin utilizarea Serviciului, ne acorzi o licență limitată, neexclusivă, de a procesa Conținutul tău doar pentru a-ți furniza Serviciul (generare răspunsuri AI, detectare pattern-uri, calcularea statisticilor, stocare istoric conversații).
+
+NU folosim Conținutul tău pentru a antrena modele AI. NU vindem Conținutul tău către nicio terță parte. Vezi Politica de Confidențialitate pentru detalii complete despre gestionarea datelor.
+
+12. CONȚINUT GENERAT DE AI
+
+Răspunsurile AI produse de Serviciu pot fi incorecte, părtinitoare sau nepotrivite. Aplicația folosește modele AI terțe (Anthropic Claude) supuse propriilor limitări. Nu oferim nicio garanție privind acuratețea, completitudinea sau adecvarea pentru un scop a oricărui output AI.
+
+Ești singurul responsabil pentru evaluarea critică a răspunsurilor AI și pentru orice acțiune pe care o iei bazat pe ele.
+
+13. PROPRIETATE INTELECTUALĂ
+
+Toate drepturile asupra Aplicației, inclusiv design-ul, codul, brand-ul, numele "TruthMirror", logo-uri, prompturi sistem și funcții audio, aparțin Social Media Group SRL. Primești o licență limitată, netransferabilă, revocabilă, de a folosi Aplicația doar pentru scopuri personale, non-comerciale.
+
+14. LIMITAREA RĂSPUNDERII
+
+14.1 În măsura maximă permisă de legea aplicabilă, Serviciul este furnizat "CA ATARE" și "CUM ESTE DISPONIBIL" fără garanții de niciun fel, exprese sau implicite.
+
+14.2 Nu suntem răspunzători pentru:
+(a) orice decizie pe care o iei bazat pe output-ul AI;
+(b) consecințe emoționale, psihologice sau fizice ale folosirii Serviciului;
+(c) pierderi de date din cauza defecțiunilor tehnice (recomandăm să-ți exporți datele regulat);
+(d) întreruperi de serviciu, erori sau downtime;
+(e) servicii terțe (Apple, Google, Anthropic) de care depindem.
+
+14.3 Răspunderea noastră agregată maximă față de tine în orice perioadă de 12 luni este limitată la suma pe care ne-ai plătit-o pentru Serviciu în ultimele 12 luni, sau €100, oricare e mai mare.
+
+14.4 Nimic din acești Termeni nu limitează răspunderea pentru (i) neglijență gravă sau conduită rea voită, (ii) deces sau vătămare personală cauzate de neglijența noastră, sau (iii) orice altă răspundere care nu poate fi limitată conform legii aplicabile.
+
+15. MODIFICĂRI ALE ACESTOR TERMENI
+
+Putem actualiza acești Termeni din când în când. Dacă facem modificări materiale, te vom notifica prin Aplicație sau prin datele de contact asociate cu contul tău, și ți se va cere să accepți Termenii actualizați înainte de a continua să folosești Aplicația.
+
+16. LEGEA APLICABILĂ ȘI DISPUTE
+
+16.1 Acești Termeni sunt guvernați de legea română, fără prejudiciul protecțiilor obligatorii ale consumatorilor disponibile sub legea țării tale de reședință.
+
+16.2 Orice dispută care apare din sau în legătură cu acești Termeni se supune competenței instanțelor din București, România, cu excepția cazurilor în care legea obligatorie îți acordă dreptul de a introduce procedurile în instanțele țării tale de reședință.
+
+16.3 Consumatorii din Uniunea Europeană pot folosi și platforma Online Dispute Resolution a Comisiei Europene: https://ec.europa.eu/consumers/odr
+
+17. CONTACT
+
 Pentru orice întrebare, plângere sau cerere legală legată de acești Termeni, contactează:
+
 Social Media Group SRL
 București, România
-truthmirrorapp@gmail.com
+Email: truthmirrorapp@gmail.com
 
-Prin utilizarea Aplicației confirmi că ai citit și ai înțeles acești Termeni și că îi accepți în totalitate.`;
+Folosind Aplicația, confirmi că ai citit și înțeles acești Termeni și că îi accepți în întregime.
+`;

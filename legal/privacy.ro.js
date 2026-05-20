@@ -1,93 +1,137 @@
 window.PRIVACY_RO = `POLITICA DE CONFIDENȚIALITATE
+TruthMirror
+Data intrării în vigoare: 19 mai 2026
+Versiunea: 2026-05-19
 
-Data intrării în vigoare: 11 mai 2026
-Versiunea: 2026-05-11
+1. INTRODUCERE
 
-Această Politică de Confidențialitate explică modul în care Social Media Group SRL ("noi") colectează, utilizează și protejează datele personale atunci când folosești aplicația mobilă TruthMirror ("Aplicația"). Această Politică este scrisă în conformitate cu Regulamentul General privind Protecția Datelor (GDPR) și legea română.
+Această Politică de Confidențialitate explică modul în care Social Media Group SRL ("noi", "nostru", "ne") colectează, folosește, stochează și protejează datele tale personale atunci când folosești aplicația mobilă TruthMirror și website-ul ("Aplicația", "Serviciul").
 
-1. OPERATORUL DE DATE
-Social Media Group SRL, înregistrată în România, cu sediul în București, este operatorul de date pentru datele personale procesate prin Aplicație. Contact: truthmirrorapp@gmail.com.
+Ne angajăm să-ți protejăm confidențialitatea și să respectăm Regulamentul General UE privind Protecția Datelor (GDPR), Legea română 190/2018 și legile aplicabile de protecție a datelor.
+
+Operator de date:
+Social Media Group SRL
+București, România
+Email: truthmirrorapp@gmail.com
 
 2. CE DATE COLECTĂM
-2.1 Date pe care le furnizezi:
-(a) Anul nașterii (folosit exclusiv pentru a verifica că ai 18 ani; nu stocăm data completă a nașterii).
-(b) Conținutul conversațiilor pe care le scrii în Aplicație.
-(c) Preferința de limbă.
-(d) Informații de cont opționale dacă creezi un cont în versiunile viitoare (email).
 
-2.2 Date pe care le colectăm automat:
-(a) Un identificator anonim de dispozitiv generat local.
-(b) Tier-ul de abonament și statistici de utilizare (numărul de întrebări puse, datele de utilizare).
-(c) Tag-uri de pattern derivate din conversațiile tale (folosite pentru a calcula scorul tău de evoluție).
-(d) Loguri tehnice de erori (când ceva eșuează în Aplicație).
+2.1 Date pe care le furnizezi:
+- Anul nașterii (doar pentru verificarea vârstei — stocăm anul, nu data completă de naștere)
+- Conținutul text al conversațiilor tale cu AI
+- Preferința ta de limbă
+- Planul și statusul abonamentului tău
+
+2.2 Date generate de Serviciu:
+- Răspunsurile AI la mesajele tale
+- Etichetele de pattern-uri comportamentale detectate (de ex., "avoidance", "intellectualizing")
+- Honesty Score și statistici calculate din conversațiile tale
+- Marcaje temporale ale activității tale
+- Un identificator anonim de utilizator generat pe dispozitivul tău
 
 2.3 Date pe care NU le colectăm:
-(a) Numele, adresa reală, numărul de telefon, CNP-ul, datele bancare sau actele de identitate.
-(b) Locația precisă.
-(c) Contactele, fotografiile, microfonul sau camera, decât dacă optezi explicit pentru o funcție viitoare care le necesită.
-(d) Monitorizare comportamentală în afara Aplicației.
+- Numele tău real (decât dacă îl incluzi voluntar în textul conversației)
+- Adresa ta de email (decât dacă ne contactezi sau te înscrii pe waitlist)
+- Locația ta precisă
+- Contactele, pozele sau alte date de pe dispozitiv
+- Detaliile cardului de plată (gestionate integral de Apple/Google)
 
 3. CUM FOLOSIM DATELE TALE
-Folosim datele tale doar pentru a:
-(a) furniza funcționalitatea Aplicației (generarea răspunsurilor AI la conversațiile tale);
-(b) calcula metricile și pattern-urile tale personale de evoluție;
-(c) verifica vârsta ta și aplica accesul restricționat după vârstă;
-(d) procesa plățile prin Apple App Store sau Google Play;
-(e) detecta și preveni abuzul, frauda sau incidentele de securitate;
-(f) respecta obligațiile legale;
-(g) comunica actualizări importante de serviciu.
 
-4. TEMEIUL LEGAL PENTRU PROCESARE (GDPR ARTICOLUL 6)
-(a) Executarea unui contract (Articolul 6(1)(b)): pentru a furniza Aplicația pe care ai solicitat-o.
-(b) Interes legitim (Articolul 6(1)(f)): pentru a preveni abuzul, a securiza serviciul și a îmbunătăți calitatea produsului. Poți obiecta față de această procesare oricând.
-(c) Obligație legală (Articolul 6(1)(c)): pentru a respecta legile aplicabile, inclusiv protecția consumatorilor și legea fiscală.
-(d) Consimțământ (Articolul 6(1)(a)): pentru orice procesare opțională unde îl solicităm explicit.
+Procesăm datele tale pentru a:
+(a) furniza Serviciul de bază — generare răspunsuri AI, detectare pattern-uri, calcul statistici;
+(b) menține istoricul conversațiilor și a-ți permite să-ți revizuiești evoluția în timp;
+(c) aplica limitele zilnice de întrebări conform planului tău de abonament;
+(d) verifica că îndeplinești cerința de vârstă 18+;
+(e) oferi suport pentru clienți când ne contactezi;
+(f) respecta obligațiile legale.
 
-5. UNDE SUNT STOCATE DATELE TALE
-5.1 Conversațiile și majoritatea datelor de utilizare sunt stocate inițial local pe dispozitivul tău.
-5.2 Dacă activezi sincronizarea cloud (funcție viitoare), datele vor fi stocate pe servere operate de furnizori reputați din cadrul Spațiului Economic European, criptate în tranzit și în repaus.
-5.3 Conținutul conversațiilor este transmis către Anthropic PBC ("Anthropic"), furnizorul nostru de AI, situat în Statele Unite. Acest transfer este reglementat de Clauzele Contractuale Standard aprobate de Comisia Europeană. Anthropic procesează conținutul exclusiv pentru a genera răspunsuri AI și nu îl folosește pentru a antrena modelele sale pentru cazul nostru de utilizare.
-5.4 Procesarea plăților este gestionată de Apple Inc. și Google LLC conform politicilor lor de confidențialitate respective. Nu primim detaliile tale complete de plată.
+Baze legale conform GDPR (Articolul 6):
+- Executarea unui contract (furnizarea Serviciului la care te-ai abonat);
+- Consimțământul tău (pe care îl dai în timpul onboarding-ului și pe care îl poți retrage oricând);
+- Interesele noastre legitime (îmbunătățirea și securizarea Serviciului);
+- Conformitatea cu obligațiile legale.
 
-6. PĂSTRAREA DATELOR
-6.1 Datele locale sunt păstrate pe dispozitivul tău până le ștergi prin Aplicație, dezinstalezi Aplicația sau ștergi dispozitivul.
-6.2 Dacă îți ștergi contul sau datele prin setările Aplicației, vom șterge datele corespunzătoare stocate în cloud (dacă există) în termen de 30 de zile, cu excepția datelor pe care suntem obligați legal să le păstrăm (cum ar fi înregistrările de facturare în scopuri fiscale).
-6.3 Anthropic păstrează datele conversațiilor conform politicii proprii, în general pentru scopuri operaționale limitate.
+4. NU ANTRENĂM AI PE DATELE TALE
 
-7. DREPTURILE TALE CONFORM GDPR
-Ai dreptul de a:
-(a) accesa datele personale pe care le deținem despre tine;
-(b) solicita corectarea datelor inexacte;
-(c) solicita ștergerea datelor tale ("dreptul de a fi uitat");
-(d) solicita restricționarea procesării;
-(e) obiecta față de procesarea bazată pe interes legitim;
-(f) portabilitatea datelor (să primești datele tale într-un format structurat, utilizat în mod obișnuit);
-(g) retrage consimțământul oricând, unde procesarea se bazează pe consimțământ;
-(h) depune o plângere la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP, www.dataprotection.ro) sau la autoritatea de supraveghere din țara ta de reședință.
+NU folosim conținutul conversațiilor tale pentru a antrena, ajusta sau îmbunătăți niciun model AI. NU vindem, închiriem sau partajăm conținutul conversațiilor tale cu agenți de publicitate sau brokeri de date.
 
-Pentru a exercita aceste drepturi, contactează-ne la truthmirrorapp@gmail.com. Vom răspunde în termen de 30 de zile. Este posibil să trebuiască să-ți verificăm identitatea înainte de a îndeplini anumite cereri.
+5. STOCAREA ȘI LOCAȚIA DATELOR
 
-8. SECURITATE
-Implementăm măsuri tehnice și organizatorice adecvate riscurilor datelor pe care le procesăm, inclusiv criptare în tranzit (HTTPS), pseudonimizare, controale de acces restricționate și revizuiri regulate de securitate. Cu toate acestea, nicio metodă de transmitere sau stocare nu este 100% sigură și nu putem garanta securitatea absolută.
+5.1 Pe dispozitiv: Istoricul conversațiilor tale este stocat local pe dispozitivul tău.
 
-9. COPII
-Aplicația nu este destinată și nu este utilizată de persoane sub 18 ani. Nu colectăm cu bună știință date de la minori. Dacă crezi că un minor ne-a furnizat date, contactează-ne și le vom șterge prompt.
+5.2 Pe serverul nostru: Pentru a furniza funcții cross-device și a aplica limitele, datele conversațiilor, statisticile de pattern-uri și profilul tău sunt stocate în baza noastră de date găzduită de Supabase în Uniunea Europeană (Frankfurt, Germania).
 
-10. LUARE AUTOMATĂ A DECIZIILOR
-Aplicația folosește AI pentru a genera răspunsuri și calculează statistici de pattern. Aceste calcule nu produc decizii legale sau cu impact semnificativ asupra ta. Tu păstrezi întotdeauna controlul asupra modului în care interpretezi sau acționezi pe baza rezultatelor Aplicației.
+5.3 Procesare AI: Când trimiți un mesaj, textul acestuia este transmis către Anthropic PBC (Statele Unite), furnizorul modelului AI Claude, doar pentru a genera un răspuns. Vezi secțiunea 11 de mai jos privind transferurile internaționale.
+
+6. PROCESATORI TERȚI
+
+Partajăm date doar cu următorii procesatori, strict pentru a opera Serviciul:
+
+(a) Supabase — găzduire bază de date și backend (UE). Stochează istoric conversații, profiluri, statistici.
+
+(b) Anthropic PBC — furnizor model AI (SUA). Primește textul mesajului tău pentru a genera răspunsuri AI. Anthropic nu folosește input-urile API pentru a-și antrena modelele.
+
+(c) Apple / Google — procesare abonamente și plăți. Nu primim niciodată detaliile complete ale cardului tău de plată.
+
+Fiecare procesator este obligat printr-un acord de procesare a datelor în conformitate cu Articolul 28 GDPR.
+
+7. RETENȚIA DATELOR
+
+- Plan gratuit (Glimpse): istoricul conversațiilor este păstrat 7 zile, apoi șters automat.
+- Planuri plătite: istoricul conversațiilor este păstrat pe durata abonamentului tău plus 30 zile, dacă nu îl ștergi mai devreme.
+- Statistici de pattern-uri și scoruri: păstrate cât timp contul tău e activ.
+- Dacă îți ștergi datele sau contul devine inactiv timp de 24 luni, ștergem toate datele asociate.
+
+8. DREPTURILE TALE CONFORM GDPR
+
+Ai dreptul la:
+(a) ACCES — să ceri o copie a datelor tale personale;
+(b) RECTIFICARE — să corectezi date inexacte;
+(c) ȘTERGERE — să ceri ștergerea datelor tale ("dreptul de a fi uitat");
+(d) RESTRICȚIONARE — să limitezi modul în care procesăm datele tale;
+(e) PORTABILITATE — să primești datele tale într-un format portabil;
+(f) OPOZIȚIE — să te opui procesării bazate pe interese legitime;
+(g) RETRAGEREA CONSIMȚĂMÂNTULUI — oricând, fără a afecta procesarea legală anterioară.
+
+Poți exercita drepturile (c) și (e) direct în Aplicație:
+- Setări → "Șterge toate datele mele" șterge totul imediat.
+- Export PDF (pe planurile plătite) oferă portabilitate.
+
+Pentru a exercita orice alt drept, scrie la truthmirrorapp@gmail.com. Răspundem în 30 zile.
+
+Ai de asemenea dreptul de a depune o plângere la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP) sau la autoritatea de supraveghere locală.
+
+9. SECURITATEA DATELOR
+
+Implementăm măsuri tehnice și organizatorice adecvate pentru a-ți proteja datele, inclusiv:
+- Criptare în tranzit (HTTPS/TLS) și în repaus;
+- Cheia furnizorului nostru AI este stocată doar pe server, niciodată în Aplicație;
+- Controale de acces și autentificare pe backend-ul nostru;
+- Revizuire regulată de securitate a infrastructurii noastre.
+
+Niciun sistem nu e complet sigur. Recomandăm să eviți includerea detaliilor de identificare foarte sensibile (nume complet, adresă, numere de identificare) în textul conversației.
+
+10. CONFIDENȚIALITATEA COPIILOR
+
+TruthMirror e strict pentru utilizatori de 18 ani și mai mult. Nu colectăm cu bună știință date de la nimeni sub 18 ani. Dacă descoperim că am colectat date de la un minor, le vom șterge imediat. Aplicația folosește un calcul automat al statisticilor de pattern-uri. Aceste calcule nu produc decizii legale sau similar semnificative despre tine. Păstrezi mereu controlul asupra modului de a interpreta sau acționa pe baza output-ului Aplicației.
 
 11. TRANSFERURI INTERNAȚIONALE
-Așa cum este menționat la secțiunea 5.3, datele conversațiilor sunt transferate către Anthropic în Statele Unite conform Clauzelor Contractuale Standard. Am evaluat acest transfer și considerăm că oferă protecție adecvată conform Capitolului V GDPR. Poți solicita o copie a garanțiilor relevante contactând truthmirrorapp@gmail.com.
+
+Așa cum se menționează în secțiunea 5.3, datele conversațiilor sunt transferate către Anthropic în Statele Unite sub Clauze Contractuale Standard. Am evaluat acest transfer și considerăm că oferă protecție adecvată conform Capitolului V GDPR. Poți cere o copie a garanțiilor relevante contactând truthmirrorapp@gmail.com.
 
 12. MODIFICĂRI ALE ACESTEI POLITICI
-Putem actualiza această Politică de Confidențialitate periodic. Te vom notifica despre modificările materiale prin Aplicație. "Data intrării în vigoare" de la început va indica ultima revizuire.
+
+Putem actualiza această Politică de Confidențialitate din când în când. Te vom notifica despre modificările materiale prin Aplicație. "Data intrării în vigoare" de sus va indica cea mai recentă revizuire.
 
 13. CONTACT
-Pentru întrebări de confidențialitate sau pentru a exercita drepturile tale GDPR, contactează:
+
+Pentru întrebări de confidențialitate sau pentru a-ți exercita drepturile GDPR, contactează:
 Social Media Group SRL
 București, România
 truthmirrorapp@gmail.com
 
 Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP):
 www.dataprotection.ro
-B-dul G-ral. Gheorghe Magheru 28-30, Sector 1, București, România`;
+B-dul G-ral. Gheorghe Magheru 28-30, Sector 1, București, România
+`;
