@@ -38,6 +38,7 @@ const translations = {
     'footer.privacy': 'Privacy Policy',
     'footer.company': 'Company',
     'footer.contact': 'Contact',
+    'footer.about': 'About',
   },
   ro: {
     'hero.title': "Oglinda care nu te va minți.",
@@ -78,6 +79,7 @@ const translations = {
     'footer.privacy': 'Politica de confidențialitate',
     'footer.company': 'Companie',
     'footer.contact': 'Contact',
+    'footer.about': 'Despre',
   },
   es: {
     'hero.title': "El espejo que no te mentirá.",
@@ -118,6 +120,7 @@ const translations = {
     'footer.privacy': 'Política de privacidad',
     'footer.company': 'Empresa',
     'footer.contact': 'Contacto',
+    'footer.about': 'Acerca de',
   },
 };
 
