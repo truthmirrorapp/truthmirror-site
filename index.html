@@ -66,12 +66,15 @@
     .tm-shot{flex:0 0 auto;width:248px;border-radius:30px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.6);border:1px solid #222;transition:transform .25s ease}
     .tm-shot:hover{transform:translateY(-6px)}
     .tm-shot img{display:block;width:100%;height:auto}
+    .tm-swipe{display:none}
     @media(max-width:900px){
-      .tm-shots{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding:8px 4px 18px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
-      .tm-shot{width:220px;scroll-snap-align:center}
+      .tm-shots{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding:8px 4px 16px;scroll-snap-type:x mandatory;scroll-padding-left:24px;-webkit-overflow-scrolling:touch}
+      .tm-shot{width:210px;scroll-snap-align:start}
       .tm-shots::-webkit-scrollbar{height:7px}
       .tm-shots::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:8px}
+      .tm-swipe{display:block;text-align:center;color:rgba(251,191,36,.7);font-size:22px;letter-spacing:10px;padding-left:10px;margin-top:2px;animation:tmNudge 1.6s ease-in-out infinite}
     }
+    @keyframes tmNudge{0%,100%{opacity:.35;transform:translateX(0)}50%{opacity:.95;transform:translateX(7px)}}
     @media(max-width:600px){.tm-story p{font-size:17px !important}.tm-msg{font-size:15px !important}}
   </style>
 </head>
@@ -155,6 +158,7 @@
         <div class="tm-shot"><img src="screens/shot4.png" alt="App lock" loading="lazy"></div>
         <div class="tm-shot"><img src="screens/shot5.png" alt="Crisis support" loading="lazy"></div>
       </div>
+      <div class="tm-swipe" aria-hidden="true">›››</div>
     </div>
   </section>
 
