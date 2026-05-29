@@ -76,6 +76,23 @@
     }
     @keyframes tmNudge{0%,100%{opacity:.35;transform:translateX(0)}50%{opacity:.95;transform:translateX(7px)}}
     @media(max-width:600px){.tm-story p{font-size:17px !important}.tm-msg{font-size:15px !important}}
+
+    /* ===== MOBILE FIT (added) — stack everything, never wider than the screen ===== */
+    *{box-sizing:border-box}
+    @media(max-width:768px){
+      html,body{max-width:100%;overflow-x:hidden}
+      .container{width:100% !important;max-width:100% !important;padding-left:18px !important;padding-right:18px !important;margin:0 auto !important}
+      img,video,form,input,textarea,pre{max-width:100% !important}
+      /* collapse multi-column layouts to a single column (works for grid OR flex) */
+      .pricing-grid,.how-grid,.guarantees-grid{display:grid !important;grid-template-columns:1fr !important;flex-direction:column !important;flex-wrap:wrap !important;gap:18px !important;width:100% !important;max-width:100% !important}
+      .pricing-card,.how-step,.guarantee{flex:1 1 100% !important;width:100% !important;max-width:100% !important;min-width:0 !important;margin-left:0 !important;margin-right:0 !important}
+      .footer-grid{display:grid !important;grid-template-columns:1fr !important;flex-direction:column !important;gap:26px !important}
+      /* forms stack and fill width */
+      .waitlist,.waitlist-hero{display:flex !important;flex-direction:column !important;align-items:stretch !important;gap:10px !important;width:100% !important;max-width:100% !important}
+      .waitlist input,.waitlist-hero input,.waitlist button,.waitlist-hero button{width:100% !important}
+      .navbar{flex-wrap:wrap !important;gap:8px !important}
+      .section{padding-top:56px !important;padding-bottom:56px !important}
+    }
   </style>
 </head>
 <body>
