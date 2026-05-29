@@ -7,6 +7,27 @@
   <meta name="description" content="An AI that asks the questions you've been avoiding. No advice. No comfort. Just truth.">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ===== Added sections: demo / story / faq / disclaimer ===== */
+    .tm-demo-chat{max-width:560px;margin:32px auto 0;display:flex;flex-direction:column;gap:14px}
+    .tm-msg{padding:14px 18px;border-radius:18px;line-height:1.55;font-size:15px;max-width:88%}
+    .tm-msg.user{align-self:flex-end;background:#1c1c1e;color:#f3f3f3;border-bottom-right-radius:6px}
+    .tm-msg.ai{align-self:flex-start;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.35);color:#f3f3f3;border-bottom-left-radius:6px;display:flex;flex-direction:column;gap:7px}
+    .tm-badge{align-self:flex-start;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:#fbbf24;font-weight:700}
+    .tm-story{text-align:center;max-width:680px;margin:0 auto}
+    .tm-story p{color:#bdbdbd;font-size:18px;line-height:1.75}
+    .tm-faq{max-width:720px;margin:32px auto 0;display:flex;flex-direction:column;gap:12px}
+    .tm-faq-item{background:#141414;border:1px solid #262626;border-radius:12px;padding:0 20px}
+    .tm-faq-item summary{cursor:pointer;padding:18px 0;font-weight:600;color:#f3f3f3;font-size:16px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px}
+    .tm-faq-item summary::-webkit-details-marker{display:none}
+    .tm-faq-item summary::after{content:"+";color:#fbbf24;font-size:22px;font-weight:400;flex-shrink:0;line-height:1}
+    .tm-faq-item[open] summary::after{content:"\2013"}
+    .tm-faq-item p{color:#b0b0b0;line-height:1.65;padding:0 0 20px;margin:0;font-size:15px}
+    .tm-disclaimer{max-width:720px;margin:0 auto;text-align:center;padding:18px 22px;border:1px solid rgba(251,191,36,.25);border-radius:12px;background:rgba(251,191,36,.04)}
+    .tm-disclaimer p{color:#9a9a9a;font-size:14px;line-height:1.6;margin:0}
+    .footer-disclaimer{color:#777;font-size:12px;margin-top:10px;line-height:1.5}
+    @media(max-width:600px){.tm-story p{font-size:16px}.tm-msg{font-size:14px}}
+  </style>
 </head>
 <body>
 
@@ -33,6 +54,25 @@
     </div>
   </section>
 
+  <!-- SEE IT IN ACTION (demo) -->
+  <section id="demo" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="demo.title">See the mirror in action</h2>
+      <p class="section-sub" data-i18n="demo.subtitle">No advice. No comfort. Just the question underneath your answer.</p>
+      <div class="tm-demo-chat">
+        <div class="tm-msg user" data-i18n="demo.u1">I keep putting off the talk with my boss about a raise.</div>
+        <div class="tm-msg ai">
+          <span class="tm-badge" data-i18n="demo.badge">Pattern detected · avoidance</span>
+          <span data-i18n="demo.a1">How many times have you said "next week" in the last three months?</span>
+        </div>
+        <div class="tm-msg user" data-i18n="demo.u2">...more than I'd like to admit.</div>
+        <div class="tm-msg ai">
+          <span data-i18n="demo.a2">So the conversation isn't the hard part. What are you actually protecting yourself from?</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- HOW IT WORKS -->
   <section id="how" class="section how-section">
     <div class="container">
@@ -53,6 +93,16 @@
           <h3 data-i18n="how.s3.title">It asks. You answer.</h3>
           <p data-i18n="how.s3.desc">No advice. No comfort. The questions you've been avoiding.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY / WHAT THIS IS -->
+  <section id="story" class="section">
+    <div class="container">
+      <div class="tm-story">
+        <h2 class="section-title" data-i18n="story.title">Not another feel-good app</h2>
+        <p data-i18n="story.body">Most apps are built to keep you comfortable — to flatter you and keep you scrolling. This one is built for the opposite. It's for when you're tired of being lied to, including by yourself. It won't tell you what to do. It asks the question you've been stepping around — and it remembers, so you can't tell the same story twice.</p>
       </div>
     </div>
   </section>
@@ -112,7 +162,7 @@
             <li data-pricing-i18n="pricing.mirror.f4">Weekly Insights Report</li>
             <li data-pricing-i18n="pricing.mirror.f5">Unlimited PDF export</li>
             <li data-pricing-i18n="pricing.mirror.f6">Conversation tagging</li>
-            <li data-pricing-i18n="pricing.mirror.f7">Custom personality (Gentle / Direct / Brutal)</li>
+            <li data-pricing-i18n="pricing.mirror.f7">Custom personality (Gentle / Direct / Unfiltered)</li>
             <li data-pricing-i18n="pricing.mirror.f8">6 separate contexts</li>
             <li data-pricing-i18n="pricing.mirror.f9">Priority support 24h</li>
           </ul>
@@ -177,6 +227,52 @@
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="faq.title">Questions, answered</h2>
+      <div class="tm-faq">
+        <details class="tm-faq-item">
+          <summary data-i18n="faq.q1">Is it private? Who sees what I write?</summary>
+          <p data-i18n="faq.a1">Your conversations stay on your device. We never sell your data and never use it to train AI models. Export or delete everything anytime. GDPR-compliant, stored in the EU.</p>
+        </details>
+        <details class="tm-faq-item">
+          <summary data-i18n="faq.q2">How is this different from ChatGPT?</summary>
+          <p data-i18n="faq.a2">ChatGPT helps and explains. TruthMirror confronts. It won't hand you answers or reassurance — it asks the question under your answer, tracks your patterns over time, and won't let you avoid them.</p>
+        </details>
+        <details class="tm-faq-item">
+          <summary data-i18n="faq.q3">Is this therapy?</summary>
+          <p data-i18n="faq.a3">No. TruthMirror is a self-reflection tool — not therapy, medical care, or crisis support. If you need clinical help, please see a professional.</p>
+        </details>
+        <details class="tm-faq-item">
+          <summary data-i18n="faq.q4">What AI does it use?</summary>
+          <p data-i18n="faq.a4">It runs on Anthropic's Claude. Your messages are processed only to generate a reply and are never used to train models.</p>
+        </details>
+        <details class="tm-faq-item">
+          <summary data-i18n="faq.q5">What if I write about a crisis?</summary>
+          <p data-i18n="faq.a5">If it detects signs of self-harm or crisis, it steps out of its role and shows emergency resources. You can also reach crisis help from any screen.</p>
+        </details>
+        <details class="tm-faq-item">
+          <summary data-i18n="faq.q6">Can I delete everything?</summary>
+          <p data-i18n="faq.a6">Yes — in one tap, anytime. Nothing is held hostage.</p>
+        </details>
+        <details class="tm-faq-item">
+          <summary data-i18n="faq.q7">Why no advice?</summary>
+          <p data-i18n="faq.a7">Advice is easy to nod at and easy to ignore. A question you can't answer honestly changes more than advice ever will.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAFETY DISCLAIMER -->
+  <section id="safety" class="section">
+    <div class="container">
+      <div class="tm-disclaimer">
+        <p data-i18n="disclaimer.text">TruthMirror is not a substitute for therapy or medical care. If you're in crisis, please contact a professional or your local emergency line.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- WAITLIST CTA -->
   <section id="waitlist" class="section waitlist-section">
     <div class="container">
@@ -214,6 +310,7 @@
       </div>
       <div class="footer-bottom">
         <p>© 2026 Social Media Group SRL. All rights reserved.</p>
+        <p class="footer-disclaimer" data-i18n="footer.disclaimer">Not a substitute for therapy or medical care.</p>
       </div>
     </div>
   </footer>
