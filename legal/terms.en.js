@@ -1,7 +1,7 @@
 window.TERMS_EN = `TERMS OF SERVICE
 TruthMirror
-Effective date: 19 May 2026
-Version: 2026-05-19
+Effective date: 28 May 2026
+Version: 2026-05-28
 
 1. WHO WE ARE
 

@@ -24,7 +24,7 @@ const PRICING_I18N = {
         f1: "100 questions per day", f2: "Everything in Reflection, plus:",
         f3: "Voice mode (talk to AI)", f4: "Weekly Insights Report",
         f5: "Unlimited PDF export", f6: "Conversation tagging",
-        f7: "Custom personality (Gentle / Direct / Brutal)",
+        f7: "Custom personality (Gentle / Direct / Unfiltered)",
         f8: "6 separate contexts", f9: "Priority support 24h",
         annual: "Annual: €99 (2 months free)", cta: "Join waitlist"
       },
@@ -73,7 +73,7 @@ const PRICING_I18N = {
         f1: "100 întrebări pe zi", f2: "Tot ce e în Reflection, plus:",
         f3: "Voice mode (vorbește cu AI)", f4: "Raport săptămânal de insights",
         f5: "Export PDF nelimitat", f6: "Etichete pe conversații",
-        f7: "Personalitate ajustabilă (Blând / Direct / Brutal)",
+        f7: "Personalitate ajustabilă (Blând / Direct / Nefiltrat)",
         f8: "6 contexte separate", f9: "Suport prioritar 24h",
         annual: "Anual: €99 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
       },
@@ -122,7 +122,7 @@ const PRICING_I18N = {
         f1: "100 preguntas al día", f2: "Todo en Reflection, además:",
         f3: "Modo voz (habla con el AI)", f4: "Informe semanal de insights",
         f5: "Exportar PDF ilimitado", f6: "Etiquetas en conversaciones",
-        f7: "Personalidad ajustable (Suave / Directo / Brutal)",
+        f7: "Personalidad ajustable (Suave / Directo / Sin filtro)",
         f8: "6 contextos separados", f9: "Soporte prioritario 24h",
         annual: "Anual: €99 (2 meses gratis)", cta: "Únete a la waitlist"
       },
@@ -171,7 +171,7 @@ const PRICING_I18N = {
         f1: "1日100の質問", f2: "Reflection のすべて、さらに:",
         f3: "音声モード（AIと話す）", f4: "週次インサイトレポート",
         f5: "無制限のPDFエクスポート", f6: "会話のタグ付け",
-        f7: "カスタム人格（優しい / ストレート / 容赦なし）",
+        f7: "カスタム人格（優しい / ストレート / ノーフィルター）",
         f8: "6つの独立したコンテキスト", f9: "優先サポート24時間",
         annual: "年額: €99（2か月分無料）", cta: "ウェイトリストに登録"
       },

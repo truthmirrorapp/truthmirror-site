@@ -1,7 +1,7 @@
 window.PRIVACY_RO = `POLITICA DE CONFIDENȚIALITATE
 TruthMirror
-Data intrării în vigoare: 19 mai 2026
-Versiunea: 2026-05-19
+Data intrării în vigoare: 28 mai 2026
+Versiunea: 2026-05-28
 
 1. INTRODUCERE
 

@@ -1,7 +1,7 @@
 window.PRIVACY_ES = `POLÍTICA DE PRIVACIDAD
 TruthMirror
-Fecha de entrada en vigor: 19 de mayo de 2026
-Versión: 2026-05-19
+Fecha de entrada en vigor: 28 de mayo de 2026
+Versión: 2026-05-28
 
 1. INTRODUCCIÓN
 
