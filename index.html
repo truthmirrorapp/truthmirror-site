@@ -199,7 +199,7 @@
 
         <div class="pricing-card">
           <div class="tier-name" data-pricing-i18n="pricing.glimpse.name">Glimpse</div>
-          <div class="tier-price">€0</div>
+          <div class="tier-price" data-eur="€0" data-jpy="¥0">€0</div>
           <div class="tier-period" data-pricing-i18n="pricing.glimpse.period">forever</div>
           <p class="tier-desc" data-pricing-i18n="pricing.glimpse.desc">Try the mirror</p>
           <ul class="features">
@@ -214,7 +214,7 @@
 
         <div class="pricing-card">
           <div class="tier-name" data-pricing-i18n="pricing.reflection.name">Reflection</div>
-          <div class="tier-price">€4.99</div>
+          <div class="tier-price" data-eur="€4.99" data-jpy="¥980">€4.99</div>
           <div class="tier-period" data-pricing-i18n="pricing.reflection.period">per month</div>
           <p class="tier-desc" data-pricing-i18n="pricing.reflection.desc">Daily practice</p>
           <ul class="features">
@@ -227,14 +227,14 @@
             <li data-pricing-i18n="pricing.reflection.f7">3 separate contexts</li>
             <li data-pricing-i18n="pricing.reflection.f8">PDF export (1/month)</li>
           </ul>
-          <div class="tier-annual" data-pricing-i18n="pricing.reflection.annual">Annual: €49 (2 months free)</div>
+          <div class="tier-annual" data-pricing-i18n="pricing.reflection.annual" data-jpy-annual="年額 ¥9,800（2か月無料）">Annual: €49 (2 months free)</div>
           <a href="#waitlist" class="tier-cta" data-pricing-i18n="pricing.reflection.cta">Join waitlist</a>
         </div>
 
         <div class="pricing-card recommended">
           <div class="tier-badge" data-pricing-i18n="pricing.recommended">Most chosen</div>
           <div class="tier-name" data-pricing-i18n="pricing.mirror.name">Mirror</div>
-          <div class="tier-price">€9.99</div>
+          <div class="tier-price" data-eur="€9.99" data-jpy="¥1,980">€9.99</div>
           <div class="tier-period" data-pricing-i18n="pricing.mirror.period">per month</div>
           <p class="tier-desc" data-pricing-i18n="pricing.mirror.desc">Deep work</p>
           <ul class="features">
@@ -248,14 +248,14 @@
             <li data-pricing-i18n="pricing.mirror.f8">6 separate contexts</li>
             <li data-pricing-i18n="pricing.mirror.f9">Priority support 24h</li>
           </ul>
-          <div class="tier-annual" data-pricing-i18n="pricing.mirror.annual">Annual: €99 (2 months free)</div>
+          <div class="tier-annual" data-pricing-i18n="pricing.mirror.annual" data-jpy-annual="年額 ¥19,800（2か月無料）">Annual: €99 (2 months free)</div>
           <a href="#waitlist" class="tier-cta primary" data-pricing-i18n="pricing.mirror.cta">Join waitlist</a>
         </div>
 
         <div class="pricing-card coming-soon">
           <div class="tier-badge soon" data-pricing-i18n="pricing.comingSoon">In ~6 months</div>
           <div class="tier-name" data-pricing-i18n="pricing.truth.name">Truth</div>
-          <div class="tier-price">€19.99</div>
+          <div class="tier-price" data-eur="€19.99" data-jpy="¥3,980">€19.99</div>
           <div class="tier-period" data-pricing-i18n="pricing.truth.period">per month</div>
           <p class="tier-desc" data-pricing-i18n="pricing.truth.desc">Total clarity</p>
           <ul class="features">
@@ -267,7 +267,7 @@
             <li data-pricing-i18n="pricing.truth.f6">Monthly deep analysis report</li>
             <li data-pricing-i18n="pricing.truth.f7">Data deletion on demand (24h)</li>
           </ul>
-          <div class="tier-annual" data-pricing-i18n="pricing.truth.annual">Annual: €199 (2 months free)</div>
+          <div class="tier-annual" data-pricing-i18n="pricing.truth.annual" data-jpy-annual="年額 ¥39,800（2か月無料）">Annual: €199 (2 months free)</div>
         </div>
 
       </div>
@@ -399,5 +399,35 @@
 
   <script src="script.js"></script>
   <script src="pricing-i18n.js"></script>
+  <script>
+    /* Japanese pricing: show yen on JA, euro on every other language. The real
+       price charged in Japan is set by Apple per region; this is display only. */
+    (function () {
+      function curLang() {
+        var b = document.querySelector('.lang-switch button.active');
+        return (b && b.getAttribute('data-lang')) || localStorage.getItem('tm.site.lang') || 'en';
+      }
+      function applyPrices() {
+        var ja = curLang() === 'ja';
+        document.querySelectorAll('.tier-price[data-jpy]').forEach(function (el) {
+          el.textContent = ja ? el.getAttribute('data-jpy') : el.getAttribute('data-eur');
+        });
+        if (ja) {
+          document.querySelectorAll('.tier-annual[data-jpy-annual]').forEach(function (el) {
+            el.textContent = el.getAttribute('data-jpy-annual');
+          });
+        }
+        /* For non-JA, pricing-i18n.js already sets the correct euro annual text. */
+      }
+      document.querySelectorAll('.lang-switch button').forEach(function (b) {
+        b.addEventListener('click', function () { setTimeout(applyPrices, 0); });
+      });
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function () { setTimeout(applyPrices, 0); });
+      } else {
+        setTimeout(applyPrices, 0);
+      }
+    })();
+  </script>
 </body>
 </html>
