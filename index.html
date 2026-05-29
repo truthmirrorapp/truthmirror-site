@@ -23,8 +23,8 @@
     .tm-faq-item summary::after{content:"+";color:#fbbf24;font-size:22px;font-weight:400;flex-shrink:0;line-height:1}
     .tm-faq-item[open] summary::after{content:"\2013"}
     .tm-faq-item p{color:#b0b0b0;line-height:1.65;padding:0 0 20px;margin:0;font-size:15px}
-    .tm-disclaimer{max-width:720px;margin:0 auto;text-align:center;padding:18px 22px;border:1px solid rgba(251,191,36,.25);border-radius:12px;background:rgba(251,191,36,.04)}
-    .tm-disclaimer p{color:#9a9a9a;font-size:14px;line-height:1.6;margin:0}
+    .tm-disclaimer{max-width:760px;margin:0 auto;text-align:center;padding:26px 30px;border:1.5px solid rgba(251,191,36,.55);border-radius:14px;background:rgba(251,191,36,.07)}
+    .tm-disclaimer p{color:#ededed;font-size:16.5px;line-height:1.65;margin:0;font-weight:600}
     .footer-disclaimer{color:#777;font-size:12px;margin-top:10px;line-height:1.5}
 
     /* ===== SIZE + TIDY OVERRIDES (added) ===== */
@@ -59,7 +59,7 @@
     .tm-msg{font-size:16.5px !important}
     .tm-faq-item summary{font-size:17.5px !important}
     .tm-faq-item p{font-size:16px !important}
-    .tm-disclaimer p{font-size:15.5px !important}
+    .tm-disclaimer p{font-size:16.5px !important;font-weight:600 !important;color:#ededed !important}
 
     /* ===== SCREENSHOTS SHOWCASE (added) ===== */
     .tm-shots{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:40px}
@@ -146,8 +146,8 @@
   <!-- SCREENSHOTS SHOWCASE -->
   <section id="screens" class="section">
     <div class="container">
-      <h2 class="section-title" id="shotsTitle">See it in action</h2>
-      <p class="section-sub" id="shotsSub">Real screens from the app. No mockups.</p>
+      <h2 class="section-title" data-i18n="screens.title">See it in action</h2>
+      <p class="section-sub" data-i18n="screens.subtitle">Real screens from the app. No mockups.</p>
       <div class="tm-shots">
         <div class="tm-shot"><img src="screens/shot1.png" alt="TruthMirror chat" loading="lazy"></div>
         <div class="tm-shot"><img src="screens/shot2.png" alt="Honesty evolution" loading="lazy"></div>
@@ -378,31 +378,5 @@
 
   <script src="script.js"></script>
   <script src="pricing-i18n.js"></script>
-  <script>
-    /* Screenshots section heading — translated independently, no dependency on script.js internals */
-    (function () {
-      var SH = {
-        en: { t: "See it in action", s: "Real screens from the app. No mockups." },
-        ro: { t: "Vezi-o în acțiune", s: "Capturi reale din aplicație. Fără machete." },
-        es: { t: "Míralo en acción", s: "Capturas reales de la app. Sin maquetas." },
-        ja: { t: "実際の画面を見る", s: "モックアップではなく、実際のアプリ画面です。" }
-      };
-      function cur() {
-        var b = document.querySelector('.lang-switch button.active');
-        return (b && b.getAttribute('data-lang')) || 'en';
-      }
-      function apply() {
-        var d = SH[cur()] || SH.en;
-        var t = document.getElementById('shotsTitle');
-        var s = document.getElementById('shotsSub');
-        if (t) t.textContent = d.t;
-        if (s) s.textContent = d.s;
-      }
-      document.querySelectorAll('.lang-switch button').forEach(function (b) {
-        b.addEventListener('click', function () { setTimeout(apply, 0); });
-      });
-      apply();
-    })();
-  </script>
 </body>
 </html>
