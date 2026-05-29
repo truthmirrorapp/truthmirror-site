@@ -5,10 +5,11 @@ const PRICING_I18N = {
       subtitle: "Transparent pricing. 30 days money-back. Cancel anytime.",
       recommended: "Most chosen",
       comingSoon: "In ~6 months",
+      storeNote: "Local price is set by the App Store / Google Play.",
       glimpse: {
         name: "Glimpse", period: "forever", desc: "Try the mirror",
         f1: "3 questions per day", f2: "Pattern detection",
-        f3: "7 days history", f4: "Crisis support", f5: "EN / RO / ES",
+        f3: "7 days history", f4: "Crisis support", f5: "EN / RO / ES / JA",
         cta: "Start free"
       },
       reflection: {
@@ -16,26 +17,22 @@ const PRICING_I18N = {
         f1: "20 questions per day", f2: "Full history",
         f3: "Pattern Evolution chart", f4: "Honesty Score tracking",
         f5: "Daily reminder", f6: "Streak counter",
-        f7: "3 separate contexts", f8: "PDF export (1/month)",
-        annual: "Annual: €49 (2 months free)", cta: "Join waitlist"
+        annual: "Annual: €39 (2 months free)", cta: "Join waitlist"
       },
       mirror: {
         name: "Mirror", period: "per month", desc: "Deep work",
-        f1: "100 questions per day", f2: "Everything in Reflection, plus:",
-        f3: "Voice mode (talk to AI)", f4: "Weekly Insights Report",
-        f5: "Unlimited PDF export", f6: "Conversation tagging",
-        f7: "Custom personality (Gentle / Direct / Unfiltered)",
-        f8: "6 separate contexts", f9: "Priority support 24h",
-        annual: "Annual: €99 (2 months free)", cta: "Join waitlist"
+        f1: "50 questions per day", f2: "Everything in Reflection, plus:",
+        f3: "Adjustable tone (Gentle / Direct / Unfiltered)",
+        f4: "Weekly report",
+        annual: "Annual: €69 (2 months free)", cta: "Join waitlist"
       },
       truth: {
         name: "Truth", period: "per month", desc: "Total clarity",
         f1: "Unlimited questions", f2: "Everything in Mirror, plus:",
-        f3: "Early access to new features",
-        f4: "Custom AI voice (5 voices)", f5: "Unlimited contexts",
-        f6: "Monthly deep analysis report",
-        f7: "Data deletion on demand (24h)",
-        annual: "Annual: €199 (2 months free)"
+        f3: "Voice mode (talk to AI)",
+        f4: "Multiple separate contexts",
+        f5: "Monthly deep analysis report",
+        annual: ""
       }
     },
     guarantees: {
@@ -54,10 +51,11 @@ const PRICING_I18N = {
       subtitle: "Prețuri transparente. 30 zile money-back. Anulezi oricând.",
       recommended: "Cel mai ales",
       comingSoon: "În ~6 luni",
+      storeNote: "Prețul local este stabilit de App Store / Google Play.",
       glimpse: {
         name: "Glimpse", period: "pentru totdeauna", desc: "Testează oglinda",
         f1: "3 întrebări pe zi", f2: "Detectare pattern-uri",
-        f3: "Istoric 7 zile", f4: "Suport criză", f5: "EN / RO / ES",
+        f3: "Istoric 7 zile", f4: "Suport criză", f5: "EN / RO / ES / JA",
         cta: "Începe gratis"
       },
       reflection: {
@@ -65,26 +63,22 @@ const PRICING_I18N = {
         f1: "20 întrebări pe zi", f2: "Istoric complet",
         f3: "Grafic Pattern Evolution", f4: "Honesty Score în timp",
         f5: "Reminder zilnic", f6: "Streak counter",
-        f7: "3 contexte separate", f8: "Export PDF (1/lună)",
-        annual: "Anual: €49 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
+        annual: "Anual: €39 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
       },
       mirror: {
         name: "Mirror", period: "pe lună", desc: "Lucru profund",
-        f1: "100 întrebări pe zi", f2: "Tot ce e în Reflection, plus:",
-        f3: "Voice mode (vorbește cu AI)", f4: "Raport săptămânal de insights",
-        f5: "Export PDF nelimitat", f6: "Etichete pe conversații",
-        f7: "Personalitate ajustabilă (Blând / Direct / Nefiltrat)",
-        f8: "6 contexte separate", f9: "Suport prioritar 24h",
-        annual: "Anual: €99 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
+        f1: "50 întrebări pe zi", f2: "Tot ce e în Reflection, plus:",
+        f3: "Ton ajustabil (Blând / Direct / Nefiltrat)",
+        f4: "Raport săptămânal",
+        annual: "Anual: €69 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
       },
       truth: {
         name: "Truth", period: "pe lună", desc: "Claritate totală",
         f1: "Întrebări nelimitate", f2: "Tot ce e în Mirror, plus:",
-        f3: "Acces timpuriu la funcții noi",
-        f4: "Voce AI personalizată (5 voci)", f5: "Contexte nelimitate",
-        f6: "Raport lunar de analiză profundă",
-        f7: "Ștergere date la cerere (24h)",
-        annual: "Anual: €199 (2 luni gratis)"
+        f3: "Voice mode (vorbește cu AI)",
+        f4: "Contexte multiple separate",
+        f5: "Raport lunar de analiză profundă",
+        annual: ""
       }
     },
     guarantees: {
@@ -103,10 +97,11 @@ const PRICING_I18N = {
       subtitle: "Precios transparentes. 30 días money-back. Cancela cuando quieras.",
       recommended: "Más elegido",
       comingSoon: "En ~6 meses",
+      storeNote: "El precio local lo establece la App Store / Google Play.",
       glimpse: {
         name: "Glimpse", period: "para siempre", desc: "Prueba el espejo",
         f1: "3 preguntas al día", f2: "Detección de patrones",
-        f3: "Historial de 7 días", f4: "Soporte de crisis", f5: "EN / RO / ES",
+        f3: "Historial de 7 días", f4: "Soporte de crisis", f5: "EN / RO / ES / JA",
         cta: "Empezar gratis"
       },
       reflection: {
@@ -114,26 +109,22 @@ const PRICING_I18N = {
         f1: "20 preguntas al día", f2: "Historial completo",
         f3: "Gráfico de evolución de patrones", f4: "Seguimiento Honesty Score",
         f5: "Recordatorio diario", f6: "Contador de racha",
-        f7: "3 contextos separados", f8: "Exportar PDF (1/mes)",
-        annual: "Anual: €49 (2 meses gratis)", cta: "Únete a la waitlist"
+        annual: "Anual: €39 (2 meses gratis)", cta: "Únete a la waitlist"
       },
       mirror: {
         name: "Mirror", period: "al mes", desc: "Trabajo profundo",
-        f1: "100 preguntas al día", f2: "Todo en Reflection, además:",
-        f3: "Modo voz (habla con el AI)", f4: "Informe semanal de insights",
-        f5: "Exportar PDF ilimitado", f6: "Etiquetas en conversaciones",
-        f7: "Personalidad ajustable (Suave / Directo / Sin filtro)",
-        f8: "6 contextos separados", f9: "Soporte prioritario 24h",
-        annual: "Anual: €99 (2 meses gratis)", cta: "Únete a la waitlist"
+        f1: "50 preguntas al día", f2: "Todo en Reflection, además:",
+        f3: "Tono ajustable (Suave / Directo / Sin filtro)",
+        f4: "Informe semanal",
+        annual: "Anual: €69 (2 meses gratis)", cta: "Únete a la waitlist"
       },
       truth: {
         name: "Truth", period: "al mes", desc: "Claridad total",
         f1: "Preguntas ilimitadas", f2: "Todo en Mirror, además:",
-        f3: "Acceso anticipado a nuevas funciones",
-        f4: "Voz AI personalizada (5 voces)", f5: "Contextos ilimitados",
-        f6: "Informe mensual de análisis profundo",
-        f7: "Eliminación de datos bajo petición (24h)",
-        annual: "Anual: €199 (2 meses gratis)"
+        f3: "Modo voz (habla con el AI)",
+        f4: "Múltiples contextos separados",
+        f5: "Informe mensual de análisis profundo",
+        annual: ""
       }
     },
     guarantees: {
@@ -152,10 +143,11 @@ const PRICING_I18N = {
       subtitle: "明朗な料金。30日間返金保証。いつでも解約可能。",
       recommended: "最も選ばれています",
       comingSoon: "約6か月後",
+      storeNote: "現地通貨での価格は App Store / Google Play が設定します。",
       glimpse: {
         name: "Glimpse", period: "永久", desc: "鏡を試す",
         f1: "1日3つの質問", f2: "パターン検出",
-        f3: "7日間の履歴", f4: "クライシス・サポート", f5: "EN / RO / ES",
+        f3: "7日間の履歴", f4: "クライシス・サポート", f5: "EN / RO / ES / JA",
         cta: "無料で始める"
       },
       reflection: {
@@ -163,26 +155,22 @@ const PRICING_I18N = {
         f1: "1日20の質問", f2: "全履歴",
         f3: "パターン推移グラフ", f4: "誠実度スコアの記録",
         f5: "毎日のリマインダー", f6: "連続記録カウンター",
-        f7: "3つの独立したコンテキスト", f8: "PDFエクスポート（月1回）",
-        annual: "年額: €49（2か月分無料）", cta: "ウェイトリストに登録"
+        annual: "年額: €39（2か月分無料）", cta: "ウェイトリストに登録"
       },
       mirror: {
         name: "Mirror", period: "月額", desc: "深い取り組み",
-        f1: "1日100の質問", f2: "Reflection のすべて、さらに:",
-        f3: "音声モード（AIと話す）", f4: "週次インサイトレポート",
-        f5: "無制限のPDFエクスポート", f6: "会話のタグ付け",
-        f7: "カスタム人格（優しい / ストレート / ノーフィルター）",
-        f8: "6つの独立したコンテキスト", f9: "優先サポート24時間",
-        annual: "年額: €99（2か月分無料）", cta: "ウェイトリストに登録"
+        f1: "1日50の質問", f2: "Reflection のすべて、さらに:",
+        f3: "トーン調整（優しい / ストレート / ノーフィルター）",
+        f4: "週次レポート",
+        annual: "年額: €69（2か月分無料）", cta: "ウェイトリストに登録"
       },
       truth: {
         name: "Truth", period: "月額", desc: "完全な明晰さ",
         f1: "無制限の質問", f2: "Mirror のすべて、さらに:",
-        f3: "新機能への早期アクセス",
-        f4: "カスタムAIボイス（5種類）", f5: "無制限のコンテキスト",
-        f6: "月次の詳細分析レポート",
-        f7: "リクエストによるデータ削除（24時間）",
-        annual: "年額: €199（2か月分無料）"
+        f3: "音声モード（AIと話す）",
+        f4: "複数の独立したコンテキスト",
+        f5: "月次の詳細分析レポート",
+        annual: ""
       }
     },
     guarantees: {

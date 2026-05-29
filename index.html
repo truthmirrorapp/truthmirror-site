@@ -45,6 +45,8 @@
     .tier-desc{font-size:16px !important}
     .features li{font-size:15.5px !important;line-height:1.55 !important}
     .tier-cta{font-size:16px !important}
+    /* store note under each price card */
+    .tier-store-note{font-size:12.5px !important;color:#8a8a8a;line-height:1.45;margin-top:10px;text-align:center}
     /* footer — bigger + cleaner */
     .footer{padding-top:60px;padding-bottom:44px}
     .footer-logo{font-size:23px !important}
@@ -217,7 +219,7 @@
 
         <div class="pricing-card">
           <div class="tier-name" data-pricing-i18n="pricing.glimpse.name">Glimpse</div>
-          <div class="tier-price" data-eur="€0" data-jpy="¥0">€0</div>
+          <div class="tier-price">€0</div>
           <div class="tier-period" data-pricing-i18n="pricing.glimpse.period">forever</div>
           <p class="tier-desc" data-pricing-i18n="pricing.glimpse.desc">Try the mirror</p>
           <ul class="features">
@@ -225,14 +227,14 @@
             <li data-pricing-i18n="pricing.glimpse.f2">Pattern detection</li>
             <li data-pricing-i18n="pricing.glimpse.f3">7 days history</li>
             <li data-pricing-i18n="pricing.glimpse.f4">Crisis support</li>
-            <li data-pricing-i18n="pricing.glimpse.f5">EN / RO / ES</li>
+            <li data-pricing-i18n="pricing.glimpse.f5">EN / RO / ES / JA</li>
           </ul>
           <a href="#waitlist" class="tier-cta" data-pricing-i18n="pricing.glimpse.cta">Start free</a>
         </div>
 
         <div class="pricing-card">
           <div class="tier-name" data-pricing-i18n="pricing.reflection.name">Reflection</div>
-          <div class="tier-price" data-eur="€4.99" data-jpy="¥980">€4.99</div>
+          <div class="tier-price">€4.99</div>
           <div class="tier-period" data-pricing-i18n="pricing.reflection.period">per month</div>
           <p class="tier-desc" data-pricing-i18n="pricing.reflection.desc">Daily practice</p>
           <ul class="features">
@@ -242,50 +244,42 @@
             <li data-pricing-i18n="pricing.reflection.f4">Honesty Score tracking</li>
             <li data-pricing-i18n="pricing.reflection.f5">Daily reminder</li>
             <li data-pricing-i18n="pricing.reflection.f6">Streak counter</li>
-            <li data-pricing-i18n="pricing.reflection.f7">3 separate contexts</li>
-            <li data-pricing-i18n="pricing.reflection.f8">PDF export (1/month)</li>
           </ul>
-          <div class="tier-annual" data-pricing-i18n="pricing.reflection.annual" data-jpy-annual="年額 ¥9,800（2か月無料）">Annual: €49 (2 months free)</div>
+          <div class="tier-annual" data-pricing-i18n="pricing.reflection.annual">Annual: €39 (2 months free)</div>
           <a href="#waitlist" class="tier-cta" data-pricing-i18n="pricing.reflection.cta">Join waitlist</a>
+          <p class="tier-store-note" data-pricing-i18n="pricing.storeNote">Local price is set by the App Store / Google Play.</p>
         </div>
 
         <div class="pricing-card recommended">
           <div class="tier-badge" data-pricing-i18n="pricing.recommended">Most chosen</div>
           <div class="tier-name" data-pricing-i18n="pricing.mirror.name">Mirror</div>
-          <div class="tier-price" data-eur="€9.99" data-jpy="¥1,980">€9.99</div>
+          <div class="tier-price">€8.99</div>
           <div class="tier-period" data-pricing-i18n="pricing.mirror.period">per month</div>
           <p class="tier-desc" data-pricing-i18n="pricing.mirror.desc">Deep work</p>
           <ul class="features">
-            <li data-pricing-i18n="pricing.mirror.f1">100 questions per day</li>
+            <li data-pricing-i18n="pricing.mirror.f1">50 questions per day</li>
             <li data-pricing-i18n="pricing.mirror.f2">Everything in Reflection, plus:</li>
-            <li data-pricing-i18n="pricing.mirror.f3">Voice mode (talk to AI)</li>
-            <li data-pricing-i18n="pricing.mirror.f4">Weekly Insights Report</li>
-            <li data-pricing-i18n="pricing.mirror.f5">Unlimited PDF export</li>
-            <li data-pricing-i18n="pricing.mirror.f6">Conversation tagging</li>
-            <li data-pricing-i18n="pricing.mirror.f7">Custom personality (Gentle / Direct / Unfiltered)</li>
-            <li data-pricing-i18n="pricing.mirror.f8">6 separate contexts</li>
-            <li data-pricing-i18n="pricing.mirror.f9">Priority support 24h</li>
+            <li data-pricing-i18n="pricing.mirror.f3">Adjustable tone (Gentle / Direct / Unfiltered)</li>
+            <li data-pricing-i18n="pricing.mirror.f4">Weekly report</li>
           </ul>
-          <div class="tier-annual" data-pricing-i18n="pricing.mirror.annual" data-jpy-annual="年額 ¥19,800（2か月無料）">Annual: €99 (2 months free)</div>
+          <div class="tier-annual" data-pricing-i18n="pricing.mirror.annual">Annual: €69 (2 months free)</div>
           <a href="#waitlist" class="tier-cta primary" data-pricing-i18n="pricing.mirror.cta">Join waitlist</a>
+          <p class="tier-store-note" data-pricing-i18n="pricing.storeNote">Local price is set by the App Store / Google Play.</p>
         </div>
 
         <div class="pricing-card coming-soon">
           <div class="tier-badge soon" data-pricing-i18n="pricing.comingSoon">In ~6 months</div>
           <div class="tier-name" data-pricing-i18n="pricing.truth.name">Truth</div>
-          <div class="tier-price" data-eur="€19.99" data-jpy="¥3,980">€19.99</div>
+          <div class="tier-price">€19.99</div>
           <div class="tier-period" data-pricing-i18n="pricing.truth.period">per month</div>
           <p class="tier-desc" data-pricing-i18n="pricing.truth.desc">Total clarity</p>
           <ul class="features">
             <li data-pricing-i18n="pricing.truth.f1">Unlimited questions</li>
             <li data-pricing-i18n="pricing.truth.f2">Everything in Mirror, plus:</li>
-            <li data-pricing-i18n="pricing.truth.f3">Early access to new features</li>
-            <li data-pricing-i18n="pricing.truth.f4">Custom AI voice (5 voices)</li>
-            <li data-pricing-i18n="pricing.truth.f5">Unlimited contexts</li>
-            <li data-pricing-i18n="pricing.truth.f6">Monthly deep analysis report</li>
-            <li data-pricing-i18n="pricing.truth.f7">Data deletion on demand (24h)</li>
+            <li data-pricing-i18n="pricing.truth.f3">Voice mode (talk to AI)</li>
+            <li data-pricing-i18n="pricing.truth.f4">Multiple separate contexts</li>
+            <li data-pricing-i18n="pricing.truth.f5">Monthly deep analysis report</li>
           </ul>
-          <div class="tier-annual" data-pricing-i18n="pricing.truth.annual" data-jpy-annual="年額 ¥39,800（2か月無料）">Annual: €199 (2 months free)</div>
         </div>
 
       </div>
@@ -418,27 +412,16 @@
   <script src="script.js"></script>
   <script src="pricing-i18n.js"></script>
   <script>
-    /* Japanese pricing + screenshots: show yen and JA screens on JA, euro and
-       default screens on every other language. The real price charged in Japan
-       is set by Apple per region; this is display only. */
+    /* Screenshots: swap to JA versions + show gold captions only on JA.
+       Prices are shown in EUR for all languages; the real local price is set
+       by the App Store / Google Play per region (see store note in pricing). */
     (function () {
       function curLang() {
         var b = document.querySelector('.lang-switch button.active');
         return (b && b.getAttribute('data-lang')) || localStorage.getItem('tm.site.lang') || 'en';
       }
-      function applyPrices() {
+      function applyScreens() {
         var ja = curLang() === 'ja';
-        document.querySelectorAll('.tier-price[data-jpy]').forEach(function (el) {
-          el.textContent = ja ? el.getAttribute('data-jpy') : el.getAttribute('data-eur');
-        });
-        if (ja) {
-          document.querySelectorAll('.tier-annual[data-jpy-annual]').forEach(function (el) {
-            el.textContent = el.getAttribute('data-jpy-annual');
-          });
-        }
-        /* For non-JA, pricing-i18n.js already sets the correct euro annual text. */
-
-        /* Screenshots: swap to JA versions + show gold captions only on JA. */
         document.querySelectorAll('.tm-shot img[data-shot-ja]').forEach(function (el) {
           var next = ja ? el.getAttribute('data-shot-ja') : el.getAttribute('data-shot-eur');
           if (next && el.getAttribute('src') !== next) el.setAttribute('src', next);
@@ -448,12 +431,12 @@
         });
       }
       document.querySelectorAll('.lang-switch button').forEach(function (b) {
-        b.addEventListener('click', function () { setTimeout(applyPrices, 0); });
+        b.addEventListener('click', function () { setTimeout(applyScreens, 0); });
       });
       if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function () { setTimeout(applyPrices, 0); });
+        document.addEventListener('DOMContentLoaded', function () { setTimeout(applyScreens, 0); });
       } else {
-        setTimeout(applyPrices, 0);
+        setTimeout(applyScreens, 0);
       }
     })();
   </script>
