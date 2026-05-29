@@ -12,7 +12,7 @@ We are committed to protecting your privacy and complying with the EU General Da
 Data Controller:
 Social Media Group SRL
 Bucharest, Romania
-Email: truthmirrorapp@gmail.com
+Email: support@truthmirror.net
 
 2. WHAT DATA WE COLLECT
 
@@ -98,7 +98,7 @@ You can exercise rights (c) and (e) directly in the App:
 - Settings → "Delete all my data" deletes everything immediately.
 - PDF export (on paid tiers) provides portability.
 
-To exercise any other right, email truthmirrorapp@gmail.com. We respond within 30 days.
+To exercise any other right, email support@truthmirror.net. We respond within 30 days.
 
 You also have the right to lodge a complaint with the Romanian Data Protection Authority (ANSPDCP) or your local supervisory authority.
 
@@ -118,7 +118,7 @@ TruthMirror is strictly for users 18 and older. We do not knowingly collect data
 
 11. INTERNATIONAL TRANSFERS
 
-As stated in section 5.3, conversation data is transferred to Anthropic in the United States under Standard Contractual Clauses. We have assessed this transfer and consider it provides adequate protection under GDPR Chapter V. You can request a copy of the relevant safeguards by contacting truthmirrorapp@gmail.com.
+As stated in section 5.3, conversation data is transferred to Anthropic in the United States under Standard Contractual Clauses. We have assessed this transfer and consider it provides adequate protection under GDPR Chapter V. You can request a copy of the relevant safeguards by contacting support@truthmirror.net.
 
 12. CHANGES TO THIS POLICY
 
@@ -129,7 +129,7 @@ We may update this Privacy Policy from time to time. We will notify you of mater
 For privacy questions or to exercise your GDPR rights, contact:
 Social Media Group SRL
 Bucharest, Romania
-truthmirrorapp@gmail.com
+support@truthmirror.net
 
 Romanian Data Protection Authority (ANSPDCP):
 www.dataprotection.ro

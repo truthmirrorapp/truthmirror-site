@@ -14,6 +14,7 @@
       <button data-lang="en" class="active">EN</button>
       <button data-lang="ro">RO</button>
       <button data-lang="es">ES</button>
+      <button data-lang="ja">JA</button>
     </div>
   </nav>
 
@@ -21,7 +22,7 @@
     <div class="legal-page">
       <a href="/" class="back-link">← <span data-i18n="back">Back</span></a>
       <h1 data-i18n="title">Terms of Service</h1>
-      <p class="meta" data-i18n="meta">Effective date: 11 May 2026 · Version: 2026-05-11</p>
+      <p class="meta" data-i18n="meta">Effective date: 19 May 2026 · Version: 2026-05-19</p>
 
       <pre id="legalContent">Loading...</pre>
     </div>
@@ -30,15 +31,17 @@
   <script src="legal/terms.en.js"></script>
   <script src="legal/terms.ro.js"></script>
   <script src="legal/terms.es.js"></script>
+  <script src="legal/terms.ja.js"></script>
   <script>
     const labels = {
-      en: { title: 'Terms of Service', back: 'Back', meta: 'Effective date: 11 May 2026 · Version: 2026-05-11' },
-      ro: { title: 'Termeni și condiții', back: 'Înapoi', meta: 'Data intrării în vigoare: 11 mai 2026 · Versiunea: 2026-05-11' },
-      es: { title: 'Términos de servicio', back: 'Atrás', meta: 'Fecha de entrada en vigor: 11 de mayo de 2026 · Versión: 2026-05-11' },
+      en: { title: 'Terms of Service', back: 'Back', meta: 'Effective date: 19 May 2026 · Version: 2026-05-19' },
+      ro: { title: 'Termeni și condiții', back: 'Înapoi', meta: 'Data intrării în vigoare: 19 mai 2026 · Versiunea: 2026-05-19' },
+      es: { title: 'Términos de servicio', back: 'Atrás', meta: 'Fecha de entrada en vigor: 19 de mayo de 2026 · Versión: 2026-05-19' },
+      ja: { title: '利用規約', back: '戻る', meta: '発効日: 2026年5月19日 · バージョン: 2026-05-19' },
     };
 
     function renderTerms(lang) {
-      const map = { en: window.TERMS_EN, ro: window.TERMS_RO, es: window.TERMS_ES };
+      const map = { en: window.TERMS_EN, ro: window.TERMS_RO, es: window.TERMS_ES, ja: window.TERMS_JA };
       document.getElementById('legalContent').textContent = map[lang] || map.en;
       document.documentElement.lang = lang;
       const l = labels[lang] || labels.en;
@@ -54,7 +57,7 @@
 
     const saved = localStorage.getItem('tm.site.lang');
     const browser = navigator.language.slice(0, 2);
-    const initialLang = ['en','ro','es'].includes(saved) ? saved : (['en','ro','es'].includes(browser) ? browser : 'en');
+    const initialLang = ['en','ro','es','ja'].includes(saved) ? saved : (['en','ro','es','ja'].includes(browser) ? browser : 'en');
 
     document.addEventListener('DOMContentLoaded', () => {
       renderTerms(initialLang);

@@ -9,7 +9,7 @@ The TruthMirror mobile application and website ("App", "TruthMirror", "Service")
 
 Social Media Group SRL
 Registered office: Bucharest, Romania
-Contact: truthmirrorapp@gmail.com
+Contact: support@truthmirror.net
 Website: https://truthmirror.net
 
 For purposes of these Terms, "we", "us", and "our" refer to Social Media Group SRL.
@@ -100,9 +100,9 @@ TRUTH (€19.99/month or €199/year) — Launching approximately 6 months after
 - iOS: Settings → Apple ID → Subscriptions → TruthMirror
 - Android: Google Play → Profile → Payments & subscriptions
 
-7.3 30-DAY MONEY-BACK GUARANTEE. If TruthMirror does not meet your expectations, you may request a full refund within 30 days of your first paid charge by emailing truthmirrorapp@gmail.com with your transaction ID. Refunds are processed within 5 business days through the original payment method. No reason required.
+7.3 30-DAY MONEY-BACK GUARANTEE. If TruthMirror does not meet your expectations, you may request a full refund within 30 days of your first paid charge by emailing support@truthmirror.net with your transaction ID. Refunds are processed within 5 business days through the original payment method. No reason required.
 
-7.4 EU CONSUMER WITHDRAWAL. EU/EEA consumers have a statutory right to withdraw from contracts for digital services within 14 days of purchase. To exercise this right, contact truthmirrorapp@gmail.com. By starting to use the Service immediately upon purchase, you may waive this right in accordance with Article 16(m) of Directive 2011/83/EU.
+7.4 EU CONSUMER WITHDRAWAL. EU/EEA consumers have a statutory right to withdraw from contracts for digital services within 14 days of purchase. To exercise this right, contact support@truthmirror.net. By starting to use the Service immediately upon purchase, you may waive this right in accordance with Article 16(m) of Directive 2011/83/EU.
 
 7.5 The 30-day money-back guarantee in section 7.3 is in addition to, not in place of, your statutory rights under EU consumer law.
 
@@ -177,7 +177,7 @@ For any question, complaint, or legal request related to these Terms, contact:
 
 Social Media Group SRL
 Bucharest, Romania
-Email: truthmirrorapp@gmail.com
+Email: support@truthmirror.net
 
 By using the App, you confirm that you have read and understood these Terms and that you accept them in full.
 `;

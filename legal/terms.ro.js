@@ -9,7 +9,7 @@ Aplicația mobilă TruthMirror și website-ul ("Aplicația", "TruthMirror", "Ser
 
 Social Media Group SRL
 Sediu social: București, România
-Contact: truthmirrorapp@gmail.com
+Contact: support@truthmirror.net
 Website: https://truthmirror.net
 
 În scopul acestor Termeni, "noi", "nostru" și "ne" se referă la Social Media Group SRL.
@@ -100,9 +100,9 @@ TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lan
 - iOS: Setări → Apple ID → Abonamente → TruthMirror
 - Android: Google Play → Profil → Plăți și abonamente
 
-7.3 GARANȚIE 30 ZILE MONEY-BACK. Dacă TruthMirror nu îți îndeplinește așteptările, poți cere rambursare integrală în 30 zile de la prima taxare, scriind la truthmirrorapp@gmail.com cu ID-ul tranzacției. Rambursările sunt procesate în 5 zile lucrătoare prin metoda originală de plată. Nu e necesar un motiv.
+7.3 GARANȚIE 30 ZILE MONEY-BACK. Dacă TruthMirror nu îți îndeplinește așteptările, poți cere rambursare integrală în 30 zile de la prima taxare, scriind la support@truthmirror.net cu ID-ul tranzacției. Rambursările sunt procesate în 5 zile lucrătoare prin metoda originală de plată. Nu e necesar un motiv.
 
-7.4 RETRAGERE CONSUMATOR UE. Consumatorii din UE/SEE au dreptul legal de a se retrage din contractele pentru servicii digitale în 14 zile de la cumpărare. Pentru a exercita acest drept, contactează truthmirrorapp@gmail.com. Prin începerea utilizării Serviciului imediat după cumpărare, poți renunța la acest drept conform Articolului 16(m) din Directiva 2011/83/UE.
+7.4 RETRAGERE CONSUMATOR UE. Consumatorii din UE/SEE au dreptul legal de a se retrage din contractele pentru servicii digitale în 14 zile de la cumpărare. Pentru a exercita acest drept, contactează support@truthmirror.net. Prin începerea utilizării Serviciului imediat după cumpărare, poți renunța la acest drept conform Articolului 16(m) din Directiva 2011/83/UE.
 
 7.5 Garanția de 30 zile money-back din secțiunea 7.3 se adaugă, nu înlocuiește, drepturile tale legale conform legislației UE de protecție a consumatorilor.
 
@@ -177,7 +177,7 @@ Pentru orice întrebare, plângere sau cerere legală legată de acești Termeni
 
 Social Media Group SRL
 București, România
-Email: truthmirrorapp@gmail.com
+Email: support@truthmirror.net
 
 Folosind Aplicația, confirmi că ai citit și înțeles acești Termeni și că îi accepți în întregime.
 `;

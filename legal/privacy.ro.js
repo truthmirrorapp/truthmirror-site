@@ -12,7 +12,7 @@ Ne angajăm să-ți protejăm confidențialitatea și să respectăm Regulamentu
 Operator de date:
 Social Media Group SRL
 București, România
-Email: truthmirrorapp@gmail.com
+Email: support@truthmirror.net
 
 2. CE DATE COLECTĂM
 
@@ -98,7 +98,7 @@ Poți exercita drepturile (c) și (e) direct în Aplicație:
 - Setări → "Șterge toate datele mele" șterge totul imediat.
 - Export PDF (pe planurile plătite) oferă portabilitate.
 
-Pentru a exercita orice alt drept, scrie la truthmirrorapp@gmail.com. Răspundem în 30 zile.
+Pentru a exercita orice alt drept, scrie la support@truthmirror.net. Răspundem în 30 zile.
 
 Ai de asemenea dreptul de a depune o plângere la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP) sau la autoritatea de supraveghere locală.
 
@@ -118,7 +118,7 @@ TruthMirror e strict pentru utilizatori de 18 ani și mai mult. Nu colectăm cu 
 
 11. TRANSFERURI INTERNAȚIONALE
 
-Așa cum se menționează în secțiunea 5.3, datele conversațiilor sunt transferate către Anthropic în Statele Unite sub Clauze Contractuale Standard. Am evaluat acest transfer și considerăm că oferă protecție adecvată conform Capitolului V GDPR. Poți cere o copie a garanțiilor relevante contactând truthmirrorapp@gmail.com.
+Așa cum se menționează în secțiunea 5.3, datele conversațiilor sunt transferate către Anthropic în Statele Unite sub Clauze Contractuale Standard. Am evaluat acest transfer și considerăm că oferă protecție adecvată conform Capitolului V GDPR. Poți cere o copie a garanțiilor relevante contactând support@truthmirror.net.
 
 12. MODIFICĂRI ALE ACESTEI POLITICI
 
@@ -129,7 +129,7 @@ Putem actualiza această Politică de Confidențialitate din când în când. Te
 Pentru întrebări de confidențialitate sau pentru a-ți exercita drepturile GDPR, contactează:
 Social Media Group SRL
 București, România
-truthmirrorapp@gmail.com
+support@truthmirror.net
 
 Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP):
 www.dataprotection.ro

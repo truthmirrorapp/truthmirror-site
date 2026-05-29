@@ -145,11 +145,60 @@ const PRICING_I18N = {
       ads: { title: "Sin anuncios. Nunca.", desc: "Una herramienta de autorreflexión con anuncios no tiene sentido." },
       data: { title: "Tus datos son tuyos", desc: "Exporta cuando quieras, elimina cuando quieras. Nunca vendidos. GDPR." }
     }
+  },
+  ja: {
+    pricing: {
+      title: "得られるもの",
+      subtitle: "明朗な料金。30日間返金保証。いつでも解約可能。",
+      recommended: "最も選ばれています",
+      comingSoon: "約6か月後",
+      glimpse: {
+        name: "Glimpse", period: "永久", desc: "鏡を試す",
+        f1: "1日3つの質問", f2: "パターン検出",
+        f3: "7日間の履歴", f4: "クライシス・サポート", f5: "EN / RO / ES",
+        cta: "無料で始める"
+      },
+      reflection: {
+        name: "Reflection", period: "月額", desc: "毎日の実践",
+        f1: "1日20の質問", f2: "全履歴",
+        f3: "パターン推移グラフ", f4: "誠実度スコアの記録",
+        f5: "毎日のリマインダー", f6: "連続記録カウンター",
+        f7: "3つの独立したコンテキスト", f8: "PDFエクスポート（月1回）",
+        annual: "年額: €49（2か月分無料）", cta: "ウェイトリストに登録"
+      },
+      mirror: {
+        name: "Mirror", period: "月額", desc: "深い取り組み",
+        f1: "1日100の質問", f2: "Reflection のすべて、さらに:",
+        f3: "音声モード（AIと話す）", f4: "週次インサイトレポート",
+        f5: "無制限のPDFエクスポート", f6: "会話のタグ付け",
+        f7: "カスタム人格（優しい / ストレート / 容赦なし）",
+        f8: "6つの独立したコンテキスト", f9: "優先サポート24時間",
+        annual: "年額: €99（2か月分無料）", cta: "ウェイトリストに登録"
+      },
+      truth: {
+        name: "Truth", period: "月額", desc: "完全な明晰さ",
+        f1: "無制限の質問", f2: "Mirror のすべて、さらに:",
+        f3: "新機能への早期アクセス",
+        f4: "カスタムAIボイス（5種類）", f5: "無制限のコンテキスト",
+        f6: "月次の詳細分析レポート",
+        f7: "リクエストによるデータ削除（24時間）",
+        annual: "年額: €199（2か月分無料）"
+      }
+    },
+    guarantees: {
+      title: "隠れた条件なし",
+      subtitle: "料金をいただくなら、それに値する価値を。",
+      refund: { title: "30日間返金保証", desc: "30日以内なら全額返金。質問も手間もなし。" },
+      cancel: { title: "2タップで解約", desc: "設定 → サブスクリプション → 解約。引き止めの仕掛けなし。" },
+      trial: { title: "7日間の無料トライアル", desc: "Reflection と Mirror は7日間の無料トライアル付き。期限前に解約すれば料金は一切かかりません。" },
+      ads: { title: "広告なし。ずっと。", desc: "自己内省のツールに広告は意味をなしません。" },
+      data: { title: "あなたのデータはあなたのもの", desc: "いつでもエクスポート、いつでも削除。販売は一切なし。GDPR準拠。" }
+    }
   }
 };
 
 function applyPricingTranslations(lang) {
-  if (!['en', 'ro', 'es'].includes(lang)) lang = 'en';
+  if (!['en', 'ro', 'es', 'ja'].includes(lang)) lang = 'en';
   const data = PRICING_I18N[lang];
   document.querySelectorAll('[data-pricing-i18n]').forEach((el) => {
     const key = el.getAttribute('data-pricing-i18n');
@@ -161,9 +210,9 @@ function applyPricingTranslations(lang) {
 document.addEventListener('DOMContentLoaded', () => {
   const saved = localStorage.getItem('tm.site.lang');
   const browser = (navigator.language || 'en').slice(0, 2);
-  const initial = ['en', 'ro', 'es'].includes(saved)
+  const initial = ['en', 'ro', 'es', 'ja'].includes(saved)
     ? saved
-    : (['en', 'ro', 'es'].includes(browser) ? browser : 'en');
+    : (['en', 'ro', 'es', 'ja'].includes(browser) ? browser : 'en');
   applyPricingTranslations(initial);
 });
 

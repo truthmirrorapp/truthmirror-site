@@ -4,29 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact — TruthMirror</title>
+  <meta name="description" content="Get in touch with TruthMirror. General support, press, GDPR or legal requests.">
+  <link rel="canonical" href="https://www.truthmirror.net/contact.html">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar">
     <a href="/" class="logo">TruthMirror</a>
+    <div class="lang-switch">
+      <button data-lang="en">EN</button>
+      <button data-lang="ro">RO</button>
+      <button data-lang="es">ES</button>
+      <button data-lang="ja">JA</button>
+    </div>
   </nav>
 
   <div class="container">
     <div class="legal-page">
-      <a href="/" class="back-link">← Back</a>
-      <h1>Contact</h1>
-      <p class="meta">We respond within 48 hours.</p>
+      <a href="/" class="back-link" data-i18n="contact.back">← Back</a>
+      <h1 data-i18n="contact.title">Contact</h1>
+      <p class="meta" data-i18n="contact.meta">We respond within 48 hours.</p>
 
-      <p style="font-size: 18px; line-height: 1.8; color: var(--text);">
-        <strong>Email:</strong> <a href="mailto:truthmirrorapp@gmail.com" style="color: var(--accent);">truthmirrorapp@gmail.com</a><br><br>
+      <p style="font-size: 18px; line-height: 1.8; color: var(--text);" data-i18n="contact.body">
+        <strong>General &amp; support:</strong> <a href="mailto:support@truthmirror.net" style="color: var(--accent);">support@truthmirror.net</a><br>
+        <strong>Legal &amp; GDPR requests:</strong> <a href="mailto:legal@truthmirror.net" style="color: var(--accent);">legal@truthmirror.net</a><br><br>
         <strong>Company:</strong> Social Media Group SRL<br>
-        <strong>Address:</strong> București, România<br><br>
-        For GDPR data requests, send "GDPR request" in the subject line.<br>
-        For legal matters, send "Legal" in the subject line.<br>
-        For everything else, just write us.
+        <strong>Address:</strong> București, România
       </p>
     </div>
   </div>
+
+  <script>
+    const contactI18n = {
+      en: {
+        'contact.back': '← Back',
+        'contact.title': 'Contact',
+        'contact.meta': 'We respond within 48 hours.',
+        'contact.body': '<strong>General &amp; support:</strong> <a href="mailto:support@truthmirror.net" style="color: var(--accent);">support@truthmirror.net</a><br><strong>Legal &amp; GDPR requests:</strong> <a href="mailto:legal@truthmirror.net" style="color: var(--accent);">legal@truthmirror.net</a><br><br><strong>Company:</strong> Social Media Group SRL<br><strong>Address:</strong> București, România',
+      },
+      ro: {
+        'contact.back': '← Înapoi',
+        'contact.title': 'Contact',
+        'contact.meta': 'Răspundem în 48 de ore.',
+        'contact.body': '<strong>General și suport:</strong> <a href="mailto:support@truthmirror.net" style="color: var(--accent);">support@truthmirror.net</a><br><strong>Legal și cereri GDPR:</strong> <a href="mailto:legal@truthmirror.net" style="color: var(--accent);">legal@truthmirror.net</a><br><br><strong>Companie:</strong> Social Media Group SRL<br><strong>Adresă:</strong> București, România',
+      },
+      es: {
+        'contact.back': '← Volver',
+        'contact.title': 'Contacto',
+        'contact.meta': 'Respondemos en 48 horas.',
+        'contact.body': '<strong>General y soporte:</strong> <a href="mailto:support@truthmirror.net" style="color: var(--accent);">support@truthmirror.net</a><br><strong>Legal y solicitudes RGPD:</strong> <a href="mailto:legal@truthmirror.net" style="color: var(--accent);">legal@truthmirror.net</a><br><br><strong>Empresa:</strong> Social Media Group SRL<br><strong>Dirección:</strong> Bucarest, Rumanía',
+      },
+      ja: {
+        'contact.back': '← 戻る',
+        'contact.title': 'お問い合わせ',
+        'contact.meta': '48時間以内に返信いたします。',
+        'contact.body': '<strong>一般・サポート:</strong> <a href="mailto:support@truthmirror.net" style="color: var(--accent);">support@truthmirror.net</a><br><strong>法務・GDPR に関するご請求:</strong> <a href="mailto:legal@truthmirror.net" style="color: var(--accent);">legal@truthmirror.net</a><br><br><strong>会社:</strong> Social Media Group SRL<br><strong>所在地:</strong> ルーマニア・ブカレスト',
+      },
+    };
+
+    function applyContactLang(lang) {
+      const t = contactI18n[lang] || contactI18n.en;
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(function (el) {
+        var key = el.getAttribute('data-i18n');
+        if (t[key] != null) el.innerHTML = t[key];
+      });
+      document.querySelectorAll('.lang-switch button').forEach(function (btn) {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+      localStorage.setItem('tm.site.lang', lang);
+    }
+
+    function detectInitialLang() {
+      var saved = localStorage.getItem('tm.site.lang');
+      if (saved && contactI18n[saved]) return saved;
+      var browser = (navigator.language || 'en').slice(0, 2);
+      return contactI18n[browser] ? browser : 'en';
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      applyContactLang(detectInitialLang());
+      document.querySelectorAll('.lang-switch button').forEach(function (btn) {
+        btn.addEventListener('click', function () { applyContactLang(btn.dataset.lang); });
+      });
+    });
+  </script>
 </body>
 </html>

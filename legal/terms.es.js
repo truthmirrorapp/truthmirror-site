@@ -9,7 +9,7 @@ La aplicación móvil TruthMirror y el sitio web ("App", "TruthMirror", "Servici
 
 Social Media Group SRL
 Domicilio social: Bucarest, Rumanía
-Contacto: truthmirrorapp@gmail.com
+Contacto: support@truthmirror.net
 Sitio web: https://truthmirror.net
 
 A efectos de estos Términos, "nosotros", "nuestro" y "nos" se refieren a Social Media Group SRL.
@@ -100,9 +100,9 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 - iOS: Ajustes → Apple ID → Suscripciones → TruthMirror
 - Android: Google Play → Perfil → Pagos y suscripciones
 
-7.3 GARANTÍA DE 30 DÍAS DE DEVOLUCIÓN. Si TruthMirror no cumple tus expectativas, puedes solicitar un reembolso completo dentro de los 30 días posteriores a tu primer cargo, escribiendo a truthmirrorapp@gmail.com con tu ID de transacción. Los reembolsos se procesan en 5 días hábiles a través del método de pago original. No se requiere motivo.
+7.3 GARANTÍA DE 30 DÍAS DE DEVOLUCIÓN. Si TruthMirror no cumple tus expectativas, puedes solicitar un reembolso completo dentro de los 30 días posteriores a tu primer cargo, escribiendo a support@truthmirror.net con tu ID de transacción. Los reembolsos se procesan en 5 días hábiles a través del método de pago original. No se requiere motivo.
 
-7.4 DESISTIMIENTO DEL CONSUMIDOR UE. Los consumidores de la UE/EEE tienen derecho legal a desistir de los contratos de servicios digitales dentro de los 14 días posteriores a la compra. Para ejercer este derecho, contacta truthmirrorapp@gmail.com. Al comenzar a usar el Servicio inmediatamente después de la compra, puedes renunciar a este derecho según el Artículo 16(m) de la Directiva 2011/83/UE.
+7.4 DESISTIMIENTO DEL CONSUMIDOR UE. Los consumidores de la UE/EEE tienen derecho legal a desistir de los contratos de servicios digitales dentro de los 14 días posteriores a la compra. Para ejercer este derecho, contacta support@truthmirror.net. Al comenzar a usar el Servicio inmediatamente después de la compra, puedes renunciar a este derecho según el Artículo 16(m) de la Directiva 2011/83/UE.
 
 7.5 La garantía de 30 días de devolución de la sección 7.3 se añade, no reemplaza, tus derechos legales bajo la legislación de protección al consumidor de la UE.
 
@@ -177,7 +177,7 @@ Para cualquier pregunta, queja o solicitud legal relacionada con estos Términos
 
 Social Media Group SRL
 Bucarest, Rumanía
-Email: truthmirrorapp@gmail.com
+Email: support@truthmirror.net
 
 Al usar la App, confirmas que has leído y entendido estos Términos y que los aceptas en su totalidad.
 `;

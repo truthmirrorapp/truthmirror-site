@@ -12,7 +12,7 @@ Nos comprometemos a proteger tu privacidad y a cumplir con el Reglamento General
 Responsable del tratamiento:
 Social Media Group SRL
 Bucarest, Rumanía
-Email: truthmirrorapp@gmail.com
+Email: support@truthmirror.net
 
 2. QUÉ DATOS RECOPILAMOS
 
@@ -98,7 +98,7 @@ Puedes ejercer los derechos (c) y (e) directamente en la App:
 - Ajustes → "Eliminar todos mis datos" elimina todo inmediatamente.
 - Exportar PDF (en planes de pago) proporciona portabilidad.
 
-Para ejercer cualquier otro derecho, escribe a truthmirrorapp@gmail.com. Respondemos en 30 días.
+Para ejercer cualquier otro derecho, escribe a support@truthmirror.net. Respondemos en 30 días.
 
 También tienes derecho a presentar una reclamación ante la Autoridad Rumana de Protección de Datos (ANSPDCP) o tu autoridad de control local.
 
@@ -118,7 +118,7 @@ TruthMirror es estrictamente para usuarios de 18 años o más. No recopilamos a 
 
 11. TRANSFERENCIAS INTERNACIONALES
 
-Como se indica en la sección 5.3, los datos de conversaciones se transfieren a Anthropic en Estados Unidos bajo Cláusulas Contractuales Estándar. Hemos evaluado esta transferencia y consideramos que proporciona protección adecuada según el Capítulo V del RGPD. Puedes solicitar una copia de las garantías relevantes contactando truthmirrorapp@gmail.com.
+Como se indica en la sección 5.3, los datos de conversaciones se transfieren a Anthropic en Estados Unidos bajo Cláusulas Contractuales Estándar. Hemos evaluado esta transferencia y consideramos que proporciona protección adecuada según el Capítulo V del RGPD. Puedes solicitar una copia de las garantías relevantes contactando support@truthmirror.net.
 
 12. CAMBIOS EN ESTA POLÍTICA
 
@@ -129,7 +129,7 @@ Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificarem
 Para preguntas de privacidad o para ejercer tus derechos del RGPD, contacta:
 Social Media Group SRL
 Bucarest, Rumanía
-truthmirrorapp@gmail.com
+support@truthmirror.net
 
 Autoridad Rumana de Protección de Datos (ANSPDCP):
 www.dataprotection.ro
