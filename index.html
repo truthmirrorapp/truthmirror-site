@@ -26,7 +26,53 @@
     .tm-disclaimer{max-width:720px;margin:0 auto;text-align:center;padding:18px 22px;border:1px solid rgba(251,191,36,.25);border-radius:12px;background:rgba(251,191,36,.04)}
     .tm-disclaimer p{color:#9a9a9a;font-size:14px;line-height:1.6;margin:0}
     .footer-disclaimer{color:#777;font-size:12px;margin-top:10px;line-height:1.5}
-    @media(max-width:600px){.tm-story p{font-size:16px}.tm-msg{font-size:14px}}
+
+    /* ===== SIZE + TIDY OVERRIDES (added) ===== */
+    body{line-height:1.65;-webkit-font-smoothing:antialiased}
+    .container{max-width:1080px;margin:0 auto;padding-left:24px;padding-right:24px}
+    .section{padding-top:88px !important;padding-bottom:88px !important}
+    .section-title{font-size:clamp(30px,4.2vw,42px) !important;line-height:1.15 !important;margin-bottom:14px}
+    .section-sub{font-size:clamp(17px,2vw,20px) !important;line-height:1.6 !important;max-width:640px;margin:0 auto 8px;color:#b6b6b6}
+    .hero h1{font-size:clamp(42px,6.2vw,70px) !important;line-height:1.07 !important;letter-spacing:-.5px}
+    .hero-sub{font-size:clamp(18px,2.4vw,24px) !important;line-height:1.6 !important;max-width:640px;margin-left:auto;margin-right:auto}
+    .hero-note{font-size:15px !important;opacity:.85}
+    .how-step h3{font-size:21px !important;margin-bottom:8px}
+    .how-step p{font-size:16.5px !important;line-height:1.6 !important;color:#b6b6b6}
+    .how-grid{gap:30px}
+    .tier-name{font-size:20px !important}
+    .tier-price{font-size:42px !important}
+    .tier-period{font-size:15px !important}
+    .tier-desc{font-size:16px !important}
+    .features li{font-size:15.5px !important;line-height:1.55 !important}
+    .tier-cta{font-size:16px !important}
+    /* footer — bigger + cleaner */
+    .footer{padding-top:60px;padding-bottom:44px}
+    .footer-logo{font-size:23px !important}
+    .footer-tag{font-size:16px !important;line-height:1.6;color:#9a9a9a}
+    .footer-col h4{font-size:14px !important;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px}
+    .footer-col a,.footer-col p{font-size:15.5px !important;line-height:1.95 !important}
+    .footer-bottom{margin-top:34px}
+    .footer-bottom p{font-size:14px !important}
+    .footer-disclaimer{font-size:13px !important}
+    /* added sections — bumped to match */
+    .tm-story p{font-size:20px !important;line-height:1.8 !important}
+    .tm-msg{font-size:16.5px !important}
+    .tm-faq-item summary{font-size:17.5px !important}
+    .tm-faq-item p{font-size:16px !important}
+    .tm-disclaimer p{font-size:15.5px !important}
+
+    /* ===== SCREENSHOTS SHOWCASE (added) ===== */
+    .tm-shots{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:40px}
+    .tm-shot{flex:0 0 auto;width:248px;border-radius:30px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.6);border:1px solid #222;transition:transform .25s ease}
+    .tm-shot:hover{transform:translateY(-6px)}
+    .tm-shot img{display:block;width:100%;height:auto}
+    @media(max-width:900px){
+      .tm-shots{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding:8px 4px 18px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+      .tm-shot{width:220px;scroll-snap-align:center}
+      .tm-shots::-webkit-scrollbar{height:7px}
+      .tm-shots::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:8px}
+    }
+    @media(max-width:600px){.tm-story p{font-size:17px !important}.tm-msg{font-size:15px !important}}
   </style>
 </head>
 <body>
@@ -93,6 +139,21 @@
           <h3 data-i18n="how.s3.title">It asks. You answer.</h3>
           <p data-i18n="how.s3.desc">No advice. No comfort. The questions you've been avoiding.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREENSHOTS SHOWCASE -->
+  <section id="screens" class="section">
+    <div class="container">
+      <h2 class="section-title" id="shotsTitle">See it in action</h2>
+      <p class="section-sub" id="shotsSub">Real screens from the app. No mockups.</p>
+      <div class="tm-shots">
+        <div class="tm-shot"><img src="screens/shot1.png" alt="TruthMirror chat" loading="lazy"></div>
+        <div class="tm-shot"><img src="screens/shot2.png" alt="Honesty evolution" loading="lazy"></div>
+        <div class="tm-shot"><img src="screens/shot3.png" alt="AI tones" loading="lazy"></div>
+        <div class="tm-shot"><img src="screens/shot4.png" alt="App lock" loading="lazy"></div>
+        <div class="tm-shot"><img src="screens/shot5.png" alt="Crisis support" loading="lazy"></div>
       </div>
     </div>
   </section>
@@ -317,5 +378,31 @@
 
   <script src="script.js"></script>
   <script src="pricing-i18n.js"></script>
+  <script>
+    /* Screenshots section heading — translated independently, no dependency on script.js internals */
+    (function () {
+      var SH = {
+        en: { t: "See it in action", s: "Real screens from the app. No mockups." },
+        ro: { t: "Vezi-o în acțiune", s: "Capturi reale din aplicație. Fără machete." },
+        es: { t: "Míralo en acción", s: "Capturas reales de la app. Sin maquetas." },
+        ja: { t: "実際の画面を見る", s: "モックアップではなく、実際のアプリ画面です。" }
+      };
+      function cur() {
+        var b = document.querySelector('.lang-switch button.active');
+        return (b && b.getAttribute('data-lang')) || 'en';
+      }
+      function apply() {
+        var d = SH[cur()] || SH.en;
+        var t = document.getElementById('shotsTitle');
+        var s = document.getElementById('shotsSub');
+        if (t) t.textContent = d.t;
+        if (s) s.textContent = d.s;
+      }
+      document.querySelectorAll('.lang-switch button').forEach(function (b) {
+        b.addEventListener('click', function () { setTimeout(apply, 0); });
+      });
+      apply();
+    })();
+  </script>
 </body>
 </html>
