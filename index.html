@@ -63,9 +63,12 @@
 
     /* ===== SCREENSHOTS SHOWCASE (added) ===== */
     .tm-shots{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:40px}
-    .tm-shot{flex:0 0 auto;width:248px;border-radius:30px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.6);border:1px solid #222;transition:transform .25s ease}
+    .tm-shot{flex:0 0 auto;width:248px;border-radius:30px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.6);border:1px solid #222;transition:transform .25s ease;position:relative}
     .tm-shot:hover{transform:translateY(-6px)}
     .tm-shot img{display:block;width:100%;height:auto}
+    /* Gold caption overlay — only shown (text filled) on JA */
+    .tm-shot-cap{position:absolute;left:0;right:0;bottom:0;padding:34px 16px 16px;font-size:15px;font-weight:700;line-height:1.4;color:#D4AF37;text-align:center;background:linear-gradient(to top,rgba(10,10,10,.92) 0%,rgba(10,10,10,.75) 55%,transparent 100%);pointer-events:none}
+    .tm-shot-cap:empty{display:none}
     .tm-swipe{display:none}
     @media(max-width:900px){
       .tm-shots{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding:8px 4px 16px;scroll-snap-type:x mandatory;scroll-padding-left:24px;-webkit-overflow-scrolling:touch}
@@ -169,11 +172,26 @@
       <h2 class="section-title" data-i18n="screens.title">See it in action</h2>
       <p class="section-sub" data-i18n="screens.subtitle">Real screens from the app. No mockups.</p>
       <div class="tm-shots">
-        <div class="tm-shot"><img src="screens/shot1.png" alt="TruthMirror chat" loading="lazy"></div>
-        <div class="tm-shot"><img src="screens/shot2.png" alt="Honesty evolution" loading="lazy"></div>
-        <div class="tm-shot"><img src="screens/shot3.png" alt="AI tones" loading="lazy"></div>
-        <div class="tm-shot"><img src="screens/shot4.png" alt="App lock" loading="lazy"></div>
-        <div class="tm-shot"><img src="screens/shot5.png" alt="Crisis support" loading="lazy"></div>
+        <div class="tm-shot">
+          <img src="screens/shot1.png" data-shot-eur="screens/shot1.png" data-shot-ja="screens/shot1-ja.png" alt="TruthMirror chat" loading="lazy">
+          <span class="tm-shot-cap" data-shot-cap data-cap-en="" data-cap-ja="鏡は答えない。問い返す。"></span>
+        </div>
+        <div class="tm-shot">
+          <img src="screens/shot2.png" data-shot-eur="screens/shot2.png" data-shot-ja="screens/shot2-ja.png" alt="Honesty evolution" loading="lazy">
+          <span class="tm-shot-cap" data-shot-cap data-cap-en="" data-cap-ja="同じ嘘は二度つけない"></span>
+        </div>
+        <div class="tm-shot">
+          <img src="screens/shot3.png" data-shot-eur="screens/shot3.png" data-shot-ja="screens/shot3-ja.png" alt="AI tones" loading="lazy">
+          <span class="tm-shot-cap" data-shot-cap data-cap-en="" data-cap-ja="あなたに向き合う声を選ぶ"></span>
+        </div>
+        <div class="tm-shot">
+          <img src="screens/shot4.png" data-shot-eur="screens/shot4.png" data-shot-ja="screens/shot4-ja.png" alt="App lock" loading="lazy">
+          <span class="tm-shot-cap" data-shot-cap data-cap-en="" data-cap-ja="あなただけの鏡"></span>
+        </div>
+        <div class="tm-shot">
+          <img src="screens/shot5.png" data-shot-eur="screens/shot5.png" data-shot-ja="screens/shot5.png" alt="Crisis support" loading="lazy">
+          <span class="tm-shot-cap" data-shot-cap data-cap-en="" data-cap-ja="必要なときは、そばに"></span>
+        </div>
       </div>
       <div class="tm-swipe" aria-hidden="true">›››</div>
     </div>
@@ -400,8 +418,9 @@
   <script src="script.js"></script>
   <script src="pricing-i18n.js"></script>
   <script>
-    /* Japanese pricing: show yen on JA, euro on every other language. The real
-       price charged in Japan is set by Apple per region; this is display only. */
+    /* Japanese pricing + screenshots: show yen and JA screens on JA, euro and
+       default screens on every other language. The real price charged in Japan
+       is set by Apple per region; this is display only. */
     (function () {
       function curLang() {
         var b = document.querySelector('.lang-switch button.active');
@@ -418,6 +437,15 @@
           });
         }
         /* For non-JA, pricing-i18n.js already sets the correct euro annual text. */
+
+        /* Screenshots: swap to JA versions + show gold captions only on JA. */
+        document.querySelectorAll('.tm-shot img[data-shot-ja]').forEach(function (el) {
+          var next = ja ? el.getAttribute('data-shot-ja') : el.getAttribute('data-shot-eur');
+          if (next && el.getAttribute('src') !== next) el.setAttribute('src', next);
+        });
+        document.querySelectorAll('.tm-shot-cap[data-shot-cap]').forEach(function (el) {
+          el.textContent = ja ? (el.getAttribute('data-cap-ja') || '') : (el.getAttribute('data-cap-en') || '');
+        });
       }
       document.querySelectorAll('.lang-switch button').forEach(function (b) {
         b.addEventListener('click', function () { setTimeout(applyPrices, 0); });
