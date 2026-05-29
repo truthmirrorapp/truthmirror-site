@@ -6,6 +6,7 @@ body {
   color: #f0f0f0;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
 a { color: #D4AF37; text-decoration: none; }
@@ -395,9 +396,26 @@ a:hover { opacity: 0.85; }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .container { padding: 0 1rem; }
   .hero { padding: 4rem 1rem 3rem; }
   .section { padding: 3rem 1rem; }
   .navbar { padding: 0.75rem 1rem; }
   .pricing-card { padding: 2rem 1.25rem 1.5rem; }
   .tier-price { font-size: 2rem; }
+
+  /* Legal pages: stop the triple padding so text uses the full screen width */
+  .legal-page { padding: 2rem 0; }
+  .legal-page h1 { font-size: 1.7rem; }
+  .legal-page pre { padding: 1.25rem 1rem; font-size: 0.92rem; }
+
+  /* Forms stack and fill the width */
+  .waitlist-hero, .waitlist { flex-direction: column; max-width: 100%; }
+  .waitlist-hero input, .waitlist input { min-width: 0; width: 100%; }
+  .waitlist-hero button, .waitlist button { width: 100%; }
+}
+
+@media (max-width: 420px) {
+  .container { padding: 0 0.75rem; }
+  .legal-page pre { padding: 1rem 0.85rem; font-size: 0.88rem; }
+  .hero h1 { letter-spacing: -0.5px; }
 }
