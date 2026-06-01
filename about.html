@@ -8,6 +8,65 @@
   <link rel="canonical" href="https://www.truthmirror.net/about.html">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ---- Stil dedicat documentului (la fel ca pe terms / privacy) ---- */
+    .legal-page {
+      --ld-accent: #CC0000;
+      --ld-text: #e8e6e3;
+      --ld-text-muted: #b5b2ae;
+      --ld-border: #242424;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .legal-page h1 {
+      font-family: 'Inter', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      line-height: 1.15;
+      color: var(--ld-text);
+      margin-bottom: 0.3rem;
+    }
+    .legal-page .meta {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--ld-text-muted);
+      margin-bottom: 2.4rem;
+      padding-bottom: 1.4rem;
+      border-bottom: 1px solid var(--ld-border);
+    }
+    .legal-page h2 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.18rem;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+      color: var(--ld-text);
+      margin: 2.6rem 0 0.8rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--ld-border);
+    }
+    .legal-page p {
+      font-family: 'Georgia', 'Iowan Old Style', 'Palatino', serif;
+      color: var(--ld-text-muted);
+      line-height: 1.75;
+      font-size: 1.06rem;
+      margin: 0.8rem 0;
+    }
+    .legal-page p.meta { font-family: 'Inter', sans-serif; }
+    .legal-page a { color: var(--ld-accent); }
+    .legal-page strong { color: var(--ld-text); font-weight: 700; }
+    .legal-page .back-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 1.6rem;
+    }
+    @media (max-width: 600px) {
+      .legal-page h1 { font-size: 1.6rem; }
+      .legal-page h2 { font-size: 1.05rem; }
+      .legal-page p { font-size: 1rem; }
+    }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -47,7 +106,7 @@
       <h1 data-i18n="about.title">About</h1>
       <p class="meta" data-i18n="about.meta">The story behind the mirror.</p>
 
-      <p style="font-size: 18px; line-height: 1.8; color: var(--text);" data-i18n="about.lead">
+      <p style="font-size: 1.18rem; color: var(--ld-text);" data-i18n="about.lead">
         TruthMirror was built to explore the space between identity, emotion, and artificial intelligence. Not to comfort. Not to flatter. But to reflect.
       </p>
 

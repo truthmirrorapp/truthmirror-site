@@ -17,21 +17,22 @@ const PRICING_I18N = {
         f1: "20 questions per day", f2: "Full history",
         f3: "Pattern Evolution chart", f4: "Honesty Score tracking",
         f5: "Daily reminder", f6: "Streak counter",
-        annual: "Annual: €39 (2 months free)", cta: "Join waitlist"
+        f7: "3 separate contexts", f8: "PDF export (1/month)",
+        annual: "Annual: €49 (2 months free)", cta: "Join waitlist"
       },
       mirror: {
         name: "Mirror", period: "per month", desc: "Deep work",
         f1: "50 questions per day", f2: "Everything in Reflection, plus:",
-        f3: "Adjustable tone (Gentle / Direct / Unfiltered)",
-        f4: "Weekly report",
-        annual: "Annual: €69 (2 months free)", cta: "Join waitlist"
+        f3: "Weekly Insights Report", f4: "Unlimited PDF export",
+        f5: "Conversation tagging", f6: "Custom personality (Gentle / Direct / Unfiltered)",
+        f7: "6 separate contexts", f8: "Priority support 24h",
+        annual: "Annual: €99 (2 months free)", cta: "Join waitlist"
       },
       truth: {
         name: "Truth", period: "per month", desc: "Total clarity",
         f1: "Unlimited questions", f2: "Everything in Mirror, plus:",
-        f3: "Voice mode (talk to AI)",
-        f4: "Multiple separate contexts",
-        f5: "Monthly deep analysis report",
+        f3: "Early access to new features", f4: "Voice mode (talk to the AI)",
+        f5: "15 separate contexts", f6: "Monthly deep analysis report",
         annual: ""
       }
     },
@@ -63,21 +64,22 @@ const PRICING_I18N = {
         f1: "20 întrebări pe zi", f2: "Istoric complet",
         f3: "Grafic Pattern Evolution", f4: "Honesty Score în timp",
         f5: "Reminder zilnic", f6: "Streak counter",
-        annual: "Anual: €39 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
+        f7: "3 contexte separate", f8: "Export PDF (1/lună)",
+        annual: "Anual: €49 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
       },
       mirror: {
         name: "Mirror", period: "pe lună", desc: "Lucru profund",
         f1: "50 întrebări pe zi", f2: "Tot ce e în Reflection, plus:",
-        f3: "Ton ajustabil (Blând / Direct / Nefiltrat)",
-        f4: "Raport săptămânal",
-        annual: "Anual: €69 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
+        f3: "Raport săptămânal de insights", f4: "Export PDF nelimitat",
+        f5: "Etichete pe conversații", f6: "Personalitate ajustabilă (Blând / Direct / Brut)",
+        f7: "6 contexte separate", f8: "Suport prioritar 24h",
+        annual: "Anual: €99 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
       },
       truth: {
         name: "Truth", period: "pe lună", desc: "Claritate totală",
         f1: "Întrebări nelimitate", f2: "Tot ce e în Mirror, plus:",
-        f3: "Voice mode (vorbește cu AI)",
-        f4: "Contexte multiple separate",
-        f5: "Raport lunar de analiză profundă",
+        f3: "Acces timpuriu la funcții noi", f4: "Mod voce (vorbește cu AI)",
+        f5: "15 contexte separate", f6: "Raport lunar de analiză profundă",
         annual: ""
       }
     },
@@ -109,21 +111,22 @@ const PRICING_I18N = {
         f1: "20 preguntas al día", f2: "Historial completo",
         f3: "Gráfico de evolución de patrones", f4: "Seguimiento Honesty Score",
         f5: "Recordatorio diario", f6: "Contador de racha",
-        annual: "Anual: €39 (2 meses gratis)", cta: "Únete a la waitlist"
+        f7: "3 contextos separados", f8: "Exportar PDF (1/mes)",
+        annual: "Anual: €49 (2 meses gratis)", cta: "Únete a la waitlist"
       },
       mirror: {
         name: "Mirror", period: "al mes", desc: "Trabajo profundo",
         f1: "50 preguntas al día", f2: "Todo en Reflection, además:",
-        f3: "Tono ajustable (Suave / Directo / Sin filtro)",
-        f4: "Informe semanal",
-        annual: "Anual: €69 (2 meses gratis)", cta: "Únete a la waitlist"
+        f3: "Informe semanal de insights", f4: "Exportar PDF ilimitado",
+        f5: "Etiquetas en conversaciones", f6: "Personalidad ajustable (Suave / Directo / Sin filtro)",
+        f7: "6 contextos separados", f8: "Soporte prioritario 24h",
+        annual: "Anual: €99 (2 meses gratis)", cta: "Únete a la waitlist"
       },
       truth: {
         name: "Truth", period: "al mes", desc: "Claridad total",
         f1: "Preguntas ilimitadas", f2: "Todo en Mirror, además:",
-        f3: "Modo voz (habla con el AI)",
-        f4: "Múltiples contextos separados",
-        f5: "Informe mensual de análisis profundo",
+        f3: "Acceso anticipado a nuevas funciones", f4: "Modo voz (habla con el AI)",
+        f5: "15 contextos separados", f6: "Informe mensual de análisis profundo",
         annual: ""
       }
     },
@@ -155,21 +158,22 @@ const PRICING_I18N = {
         f1: "1日20の質問", f2: "全履歴",
         f3: "パターン推移グラフ", f4: "誠実度スコアの記録",
         f5: "毎日のリマインダー", f6: "連続記録カウンター",
-        annual: "年額: €39（2か月分無料）", cta: "ウェイトリストに登録"
+        f7: "3つの個別コンテキスト", f8: "PDF書き出し（月1回）",
+        annual: "年額: €49（2か月分無料）", cta: "ウェイトリストに登録"
       },
       mirror: {
         name: "Mirror", period: "月額", desc: "深い取り組み",
         f1: "1日50の質問", f2: "Reflection のすべて、さらに:",
-        f3: "トーン調整（優しい / ストレート / ノーフィルター）",
-        f4: "週次レポート",
-        annual: "年額: €69（2か月分無料）", cta: "ウェイトリストに登録"
+        f3: "週次インサイトレポート", f4: "PDF書き出し無制限",
+        f5: "対話のタグ付け", f6: "性格のカスタマイズ（やさしい / 直球 / ありのまま）",
+        f7: "6つの個別コンテキスト", f8: "24時間優先サポート",
+        annual: "年額: €99（2か月分無料）", cta: "ウェイトリストに登録"
       },
       truth: {
         name: "Truth", period: "月額", desc: "完全な明晰さ",
         f1: "無制限の質問", f2: "Mirror のすべて、さらに:",
-        f3: "音声モード（AIと話す）",
-        f4: "複数の独立したコンテキスト",
-        f5: "月次の詳細分析レポート",
+        f3: "新機能への先行アクセス", f4: "音声モード（AIと話す）",
+        f5: "15個の個別コンテキスト", f6: "月次の詳細分析レポート",
         annual: ""
       }
     },
