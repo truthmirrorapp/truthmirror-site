@@ -22,7 +22,7 @@ You must affirmatively accept these Terms during the in-app onboarding flow befo
 
 3. AGE REQUIREMENT — 18+
 
-TruthMirror is intended exclusively for adults aged 18 years or older. You must confirm your year of birth during onboarding and you must not use the Service if you are under 18.
+TruthMirror is intended exclusively for adults aged 18 years or older. You must confirm your date of birth during onboarding and you must not use the Service if you are under 18.
 
 If we become aware that a user is under 18, we will terminate their access and delete associated data without prior notice.
 
@@ -50,7 +50,7 @@ GLIMPSE (FREE):
 - Basic pattern detection
 - 7 days history retention
 - Crisis resources
-- Available in English, Romanian, and Spanish
+- Available in English, Romanian, Spanish, and Japanese
 
 REFLECTION (€4.99/month or €49/year):
 - 20 AI questions per day
@@ -63,9 +63,8 @@ REFLECTION (€4.99/month or €49/year):
 - PDF export (1/month)
 
 MIRROR (€9.99/month or €99/year):
-- 100 AI questions per day
+- 50 AI questions per day
 - Everything in Reflection
-- Voice mode
 - Weekly Insights Report
 - Unlimited PDF export
 - Conversation tagging
@@ -76,7 +75,7 @@ MIRROR (€9.99/month or €99/year):
 TRUTH (€19.99/month or €199/year) — Launching approximately 6 months after public release:
 - Unlimited AI questions
 - Everything in Mirror
-- Custom AI voice (5 voices)
+- Voice mode (talk to the AI)
 - Monthly deep analysis report
 - Data deletion on demand (24h)
 

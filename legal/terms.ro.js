@@ -22,7 +22,7 @@ Trebuie să accepți explicit acești Termeni în fluxul de onboarding din aplic
 
 3. CERINȚA DE VÂRSTĂ — 18+
 
-TruthMirror este destinat exclusiv adulților de 18 ani sau mai mult. Trebuie să confirmi anul nașterii în timpul onboarding-ului și nu trebuie să folosești Serviciul dacă ai sub 18 ani.
+TruthMirror este destinat exclusiv adulților de 18 ani sau mai mult. Trebuie să confirmi data nașterii în timpul onboarding-ului și nu trebuie să folosești Serviciul dacă ai sub 18 ani.
 
 Dacă aflăm că un utilizator are sub 18 ani, vom termina accesul acestuia și vom șterge datele asociate fără preaviz.
 
@@ -50,7 +50,7 @@ GLIMPSE (GRATIS):
 - Detectare pattern-uri de bază
 - Istoric 7 zile
 - Resurse de criză
-- Disponibil în engleză, română și spaniolă
+- Disponibil în engleză, română, spaniolă și japoneză
 
 REFLECTION (€4,99/lună sau €49/an):
 - 20 întrebări AI pe zi
@@ -63,9 +63,8 @@ REFLECTION (€4,99/lună sau €49/an):
 - Export PDF (1/lună)
 
 MIRROR (€9,99/lună sau €99/an):
-- 100 întrebări AI pe zi
+- 50 întrebări AI pe zi
 - Tot ce e în Reflection
-- Voice mode (vorbește cu AI)
 - Raport săptămânal de insights
 - Export PDF nelimitat
 - Etichete pe conversații
@@ -76,7 +75,7 @@ MIRROR (€9,99/lună sau €99/an):
 TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lansarea publică:
 - Întrebări AI nelimitate
 - Tot ce e în Mirror
-- Voce AI personalizată (5 voci)
+- Mod voce (vorbește cu AI)
 - Raport lunar de analiză profundă
 - Ștergere date la cerere (24h)
 
