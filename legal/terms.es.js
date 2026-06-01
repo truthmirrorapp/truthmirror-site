@@ -37,7 +37,7 @@ TruthMirror NO es:
 (d) asesoramiento legal, financiero o de relaciones;
 (e) una herramienta de diagnóstico.
 
-El Servicio se proporciona para reflexión personal y autoconocimiento. Reconoces que las respuestas de la IA pueden ser inexactas, inapropiadas o inadecuadas para tu situación, y asumes plena responsabilidad por cualquier decisión que tomes.
+El Servicio se proporciona para reflexión personal y autoconocimiento. Reconoces que las respuestas de la IA pueden ser inexactas, inapropiadas o inadecuadas para tu situación, y asumes plena responsabilidad por cualquier decisión que tomes. Cualquier puntuación o métrica generada por la App (por ejemplo, la puntuación de claridad / «Honesty Score») es una métrica interpretativa generada por IA, destinada únicamente a la autorreflexión, y no constituye una evaluación científica, médica, psiquiátrica ni psicológica.
 
 Si estás experimentando una crisis de salud mental, pensamientos suicidas, o estás en peligro para ti mismo o para otros, deja de usar la App y contacta a los servicios de emergencia de tu país (p. ej., 112 en la UE, 988 en EE. UU., 116 123 en el Reino Unido) o visita findahelpline.com.
 
@@ -73,7 +73,7 @@ MIRROR (€9,99/mes o €99/año):
 - Soporte prioritario
 
 TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses después del lanzamiento público:
-- Preguntas de IA ilimitadas
+- Preguntas de IA ilimitadas (sujeto a uso razonable)
 - Todo en Mirror
 - Modo voz (habla con la IA)
 - Informe mensual de análisis profundo
@@ -81,6 +81,8 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 5.2 Las suscripciones anuales ofrecen aproximadamente 2 meses gratis en comparación con la facturación mensual.
 
 5.3 Los precios pueden cambiar con un preaviso de al menos 30 días. Los suscriptores existentes serán notificados a través de la App y/o correo electrónico. Los cambios de precio no se aplican a tu período de facturación actual.
+5.4 Uso razonable (fair use). Los planes con preguntas «ilimitadas» están destinados a un uso personal, individual y de buena fe. Para proteger el Servicio y a los demás usuarios, nos reservamos el derecho de aplicar medidas razonables de prevención de abusos — por ejemplo, en casos de automatización, acceso programático no autorizado, uso compartido de la cuenta entre varias personas, reventa o un volumen de uso claramente desproporcionado respecto al uso humano normal. En tales casos podemos limitar temporalmente la tasa de uso, contactar al usuario o, en casos graves, suspender la cuenta, de acuerdo con la sección 10 (Uso aceptable).
+
 
 6. PRUEBA GRATUITA
 
@@ -98,7 +100,7 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 - iOS: Ajustes → Apple ID → Suscripciones → TruthMirror
 - Android: Google Play → Perfil → Pagos y suscripciones
 
-7.3 GARANTÍA DE 30 DÍAS DE DEVOLUCIÓN. Si TruthMirror no cumple tus expectativas, puedes solicitar un reembolso completo dentro de los 30 días posteriores a tu primer cargo, escribiendo a support@truthmirror.net con tu ID de transacción. Los reembolsos se procesan en 5 días hábiles a través del método de pago original. No se requiere motivo.
+7.3 GARANTÍA DE 30 DÍAS DE DEVOLUCIÓN. Si TruthMirror no cumple tus expectativas, puedes solicitar un reembolso completo dentro de los 30 días posteriores a tu primer cargo, escribiendo a support@truthmirror.net con tu ID de transacción. Los reembolsos se procesan en 5 días hábiles a través del método de pago original. No se requiere motivo. Nos reservamos el derecho de rechazar solicitudes de reembolso abusivas, fraudulentas o repetidas.
 
 7.4 DESISTIMIENTO DEL CONSUMIDOR UE. Los consumidores de la UE/EEE tienen derecho legal a desistir de los contratos de servicios digitales dentro de los 14 días posteriores a la compra. Para ejercer este derecho, contacta support@truthmirror.net. Al comenzar a usar el Servicio inmediatamente después de la compra, puedes renunciar a este derecho según el Artículo 16(m) de la Directiva 2011/83/UE.
 

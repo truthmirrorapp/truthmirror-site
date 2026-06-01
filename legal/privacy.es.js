@@ -92,7 +92,7 @@ Compartimos datos solo con los siguientes encargados, estrictamente para operar 
 
 (a) Supabase — base de datos, autenticación y alojamiento backend (UE, Fráncfort). Almacena los datos de la cuenta y el contador de uso descritos en las secciones 2.1–2.2. NO almacena el contenido de tus conversaciones.
 
-(b) Anthropic PBC — proveedor del modelo de IA (EE. UU.). Recibe el texto de tu mensaje de forma transitoria para generar una respuesta. Anthropic no usa los datos de la API para entrenar sus modelos; Según las políticas de Anthropic, el texto enviado a través de la API puede ser conservado por Anthropic durante un período breve (normalmente hasta unos pocos días) exclusivamente con fines de seguridad y prevención de abusos, tras lo cual se elimina. Si un mensaje se marca como una posible infracción de las políticas de uso, Anthropic puede conservarlo durante un período más largo, según sus propios términos.
+(b) Anthropic PBC — proveedor del modelo de IA (EE. UU.). Recibe el texto de tu mensaje de forma transitoria para generar una respuesta. Anthropic no usa los datos de la API para entrenar sus modelos. Según las políticas de Anthropic, el texto enviado a través de la API puede ser conservado por Anthropic durante un período breve (normalmente hasta unos pocos días) exclusivamente con fines de seguridad y prevención de abusos, tras lo cual se elimina. Si un mensaje se marca como una posible infracción de las políticas de uso, Anthropic puede conservarlo durante un período más largo, según sus propios términos.
 
 (c) Resend — proveedor de email transaccional (UE, Irlanda). Recibe tu dirección de email exclusivamente para entregar el código de inicio de sesión.
 

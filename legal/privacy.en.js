@@ -92,7 +92,7 @@ We share data only with the following processors, strictly to operate the Servic
 
 (a) Supabase — database, authentication and backend hosting (EU, Frankfurt). Stores the account data and usage counter described in sections 2.1–2.2. Does NOT store the content of your conversations.
 
-(b) Anthropic PBC — AI model provider (US). Receives your message text transiently to generate a reply. Anthropic does not use API data to train its models; Under Anthropic's policies, text sent through the API may be retained by Anthropic for a short period (normally up to a few days) solely for safety and abuse-prevention purposes, after which it is deleted. If a message is flagged as a possible violation of the usage policies, Anthropic may retain it for a longer period, under its own terms.
+(b) Anthropic PBC — AI model provider (US). Receives your message text transiently to generate a reply. Anthropic does not use API data to train its models. Under Anthropic's policies, text sent through the API may be retained by Anthropic for a short period (normally up to a few days) solely for safety and abuse-prevention purposes, after which it is deleted. If a message is flagged as a possible violation of the usage policies, Anthropic may retain it for a longer period, under its own terms.
 
 (c) Resend — transactional email provider (EU, Ireland). Receives your email address solely to deliver the sign-in code.
 

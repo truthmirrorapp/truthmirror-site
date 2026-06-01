@@ -37,7 +37,7 @@ TruthMirror NU este:
 (d) consultanță juridică, financiară sau de relații;
 (e) tool de diagnostic.
 
-Serviciul este furnizat pentru reflecție personală și auto-cunoaștere. Recunoști că răspunsurile AI pot fi inexacte, nepotrivite sau improprii situației tale și îți asumi întreaga responsabilitate pentru deciziile pe care le iei.
+Serviciul este furnizat pentru reflecție personală și auto-cunoaștere. Recunoști că răspunsurile AI pot fi inexacte, nepotrivite sau improprii situației tale și îți asumi întreaga responsabilitate pentru deciziile pe care le iei. Orice scor sau metrică generată de Aplicație (de exemplu, scorul de claritate / „Honesty Score") este o interpretare generată de AI, destinată exclusiv auto-reflecției, și nu constituie o evaluare științifică, medicală, psihiatrică sau psihologică.
 
 Dacă te confrunți cu o criză de sănătate mentală, gânduri suicidare sau ești în pericol pentru tine sau alții, oprește utilizarea Aplicației și contactează serviciile de urgență din țara ta (de ex., 112 în UE, 988 în SUA, 116 123 în Marea Britanie) sau vizitează findahelpline.com.
 
@@ -73,7 +73,7 @@ MIRROR (€9,99/lună sau €99/an):
 - Suport prioritar
 
 TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lansarea publică:
-- Întrebări AI nelimitate
+- Întrebări AI nelimitate (sub rezerva utilizării rezonabile)
 - Tot ce e în Mirror
 - Mod voce (vorbește cu AI)
 - Raport lunar de analiză profundă
@@ -81,6 +81,8 @@ TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lan
 5.2 Abonamentele anuale oferă aproximativ 2 luni gratis comparativ cu facturarea lunară.
 
 5.3 Prețurile se pot schimba cu un preaviz de cel puțin 30 zile. Abonații existenți vor fi notificați prin Aplicație și/sau email. Schimbările de preț nu se aplică perioadei tale curente de facturare.
+5.4 Utilizare rezonabilă (fair use). Planurile cu întrebări „nelimitate" sunt destinate utilizării personale, individuale și de bună-credință. Pentru a proteja Serviciul și pe ceilalți utilizatori, ne rezervăm dreptul de a aplica măsuri rezonabile de prevenire a abuzului — de exemplu, în caz de automatizare, acces programatic neautorizat, partajarea contului între mai multe persoane, revânzare sau un volum de utilizare vădit disproporționat față de utilizarea umană normală. În astfel de cazuri putem limita temporar rata de utilizare, contacta utilizatorul sau, în situații grave, suspenda contul, în conformitate cu secțiunea 10 (Utilizare acceptabilă).
+
 
 6. TRIAL GRATIS
 
@@ -98,7 +100,7 @@ TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lan
 - iOS: Setări → Apple ID → Abonamente → TruthMirror
 - Android: Google Play → Profil → Plăți și abonamente
 
-7.3 GARANȚIE 30 ZILE MONEY-BACK. Dacă TruthMirror nu îți îndeplinește așteptările, poți cere rambursare integrală în 30 zile de la prima taxare, scriind la support@truthmirror.net cu ID-ul tranzacției. Rambursările sunt procesate în 5 zile lucrătoare prin metoda originală de plată. Nu e necesar un motiv.
+7.3 GARANȚIE 30 ZILE MONEY-BACK. Dacă TruthMirror nu îți îndeplinește așteptările, poți cere rambursare integrală în 30 zile de la prima taxare, scriind la support@truthmirror.net cu ID-ul tranzacției. Rambursările sunt procesate în 5 zile lucrătoare prin metoda originală de plată. Nu e necesar un motiv. Ne rezervăm dreptul de a refuza cererile de rambursare abuzive, frauduloase sau repetate.
 
 7.4 RETRAGERE CONSUMATOR UE. Consumatorii din UE/SEE au dreptul legal de a se retrage din contractele pentru servicii digitale în 14 zile de la cumpărare. Pentru a exercita acest drept, contactează support@truthmirror.net. Prin începerea utilizării Serviciului imediat după cumpărare, poți renunța la acest drept conform Articolului 16(m) din Directiva 2011/83/UE.
 

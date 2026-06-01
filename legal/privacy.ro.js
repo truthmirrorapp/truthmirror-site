@@ -92,7 +92,7 @@ Partajăm date doar cu următorii procesatori, strict pentru a opera Serviciul, 
 
 (a) Supabase — bază de date, autentificare și găzduire backend (UE, Frankfurt). Stochează datele de cont și contorul de utilizare descrise în secțiunile 2.1–2.2. NU stochează conținutul conversațiilor tale.
 
-(b) Anthropic PBC — furnizor de model AI (SUA). Primește textul mesajului tău în mod tranzitoriu pentru a genera un răspuns. Anthropic nu folosește datele din API pentru a-și antrena modelele; Conform politicilor Anthropic, textul transmis prin API poate fi păstrat de Anthropic pentru o perioadă scurtă (în mod normal până la câteva zile) exclusiv în scopuri de siguranță și prevenire a abuzurilor, după care este șters. În cazul în care un mesaj este semnalat ca o posibilă încălcare a politicilor de utilizare, Anthropic îl poate păstra pe o perioadă mai lungă, conform propriilor termeni.
+(b) Anthropic PBC — furnizor de model AI (SUA). Primește textul mesajului tău în mod tranzitoriu pentru a genera un răspuns. Anthropic nu folosește datele din API pentru a-și antrena modelele. Conform politicilor Anthropic, textul transmis prin API poate fi păstrat de Anthropic pentru o perioadă scurtă (în mod normal până la câteva zile) exclusiv în scopuri de siguranță și prevenire a abuzurilor, după care este șters. În cazul în care un mesaj este semnalat ca o posibilă încălcare a politicilor de utilizare, Anthropic îl poate păstra pe o perioadă mai lungă, conform propriilor termeni.
 
 (c) Resend — furnizor de email tranzacțional (UE, Irlanda). Primește adresa ta de email exclusiv pentru a livra codul de autentificare.
 
