@@ -37,7 +37,7 @@ TruthMirror is NOT:
 (d) legal, financial, or relationship advice;
 (e) a diagnostic tool.
 
-The Service is provided for personal reflection and entertainment. You acknowledge that AI responses may be inaccurate, inappropriate, or unsuitable for your situation, and you assume full responsibility for any decisions you make.
+The Service is provided for personal reflection and self-awareness. You acknowledge that AI responses may be inaccurate, inappropriate, or unsuitable for your situation, and you assume full responsibility for any decisions you make.
 
 If you are experiencing a mental health crisis, suicidal thoughts, or are in danger to yourself or others, stop using the App and contact emergency services in your country (e.g., 112 in the EU, 988 in the United States, 116 123 in the UK) or visit findahelpline.com.
 

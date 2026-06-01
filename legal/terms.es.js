@@ -37,7 +37,7 @@ TruthMirror NO es:
 (d) asesoramiento legal, financiero o de relaciones;
 (e) una herramienta de diagnóstico.
 
-El Servicio se proporciona para reflexión personal y entretenimiento. Reconoces que las respuestas de la IA pueden ser inexactas, inapropiadas o inadecuadas para tu situación, y asumes plena responsabilidad por cualquier decisión que tomes.
+El Servicio se proporciona para reflexión personal y autoconocimiento. Reconoces que las respuestas de la IA pueden ser inexactas, inapropiadas o inadecuadas para tu situación, y asumes plena responsabilidad por cualquier decisión que tomes.
 
 Si estás experimentando una crisis de salud mental, pensamientos suicidas, o estás en peligro para ti mismo o para otros, deja de usar la App y contacta a los servicios de emergencia de tu país (p. ej., 112 en la UE, 988 en EE. UU., 116 123 en el Reino Unido) o visita findahelpline.com.
 

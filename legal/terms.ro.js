@@ -37,7 +37,7 @@ TruthMirror NU este:
 (d) consultanță juridică, financiară sau de relații;
 (e) tool de diagnostic.
 
-Serviciul este furnizat pentru reflecție personală și divertisment. Recunoști că răspunsurile AI pot fi inexacte, nepotrivite sau improprii situației tale și îți asumi întreaga responsabilitate pentru deciziile pe care le iei.
+Serviciul este furnizat pentru reflecție personală și auto-cunoaștere. Recunoști că răspunsurile AI pot fi inexacte, nepotrivite sau improprii situației tale și îți asumi întreaga responsabilitate pentru deciziile pe care le iei.
 
 Dacă te confrunți cu o criză de sănătate mentală, gânduri suicidare sau ești în pericol pentru tine sau alții, oprește utilizarea Aplicației și contactează serviciile de urgență din țara ta (de ex., 112 în UE, 988 în SUA, 116 123 în Marea Britanie) sau vizitează findahelpline.com.
 
