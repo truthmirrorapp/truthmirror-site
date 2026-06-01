@@ -5,54 +5,70 @@ Versión: 2026-05-28
 
 1. INTRODUCCIÓN
 
-Esta Política de Privacidad explica cómo Social Media Group SRL («nosotros», «nos», «nuestro») recopila, usa, almacena y protege tus datos personales cuando utilizas la aplicación móvil y el sitio web de TruthMirror («App», «Servicio»).
+Esta Política de Privacidad explica cómo Social Media Group SRL («nosotros», «nos», «nuestro») recopila, utiliza, almacena y protege tus datos personales cuando usas la aplicación móvil y el sitio web de TruthMirror (la «Aplicación», el «Servicio»).
 
-Nos comprometemos a proteger tu privacidad y a cumplir el Reglamento General de Protección de Datos de la UE (RGPD), la Ley rumana 190/2018 y las leyes de protección de datos aplicables.
+Somos el responsable del tratamiento (data controller) de tus datos. El almacenamiento y el tratamiento efectivos se realizan a través de proveedores de infraestructura de confianza que actúan como encargados del tratamiento (processors) en nuestro nombre y según nuestras instrucciones (véase la sección 6).
+
+Nos comprometemos a proteger tu privacidad y a cumplir el Reglamento General de Protección de Datos (RGPD), la Ley rumana 190/2018 y la legislación aplicable en materia de protección de datos.
 
 Responsable del tratamiento:
 Social Media Group SRL
 Bucarest, Rumanía
-Correo: support@truthmirror.net
+Email: support@truthmirror.net
 
 2. QUÉ DATOS RECOPILAMOS
 
-2.1 Almacenados solo en tu dispositivo (no los recibimos ni los almacenamos en nuestros servidores):
-- El contenido de texto de tus conversaciones con la IA
-- Las respuestas de la IA a tus mensajes
-- Las etiquetas de patrones de comportamiento detectados (p. ej. «evitación», «intelectualización»)
-- Tu Puntuación de Honestidad y las estadísticas calculadas a partir de tus conversaciones
-- Tu año de nacimiento (solo para verificar la edad — el año, no la fecha completa)
-- Tus registros de consentimiento
+2.1 Datos de la cuenta (almacenados a través de nuestro proveedor de backend, en la UE):
+Para crear y proteger tu cuenta, recopilamos:
+- Tu dirección de email (necesaria para el inicio de sesión con código, sin contraseña);
+- Tu fecha de nacimiento (necesaria para verificar que tienes al menos 18 años);
+- Un identificador de tu dispositivo (usado para seguridad y para evitar la reactivación de cuentas bloqueadas);
+- Una versión criptográfica irreversible (hash) de tu dirección de email (usada para seguridad y aplicación de bloqueos — véase la sección 7.3);
+- La fecha en que verificaste tu edad;
+- Tu preferencia de idioma;
+- Un indicador de tu plan de suscripción (véase 2.6 para la gestión de suscripciones).
 
-2.2 Almacenados en nuestros servidores (mínimos, seudónimos):
-- Un identificador anónimo generado en tu dispositivo (no vinculado a tu identidad real)
-- Tu preferencia de idioma
-- Tu plan de suscripción (tier) y su estado
-- La fecha y hora de cada pregunta que envías — registradas SIN ningún contenido del mensaje — únicamente para aplicar los límites diarios de preguntas
+2.2 Datos de uso (almacenados a través de nuestro proveedor de backend, sin contenido):
+- La fecha y la hora de cada pregunta que envías — registradas SIN ningún contenido del mensaje — exclusivamente para aplicar los límites diarios de preguntas según tu plan.
 
-2.3 Datos que NO recopilamos ni almacenamos en nuestros servidores:
-- El contenido de tus conversaciones ni las respuestas de la IA (permanecen en tu dispositivo)
-- Tus estadísticas de patrones ni tu Puntuación de Honestidad (permanecen en tu dispositivo)
-- Tu nombre real (salvo que lo incluyas voluntariamente en el texto de la conversación)
-- Tu dirección de correo (salvo que nos contactes o te unas a la waitlist)
-- Tu ubicación precisa
-- Tus contactos, fotos u otros datos del dispositivo
-- Los datos de tu tarjeta de pago (gestionados íntegramente por Apple/Google)
+2.3 Datos almacenados SOLO en tu dispositivo (nunca nos llegan ni se almacenan en nuestra infraestructura):
+- El contenido de texto de tus conversaciones con la IA;
+- Las respuestas de la IA a tus mensajes;
+- Las etiquetas de patrones de comportamiento detectados (p. ej. «evitación», «intelectualización»);
+- La puntuación de claridad y las estadísticas calculadas a partir de tus conversaciones;
+- El PIN de bloqueo de la app (almacenado cifrado, nunca transmitido);
+- Los registros de tu consentimiento y los ajustes de la app.
+
+2.4 Analítica de uso anónima:
+Usamos Aptabase (con servidores en la Unión Europea) para estadísticas de uso estrictamente anónimas — por ejemplo, cuántas personas abren la app o qué idioma usan. Estos eventos contienen SOLO datos técnicos anónimos (nombre del evento, números, idioma, plan). NO contienen tu email, el contenido de las conversaciones ni datos que puedan identificarte personalmente.
+
+2.5 Datos que NO recopilamos:
+- El contenido de tus conversaciones ni las respuestas de la IA (permanecen en tu dispositivo);
+- Tus estadísticas o la puntuación de claridad (permanecen en tu dispositivo);
+- Tu nombre real (salvo que lo incluyas voluntariamente en el texto de la conversación);
+- Tu ubicación exacta;
+- Contactos, fotos u otros datos del dispositivo;
+- Los datos de la tarjeta de pago (gestionados íntegramente por Apple/Google y el procesador de suscripciones — véase 2.6).
+
+2.6 Suscripciones:
+Las suscripciones y los pagos son gestionados por Apple (App Store) o Google (Google Play), junto con RevenueCat, un proveedor especializado en gestión de suscripciones. Procesan la transacción y solo nos comunican el estado de tu suscripción (activa/inactiva y el plan), que usamos para darte el acceso correcto. NUNCA recibimos ni almacenamos los datos de tu tarjeta bancaria.
 
 3. CÓMO USAMOS TUS DATOS
 
 Tratamos tus datos para:
 (a) prestar el Servicio principal — generar respuestas de IA, detectar patrones, calcular estadísticas (estas dos últimas ocurren y se almacenan en tu dispositivo);
-(b) permitirte conservar y revisar tu historial de conversaciones y tu evolución en el tiempo, en tu dispositivo;
-(c) aplicar los límites diarios de preguntas según tu plan;
-(d) verificar que cumples el requisito de edad de 18+;
-(e) ofrecer atención al cliente cuando nos contactas;
-(f) cumplir obligaciones legales.
+(b) crear y proteger tu cuenta mediante inicio de sesión con código por email;
+(c) verificar que cumples el requisito de edad de 18+;
+(d) aplicar los límites diarios de preguntas según tu suscripción;
+(e) proteger el Servicio y a los demás usuarios, incluida la prevención de la reactivación de cuentas bloqueadas (especialmente para la protección de menores);
+(f) permitirte conservar y revisar tu historial de conversaciones y tu evolución, en tu dispositivo;
+(g) ofrecer soporte cuando nos contactas;
+(h) cumplir las obligaciones legales.
 
-Bases jurídicas según el RGPD (Artículo 6):
-- Ejecución de un contrato (prestar el Servicio que has contratado);
-- Tu consentimiento (que das durante el onboarding y puedes retirar en cualquier momento);
-- Nuestros intereses legítimos (mejorar y proteger el Servicio);
+Bases legales según el RGPD (Artículo 6):
+- Ejecución de un contrato (prestación del Servicio que has contratado);
+- Tu consentimiento (otorgado en el primer inicio, que puedes retirar en cualquier momento);
+- Nuestros intereses legítimos (proteger el Servicio, proteger a los menores, prevenir el abuso);
 - Cumplimiento de obligaciones legales.
 
 4. NO ENTRENAMOS LA IA CON TUS DATOS
@@ -61,29 +77,37 @@ NO usamos el contenido de tus conversaciones para entrenar, ajustar ni mejorar n
 
 5. ALMACENAMIENTO Y UBICACIÓN DE LOS DATOS
 
-5.1 En tu dispositivo: Tu historial de conversaciones, las respuestas de la IA, tus etiquetas de patrones, estadísticas, Puntuación de Honestidad, año de nacimiento y registros de consentimiento se almacenan localmente en tu dispositivo. No se transmiten ni se almacenan en nuestros servidores.
+5.1 En tu dispositivo: El historial de conversaciones, las respuestas de la IA, las etiquetas de patrones, las estadísticas, la puntuación de claridad, el PIN y los registros de consentimiento se almacenan localmente en tu dispositivo. Nunca nos llegan ni se almacenan en nuestra infraestructura.
 
-5.2 En nuestros servidores: Almacenamos solo los datos seudónimos mínimos necesarios para gestionar las suscripciones y aplicar los límites — un identificador anónimo generado por el dispositivo, tu preferencia de idioma, tu plan y su estado, la hora de tu última actividad y un registro sin contenido de la fecha/hora de cada pregunta (usado solo para contar el uso diario). Están alojados por Supabase en la Unión Europea (Frankfurt, Alemania). NO almacenamos en nuestros servidores el contenido de tus conversaciones, las respuestas de la IA ni tus estadísticas de patrones.
+5.2 A través de nuestro proveedor de backend: Los datos de la cuenta (sección 2.1) y los registros de uso sin contenido (sección 2.2) están alojados por Supabase en la Unión Europea (Fráncfort, Alemania), en nuestro nombre. El contenido de tus conversaciones, las respuestas de la IA y tus estadísticas NO se almacenan ahí.
 
-5.3 Procesamiento de IA: Cuando envías un mensaje, su texto se transmite a Anthropic PBC (Estados Unidos), proveedor del modelo de IA Claude, únicamente para generar una respuesta, que luego se devuelve a tu dispositivo. No conservamos el mensaje ni la respuesta en nuestros servidores. Véase la sección 11 sobre transferencias internacionales.
+5.3 Procesamiento de IA: Cuando envías un mensaje, su texto se transmite (de forma transitoria, sin que lo almacenemos) a través de nuestro servidor de procesamiento a Anthropic PBC (Estados Unidos), el proveedor del modelo de IA Claude, exclusivamente para generar una respuesta, que luego se devuelve a tu dispositivo. Véase la sección 11 sobre transferencias internacionales.
 
-6. ENCARGADOS DEL TRATAMIENTO (TERCEROS)
+5.4 Emails: Usamos Resend (con servidores en la Unión Europea, Irlanda) exclusivamente para enviarte el código de inicio de sesión por email. Resend procesa tu dirección de email solo para entregar ese mensaje.
 
-Compartimos datos solo con los siguientes encargados, estrictamente para operar el Servicio:
+6. ENCARGADOS DEL TRATAMIENTO
 
-(a) Supabase — base de datos y alojamiento del backend (UE). Almacena solo los datos seudónimos mínimos de cuenta y el contador de uso descritos en la sección 5.2. NO almacena el contenido de tus conversaciones, las respuestas de la IA ni las estadísticas.
+Compartimos datos solo con los siguientes encargados, estrictamente para operar el Servicio, cada uno actuando en nuestro nombre:
 
-(b) Anthropic PBC — proveedor del modelo de IA (EE. UU.). Recibe el texto de tu mensaje de forma transitoria para generar una respuesta. Anthropic no usa los datos de la API para entrenar sus modelos; puede conservar datos limitados durante un breve periodo con fines de seguridad, según sus propios términos.
+(a) Supabase — base de datos, autenticación y alojamiento backend (UE, Fráncfort). Almacena los datos de la cuenta y el contador de uso descritos en las secciones 2.1–2.2. NO almacena el contenido de tus conversaciones.
 
-(c) Apple / Google — procesamiento de suscripciones y pagos. Nunca recibimos los datos completos de tu tarjeta.
+(b) Anthropic PBC — proveedor del modelo de IA (EE. UU.). Recibe el texto de tu mensaje de forma transitoria para generar una respuesta. Anthropic no usa los datos de la API para entrenar sus modelos; puede conservar datos limitados durante un período breve por motivos de seguridad, según sus propios términos.
 
-Cada encargado está vinculado por un acuerdo de tratamiento de datos conforme al Artículo 28 del RGPD.
+(c) Resend — proveedor de email transaccional (UE, Irlanda). Recibe tu dirección de email exclusivamente para entregar el código de inicio de sesión.
+
+(d) Aptabase — analítica de uso anónima (UE). Recibe solo eventos técnicos anónimos, ningún dato que pueda identificarte.
+
+(e) RevenueCat, Apple y Google — gestión y procesamiento de suscripciones y pagos. Nunca recibimos los datos completos de tu tarjeta.
+
+Cada encargado está vinculado por un acuerdo de tratamiento de datos según el Artículo 28 del RGPD.
 
 7. CONSERVACIÓN DE LOS DATOS
 
-7.1 En tu dispositivo: Tu historial de conversaciones, estadísticas y puntuaciones existen solo en tu dispositivo, bajo tu control. La vista de historial en la app muestra los últimos 7 días en el plan gratuito (Glimpse) y el historial completo en los planes de pago. Puedes exportar (en los planes de pago) o eliminar todo en cualquier momento, y eliminar la App borra estos datos.
+7.1 En tu dispositivo: El historial de conversaciones, las estadísticas y las puntuaciones existen solo en tu dispositivo, bajo tu control. La vista del historial en la app muestra los últimos 7 días en el plan gratuito (Glimpse) y el historial completo en los planes de pago. Puedes exportar (en los planes de pago) o eliminar todo en cualquier momento, y eliminar la App borra estos datos.
 
-7.2 En nuestros servidores: Conservamos solo los datos seudónimos mínimos descritos en la sección 5.2. Los registros de uso diario no contienen ningún contenido de mensaje y se usan únicamente para contar las preguntas por día. Si tu identificador permanece inactivo durante 24 meses, eliminamos los datos asociados.
+7.2 Datos de la cuenta: Los conservamos mientras tu cuenta esté activa. Puedes eliminar tu cuenta en cualquier momento directamente en la App (Ajustes → «Eliminar cuenta»), lo que elimina los datos asociados (email, fecha de nacimiento, identificador de dispositivo, preferencias, contador de uso), salvo lo descrito en la sección 7.3. Si una cuenta permanece inactiva durante 24 meses, eliminamos los datos asociados.
+
+7.3 Excepción para la protección de menores y la prevención del abuso: Si una cuenta es bloqueada (por ejemplo, porque pertenece a una persona menor de 18 años o por abuso), conservamos la versión criptográfica irreversible (hash) de la dirección de email y el identificador del dispositivo en una lista de bloqueo, incluso después de eliminar la cuenta. Esto es estrictamente necesario para evitar la reactivación de una cuenta bloqueada y para proteger a los menores. Esta lista NO contiene tu email en texto claro y no puede usarse para contactarte ni para marketing. La base legal es nuestro interés legítimo en proteger a los menores y la integridad del Servicio (Artículo 6(1)(f) del RGPD).
 
 8. TUS DERECHOS SEGÚN EL RGPD
 
@@ -94,47 +118,51 @@ Tienes derecho a:
 (d) LIMITACIÓN — limitar cómo tratamos tus datos;
 (e) PORTABILIDAD — recibir tus datos en un formato portátil;
 (f) OPOSICIÓN — oponerte al tratamiento basado en intereses legítimos;
-(g) RETIRAR EL CONSENTIMIENTO — en cualquier momento, sin afectar al tratamiento lícito anterior.
+(g) RETIRADA DEL CONSENTIMIENTO — en cualquier momento, sin afectar al tratamiento lícito anterior.
 
-Como tus conversaciones se almacenan en tu dispositivo, puedes ejercer los derechos (c) y (e) directamente en la App:
-- Ajustes → «Eliminar todos mis datos» borra de inmediato todo lo que hay en tu dispositivo.
-- La exportación a PDF (en los planes de pago) ofrece portabilidad.
+Puedes ejercer el derecho de supresión (c) directamente en la App:
+- Ajustes → «Eliminar cuenta» elimina permanentemente tu cuenta, los datos de la cuenta en nuestro proveedor de backend (email, fecha de nacimiento, identificador de dispositivo, preferencias, contador de uso) Y todos los datos de tu dispositivo (conversaciones, estadísticas, puntuación, PIN).
+- Ajustes → «Eliminar todos mis datos» elimina solo los datos de tu dispositivo (conversaciones, estadísticas), conservando la cuenta.
+- La exportación a PDF (en los planes de pago) cubre la portabilidad (e) de los datos de tu dispositivo (conversaciones, estadísticas). Para una copia de los datos de cuenta almacenados en el servidor (email, fecha de nacimiento, preferencia de idioma, plan de suscripción), escribe a support@truthmirror.net.
 
-Para ejercer cualquier otro derecho, escribe a support@truthmirror.net. Respondemos en un plazo de 30 días.
+Para cualquier otro derecho (acceso, rectificación, limitación, oposición), escribe a support@truthmirror.net. Respondemos en un plazo de 30 días. Ten en cuenta que, para la protección de menores, la lista de bloqueo descrita en la sección 7.3 puede conservarse incluso después de eliminar la cuenta, sobre la base del interés legítimo.
 
-También tienes derecho a presentar una reclamación ante la Autoridad Rumana de Protección de Datos (ANSPDCP) o ante tu autoridad de control local.
+También tienes derecho a presentar una reclamación ante la Autoridad Nacional de Supervisión del Tratamiento de Datos Personales de Rumanía (ANSPDCP) o ante tu autoridad de control local.
 
 9. SEGURIDAD DE LOS DATOS
 
-Aplicamos medidas técnicas y organizativas adecuadas para proteger tus datos, entre ellas:
-- Cifrado en tránsito (HTTPS/TLS) para todos los datos intercambiados entre la App, nuestros servidores y nuestro proveedor de IA;
-- Tus conversaciones se almacenan localmente en tu dispositivo y no se conservan en nuestros servidores;
-- Los datos mínimos en nuestros servidores están protegidos por controles de acceso y cifrados en reposo por nuestro proveedor de alojamiento;
+Implementamos medidas técnicas y organizativas adecuadas para proteger tus datos, incluyendo:
+- Cifrado en tránsito (HTTPS/TLS) para todos los datos intercambiados entre la App, nuestros proveedores y el proveedor de IA;
+- Tus conversaciones se almacenan localmente en tu dispositivo y no se conservan en nuestra infraestructura;
+- El PIN se almacena cifrado en el dispositivo, nunca se transmite;
+- Los datos del backend están protegidos por controles de acceso y cifrados en reposo por el proveedor de alojamiento;
+- El email de la lista de bloqueo se conserva solo como hash irreversible, nunca en texto claro;
 - La clave de nuestro proveedor de IA se almacena solo en el servidor, nunca en la App;
+- La posibilidad de bloquear la app con PIN o biometría (Face ID / huella dactilar);
 - Revisión periódica de seguridad de nuestra infraestructura.
 
-Ningún sistema es completamente seguro. Te recomendamos evitar incluir datos identificativos muy sensibles (nombre completo, dirección, números de documento) en el texto de las conversaciones.
+Ningún sistema es completamente seguro. Te recomendamos evitar incluir datos identificativos muy sensibles (nombre completo, dirección, números de documento de identidad) en el texto de las conversaciones.
 
 10. PRIVACIDAD DE LOS MENORES
 
-TruthMirror es estrictamente para usuarios de 18 años o más. No recopilamos a sabiendas datos de menores de 18 años. Si descubrimos que hemos recopilado datos de un menor, los eliminaremos de inmediato. La App utiliza un cálculo automatizado de estadísticas de patrones. Estos cálculos no producen decisiones legales ni de efecto similarmente significativo sobre ti. Siempre conservas el control sobre cómo interpretar o actuar según los resultados de la App.
+TruthMirror está destinado estrictamente a usuarios de 18 años o más. Verificamos la edad al crear la cuenta mediante la fecha de nacimiento. No recopilamos conscientemente datos de menores de 18 años. Si descubrimos que un usuario es menor de 18 años, la cuenta se bloquea y los datos personales asociados se eliminan, conservando solo los elementos mínimos de la lista de bloqueo (sección 7.3) estrictamente para evitar la recreación de la cuenta. La App usa un cálculo automatizado de estadísticas de patrones. Estos cálculos no producen decisiones legales ni efectos similarmente significativos sobre ti. Siempre mantienes el control sobre cómo interpretas o actúas según los resultados de la App.
 
 11. TRANSFERENCIAS INTERNACIONALES
 
-Como se indica en la sección 5.3, el texto de tu mensaje se transmite (no lo almacenamos) a Anthropic en Estados Unidos al amparo de las Cláusulas Contractuales Tipo. Hemos evaluado esta transferencia y consideramos que ofrece una protección adecuada según el Capítulo V del RGPD. Puedes solicitar una copia de las garantías pertinentes contactando con support@truthmirror.net.
+La mayoría de tus datos (cuenta, uso, email, analítica) se tratan en la Unión Europea. La única excepción es el texto de tus mensajes, que se transmite de forma transitoria a Anthropic en Estados Unidos para generar la respuesta de la IA — sin que lo almacenemos. Esta transferencia se realiza sobre la base de las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea, el mecanismo legal reconocido para transferir datos fuera de la UE. Para preguntas sobre esta transferencia, puedes contactarnos en support@truthmirror.net.
 
 12. CAMBIOS EN ESTA POLÍTICA
 
-Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos los cambios importantes a través de la App. La «fecha de entrada en vigor» en la parte superior indicará la revisión más reciente.
+Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos los cambios importantes a través de la App. La «Fecha de entrada en vigor» de la parte superior indicará la revisión más reciente.
 
 13. CONTACTO
 
-Para preguntas sobre privacidad o para ejercer tus derechos según el RGPD, contacta:
+Para preguntas sobre privacidad o para ejercer tus derechos del RGPD, contacta:
 Social Media Group SRL
 Bucarest, Rumanía
 support@truthmirror.net
 
-Autoridad Rumana de Protección de Datos (ANSPDCP):
+Autoridad Nacional de Supervisión del Tratamiento de Datos Personales de Rumanía (ANSPDCP):
 www.dataprotection.ro
 B-dul G-ral. Gheorghe Magheru 28-30, Sector 1, Bucarest, Rumanía
 `;
