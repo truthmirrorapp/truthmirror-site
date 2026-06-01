@@ -77,7 +77,6 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 - Todo en Mirror
 - Modo voz (habla con la IA)
 - Informe mensual de análisis profundo
-- Eliminación de datos bajo petición (24h)
 
 5.2 Las suscripciones anuales ofrecen aproximadamente 2 meses gratis en comparación con la facturación mensual.
 
@@ -170,12 +169,31 @@ Podemos actualizar estos Términos de vez en cuando. Si hacemos cambios material
 
 16.3 Los consumidores de la Unión Europea también pueden usar la plataforma de Resolución de Disputas en Línea de la Comisión Europea: https://ec.europa.eu/consumers/odr
 
-17. CONTACTO
+17. TIENDAS DE APLICACIONES (APP STORE Y GOOGLE PLAY)
+
+Cuando descargas TruthMirror desde Apple App Store o Google Play, se aplican adicionalmente las siguientes disposiciones:
+
+17.1 Estos Términos se celebran únicamente entre tú y Social Media Group SRL, y no con Apple Inc. ni Google LLC. Social Media Group SRL, y no Apple ni Google, es el único responsable de la App y su contenido.
+
+17.2 Apple y Google no tienen ninguna obligación de proporcionar servicios de mantenimiento o soporte técnico para la App. Cualquier solicitud de soporte debe dirigirse a nosotros en support@truthmirror.net.
+
+17.3 Si la App no cumple con alguna garantía aplicable, puedes notificarlo a Apple, y Apple podrá reembolsar el precio de compra de la App (si lo hubiera); en la máxima medida permitida por la ley, Apple no tendrá ninguna otra obligación de garantía con respecto a la App. Para las compras en Google Play se aplica la política de reembolso de Google.
+
+17.4 Apple y Google no son responsables de atender ninguna reclamación tuya o de un tercero relacionada con la App, incluidas, entre otras: (a) reclamaciones de responsabilidad por producto; (b) cualquier reclamación de que la App no cumple un requisito legal o reglamentario aplicable; y (c) reclamaciones derivadas de la legislación de protección al consumidor o similar.
+
+17.5 En caso de cualquier reclamación de un tercero de que la App o tu uso de ella infringe los derechos de propiedad intelectual de dicho tercero, Social Media Group SRL, y no Apple ni Google, será el único responsable de la investigación, defensa, resolución y liquidación de dicha reclamación.
+
+17.6 Apple, Google y sus filiales son terceros beneficiarios de estos Términos y, al aceptar estos Términos, tendrán derecho (y se considerará que han aceptado dicho derecho) a hacerlos cumplir contra ti como terceros beneficiarios.
+
+17.7 También debes cumplir con los términos de servicio aplicables de terceros al usar la App (por ejemplo, los términos de App Store o Google Play).
+
+18. CONTACTO
 
 Para cualquier pregunta, queja o solicitud legal relacionada con estos Términos, contacta:
 
 Social Media Group SRL
-Bucarest, Rumanía
+Bd. Decebal 12, București, România
+CUI: 42636861 · Reg. Mercantil: J40/6444/2020
 Email: support@truthmirror.net
 
 Al usar la App, confirmas que has leído y entendido estos Términos y que los aceptas en su totalidad.

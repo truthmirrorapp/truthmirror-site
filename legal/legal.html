@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TruthMirror — Legal</title>
+<meta name="description" content="Termeni și condiții și Politica de confidențialitate TruthMirror." />
+
+<!-- Fișierele de conținut (aceleași folosite în aplicație, varianta .js). -->
+<!-- Adaugă toate limbile pe care le ai. Ordinea nu contează. -->
+<script src="terms.ro.js"></script>
+<script src="terms.en.js"></script>
+<script src="terms.es.js"></script>
+<script src="terms.ja.js"></script>
+<script src="privacy.ro.js"></script>
+<script src="privacy.en.js"></script>
+<script src="privacy.es.js"></script>
+<script src="privacy.ja.js"></script>
+
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --surface: #121212;
+    --text: #e8e6e3;
+    --text-dim: #8a8784;
+    --text-muted: #b5b2ae;
+    --accent: #CC0000;
+    --accent-soft: rgba(204, 0, 0, 0.12);
+    --accent-line: rgba(204, 0, 0, 0.35);
+    --border: #242424;
+    --highlight-bg: rgba(204, 0, 0, 0.10);
+    --max-width: 820px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Georgia', 'Iowan Old Style', 'Palatino', serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 6rem;
+  }
+
+  /* subtle grain/atmosphere */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(900px 500px at 50% -10%, rgba(204,0,0,0.06), transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.6rem;
+  }
+
+  /* ---------- Header ---------- */
+  header.site {
+    border-bottom: 1px solid var(--border);
+    padding: 2.4rem 0 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+  .brand {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.32em;
+    font-size: 0.95rem;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  .brand-tick {
+    display: inline-block;
+    width: 34px;
+    height: 2px;
+    background: var(--accent);
+    margin: 0.9rem 0 0;
+  }
+
+  /* ---------- Controls (doc + lang) ---------- */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  .seg {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .seg button {
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    padding: 0.5rem 1.15rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: color .2s, background .2s;
+  }
+  .seg button.active {
+    background: var(--accent);
+    color: #fff;
+  }
+  .seg button:not(.active):hover { color: var(--text); }
+
+  .lang {
+    display: inline-flex;
+    gap: 0.25rem;
+  }
+  .lang button {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-dim);
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: color .2s, border-color .2s;
+  }
+  .lang button.active { color: var(--accent); border-color: var(--accent-line); }
+  .lang button:not(.active):hover { color: var(--text); }
+
+  /* ---------- Document ---------- */
+  article {
+    animation: fade .5s ease both;
+  }
+  @keyframes fade {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .doc-title {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2.1rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+  }
+  .doc-meta {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-bottom: 2.6rem;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .doc-meta span { display: inline-block; margin-right: 1.2rem; }
+
+  /* Section heading (1. INTRODUCERE) */
+  h2.section {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.18rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    color: var(--text);
+    margin: 2.8rem 0 0.9rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--border);
+    scroll-margin-top: 1rem;
+  }
+  h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+  h2.section .num {
+    color: var(--accent);
+    margin-right: 0.5rem;
+  }
+
+  /* Sub-heading (5.1, 17.2 etc.) */
+  h3.subsection {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  p.para {
+    color: var(--text-muted);
+    margin: 0.85rem 0;
+    font-size: 1.04rem;
+  }
+
+  /* list items (lines starting with - ) */
+  ul.bullets {
+    list-style: none;
+    margin: 0.6rem 0 1rem;
+    padding: 0;
+  }
+  ul.bullets li {
+    position: relative;
+    padding-left: 1.4rem;
+    color: var(--text-muted);
+    margin: 0.45rem 0;
+    font-size: 1.02rem;
+  }
+  ul.bullets li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.72em;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+
+  /* contact / address block (lines with no period, short) */
+  .block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 2px solid var(--accent);
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  /* highlighted GDPR / key terms */
+  mark {
+    background: var(--highlight-bg);
+    color: var(--text);
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    font-weight: 600;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  /* caps emphasis (IMPORTANT, NU ANTRENĂM...) already in source */
+  strong { color: var(--text); font-weight: 700; }
+
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-line); }
+  a:hover { border-bottom-color: var(--accent); }
+
+  /* footer */
+  footer.site {
+    margin-top: 4rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--border);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .doc-title { font-size: 1.6rem; }
+    h2.section { font-size: 1.05rem; }
+    .controls { gap: 0.8rem; }
+    .wrap { padding: 0 1.1rem; }
+    p.para, ul.bullets li { font-size: 1rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="brand">TruthMirror</div>
+    <div class="brand-tick"></div>
+
+    <div class="controls">
+      <div class="seg" id="docSeg">
+        <button data-doc="terms" class="active">Termeni</button>
+        <button data-doc="privacy">Confidențialitate</button>
+      </div>
+      <div class="lang" id="langSeg">
+        <button data-lang="ro" class="active">RO</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+        <button data-lang="ja">JA</button>
+      </div>
+    </div>
+  </header>
+
+  <article id="doc"></article>
+
+  <footer class="site">
+    Social Media Group SRL · București, România · support@truthmirror.net
+  </footer>
+</div>
+
+<script>
+(function () {
+  // ---- state ----
+  var state = { doc: 'terms', lang: 'ro' };
+
+  // Eticheta documentului în fiecare limbă (pentru segmente).
+  var SEG_LABELS = {
+    ro: { terms: 'Termeni', privacy: 'Confidențialitate' },
+    en: { terms: 'Terms', privacy: 'Privacy' },
+    es: { terms: 'Términos', privacy: 'Privacidad' },
+    ja: { terms: '利用規約', privacy: 'プライバシー' },
+  };
+
+  // Cuvinte-cheie evidențiate (GDPR + drepturi), per limbă.
+  // Sunt potrivite case-insensitive, doar cuvinte întregi, în interiorul paragrafelor.
+  var KEYWORDS = {
+    ro: ['GDPR','ANSPDCP','date cu caracter personal','dreptul de acces','dreptul la ștergere',
+         'dreptul la portabilitate','dreptul la rectificare','dreptul de opoziție','consimțământ',
+         'interes legitim','Clauzelor Contractuale Standard','Clauze Contractuale Standard',
+         'operator de date','persoane împuternicite','profilare','decizii automate','Articolul 22',
+         'date personale','dreptul de a fi uitat','Legea 190/2018','retragere','rambursare integrală',
+         '18 ani','minori'],
+    en: ['GDPR','ANSPDCP','personal data','right of access','right to erasure','right to data portability',
+         'right to rectification','right to object','consent','legitimate interest',
+         'Standard Contractual Clauses','data controller','processors','profiling','automated decisions',
+         'Article 22','right to be forgotten','full refund','18 and over','minors'],
+    es: ['RGPD','GDPR','ANSPDCP','datos personales','derecho de acceso','derecho de supresión',
+         'derecho a la portabilidad','derecho de rectificación','derecho de oposición','consentimiento',
+         'interés legítimo','Cláusulas Contractuales Estándar','responsable del tratamiento',
+         'encargados del tratamiento','elaboración de perfiles','decisiones automatizadas','Artículo 22',
+         'derecho al olvido','reembolso','18 años','menores'],
+    ja: ['GDPR','ANSPDCP','個人データ','アクセス権','消去権','データポータビリティ','訂正権','異議申立権',
+         '同意','正当な利益','標準契約条項','データ管理者','プロファイリング','自動化された意思決定',
+         '第22条','忘れられる権利','返金','18歳','未成年者'],
+  };
+
+  function escapeHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+  function escapeReg(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+
+  // Evidențiază cuvintele-cheie într-un fragment (deja HTML-escaped).
+  function highlight(html, lang) {
+    var kws = (KEYWORDS[lang] || []).slice().sort(function(a,b){return b.length-a.length;});
+    for (var i=0;i<kws.length;i++){
+      var k = escapeHtml(kws[i]);
+      var re = new RegExp('(?<![\\w])(' + escapeReg(k) + ')(?![\\w])', 'gi');
+      html = html.replace(re, '<mark>$1</mark>');
+    }
+    return html;
+  }
+
+  function getRaw(doc, lang) {
+    var key = (doc === 'terms' ? 'TERMS_' : 'PRIVACY_') + lang.toUpperCase();
+    return window[key] || '';
+  }
+
+  // Detectoare de linie
+  var reSection = /^(\d{1,2})\.\s+(.+)$/;          // 1. TITLU
+  var reSub     = /^(\d{1,2}\.\d{1,2})\s+(.+)$/;    // 5.1 text
+  var reBullet  = /^-\s+(.+)$/;                     // - element
+
+  function render() {
+    var raw = getRaw(state.doc, state.lang);
+    var el = document.getElementById('doc');
+    if (!raw) {
+      el.innerHTML = '<p class="para">Document indisponibil.</p>';
+      return;
+    }
+    var lines = raw.replace(/\r\n/g,'\n').split('\n');
+
+    // Prima linie = titlu doc (ex POLITICA... / TERMENI...), apoi TruthMirror, apoi meta (Data/Versiune)
+    var html = [];
+    var i = 0;
+
+    // Titlu document: prima linie ne-goală
+    while (i < lines.length && !lines[i].trim()) i++;
+    var docTitle = lines[i] ? lines[i].trim() : '';
+    i++;
+    // a doua linie de obicei "TruthMirror"
+    var sub = (lines[i] && lines[i].trim() === 'TruthMirror') ? (i++, 'TruthMirror') : '';
+
+    // meta: liniile imediat urmatoare care contin "Data" / "Versiune" / "Effective" / "Version" etc.
+    var meta = [];
+    while (i < lines.length && lines[i].trim() &&
+           !reSection.test(lines[i].trim())) {
+      meta.push(lines[i].trim());
+      i++;
+    }
+
+    html.push('<h1 class="doc-title">' + escapeHtml(docTitle) + '</h1>');
+    var metaParts = [];
+    if (sub) metaParts.push(escapeHtml(sub));
+    for (var m=0;m<meta.length;m++) metaParts.push(escapeHtml(meta[m]));
+    if (metaParts.length) {
+      html.push('<div class="doc-meta">' +
+        metaParts.map(function(x){return '<span>'+x+'</span>';}).join('') + '</div>');
+    }
+
+    // Parcurg restul: grupez bullets consecutive, detectez secțiuni/subsecțiuni/blocuri
+    var bulletBuf = [];
+    function flushBullets() {
+      if (bulletBuf.length) {
+        html.push('<ul class="bullets">' +
+          bulletBuf.map(function(b){ return '<li>' + highlight(escapeHtml(b), state.lang) + '</li>'; }).join('') +
+          '</ul>');
+        bulletBuf = [];
+      }
+    }
+
+    // pentru blocul de contact (linii scurte consecutive fara punct, la final)
+    for (; i < lines.length; i++) {
+      var lnRaw = lines[i];
+      var ln = lnRaw.trim();
+      if (!ln) { flushBullets(); continue; }
+
+      var mSec = ln.match(reSection);
+      var mSub = ln.match(reSub);
+      var mBul = ln.match(reBullet);
+
+      if (mBul) {
+        bulletBuf.push(mBul[1]);
+        continue;
+      }
+      flushBullets();
+
+      if (mSec && !mSub) {
+        html.push('<h2 class="section" id="s-' + mSec[1] + '"><span class="num">' +
+          mSec[1] + '.</span>' + highlight(escapeHtml(mSec[2]), state.lang) + '</h2>');
+      } else if (mSub) {
+        html.push('<h3 class="subsection">' +
+          '<strong>' + escapeHtml(mSub[1]) + '</strong> ' +
+          highlight(escapeHtml(mSub[2]), state.lang) + '</h3>');
+      } else {
+        // paragraf normal
+        html.push('<p class="para">' + highlight(escapeHtml(ln), state.lang) + '</p>');
+      }
+    }
+    flushBullets();
+
+    el.innerHTML = html.join('\n');
+    document.documentElement.lang = state.lang;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Actualizează etichetele segmentului de document în limba curentă
+  function refreshSegLabels() {
+    var lbl = SEG_LABELS[state.lang] || SEG_LABELS.en;
+    var btns = document.querySelectorAll('#docSeg button');
+    btns.forEach(function(b){
+      b.textContent = lbl[b.getAttribute('data-doc')] || b.textContent;
+    });
+  }
+
+  // Wiring
+  document.getElementById('docSeg').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    state.doc = b.getAttribute('data-doc');
+    document.querySelectorAll('#docSeg button').forEach(function(x){x.classList.remove('active');});
+    b.classList.add('active');
+    render();
+  });
+  document.getElementById('langSeg').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    state.lang = b.getAttribute('data-lang');
+    document.querySelectorAll('#langSeg button').forEach(function(x){x.classList.remove('active');});
+    b.classList.add('active');
+    refreshSegLabels();
+    render();
+  });
+
+  // Permite deep-link: legal.html?doc=privacy&lang=en
+  var params = new URLSearchParams(location.search);
+  if (params.get('doc')) state.doc = params.get('doc');
+  if (params.get('lang')) state.lang = params.get('lang');
+  // sincronizez butoanele cu state-ul inițial
+  document.querySelectorAll('#docSeg button').forEach(function(x){
+    x.classList.toggle('active', x.getAttribute('data-doc')===state.doc);
+  });
+  document.querySelectorAll('#langSeg button').forEach(function(x){
+    x.classList.toggle('active', x.getAttribute('data-lang')===state.lang);
+  });
+
+  refreshSegLabels();
+  render();
+})();
+</script>
+</body>
+</html>

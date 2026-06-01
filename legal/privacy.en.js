@@ -13,7 +13,8 @@ We are committed to protecting your privacy and to complying with the General Da
 
 Data controller:
 Social Media Group SRL
-Bucharest, Romania
+Bd. Decebal 12, București, România
+Company ID (CUI): 42636861 · Trade Register: J40/6444/2020
 Email: support@truthmirror.net
 
 2. WHAT DATA WE COLLECT
@@ -81,7 +82,7 @@ We do NOT use the content of your conversations to train, fine-tune or improve a
 
 5.2 Through our backend provider: Account data (section 2.1) and content-free usage records (section 2.2) are hosted by Supabase in the European Union (Frankfurt, Germany), on our behalf. The content of your conversations, the AI replies and your statistics are NOT stored there.
 
-5.3 AI processing: When you send a message, its text is transmitted (transiently, without being stored by us) through our processing server to Anthropic PBC (United States), the provider of the Claude AI model, solely to generate a reply, which is then returned to your device. See section 11 on international transfers.
+5.3 AI processing: When you send a message, its text is transmitted (transiently, without being stored by us) through our processing server to Anthropic PBC (United States), the provider of the Claude AI model, solely to generate a reply, which is then returned to your device. See section 12 on international transfers.
 
 5.4 Emails: We use Resend (with servers in the European Union, Ireland) solely to send you the sign-in code by email. Resend processes your email address only to deliver that message.
 
@@ -91,7 +92,7 @@ We share data only with the following processors, strictly to operate the Servic
 
 (a) Supabase — database, authentication and backend hosting (EU, Frankfurt). Stores the account data and usage counter described in sections 2.1–2.2. Does NOT store the content of your conversations.
 
-(b) Anthropic PBC — AI model provider (US). Receives your message text transiently to generate a reply. Anthropic does not use API data to train its models; it may retain limited data for a short period for safety purposes, under its own terms.
+(b) Anthropic PBC — AI model provider (US). Receives your message text transiently to generate a reply. Anthropic does not use API data to train its models; Under Anthropic's policies, text sent through the API may be retained by Anthropic for a short period (normally up to a few days) solely for safety and abuse-prevention purposes, after which it is deleted. If a message is flagged as a possible violation of the usage policies, Anthropic may retain it for a longer period, under its own terms.
 
 (c) Resend — transactional email provider (EU, Ireland). Receives your email address solely to deliver the sign-in code.
 
@@ -145,17 +146,21 @@ No system is completely secure. We recommend that you avoid including highly sen
 
 10. CHILDREN'S PRIVACY
 
-TruthMirror is intended strictly for users aged 18 and over. We verify age at account creation through the date of birth. We do not knowingly collect data from anyone under 18. If we discover that a user is under 18, the account is blocked and the associated personal data is deleted, keeping only the minimal elements on the block list (section 7.3) strictly to prevent re-creation of the account. The App uses an automated calculation of pattern statistics. These calculations do not produce legal decisions or similarly significant effects on you. You always keep control over how you interpret or act on the App's outputs.
+TruthMirror is intended strictly for users aged 18 and over. We verify age at account creation through the date of birth. We do not knowingly collect data from anyone under 18. If we discover that a user is under 18, the account is blocked and the associated personal data is deleted, keeping only the minimal elements on the block list (section 7.3) strictly to prevent re-creation of the account.
 
-11. INTERNATIONAL TRANSFERS
+11. PROFILING AND AUTOMATED DECISIONS
+
+The App performs an automated calculation of behavioral pattern statistics (for example, the frequency of patterns such as "avoidance" or "intellectualizing") to show you your evolution over time. These calculations happen on your device and do not produce legal decisions or similarly significant effects on you within the meaning of Article 22 of the GDPR. The results are purely informational — you always keep full control over how you interpret or act on them.
+
+12. INTERNATIONAL TRANSFERS
 
 Most of your data (account, usage, email, analytics) is processed in the European Union. The only exception is the text of your messages, which is transmitted transiently to Anthropic in the United States to generate the AI reply — without being stored by us. This transfer is carried out on the basis of the Standard Contractual Clauses approved by the European Commission, the recognized legal mechanism for transferring data outside the EU. For questions about this transfer, you can contact us at support@truthmirror.net.
 
-12. CHANGES TO THIS POLICY
+13. CHANGES TO THIS POLICY
 
 We may update this Privacy Policy from time to time. We will notify you of important changes through the App. The "Effective date" at the top will indicate the most recent revision.
 
-13. CONTACT
+14. CONTACT
 
 For privacy questions or to exercise your GDPR rights, contact:
 Social Media Group SRL

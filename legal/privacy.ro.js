@@ -13,7 +13,8 @@ Ne angajăm să îți protejăm confidențialitatea și să respectăm Regulamen
 
 Operator de date:
 Social Media Group SRL
-București, România
+Bd. Decebal 12, București, România
+CUI: 42636861 · Reg. Com.: J40/6444/2020
 Email: support@truthmirror.net
 
 2. CE DATE COLECTĂM
@@ -81,7 +82,7 @@ NU folosim conținutul conversațiilor tale pentru a antrena, ajusta sau îmbun�
 
 5.2 Prin furnizorul nostru de backend: Datele de cont (secțiunea 2.1) și înregistrările de utilizare fără conținut (secțiunea 2.2) sunt găzduite de Supabase în Uniunea Europeană (Frankfurt, Germania), în numele nostru. Conținutul conversațiilor, răspunsurile AI și statisticile tale NU sunt stocate acolo.
 
-5.3 Procesarea AI: Când trimiți un mesaj, textul lui este transmis (în mod tranzitoriu, fără a fi stocat de noi) prin serverul nostru de procesare către Anthropic PBC (Statele Unite), furnizorul modelului AI Claude, exclusiv pentru a genera un răspuns, care este apoi returnat pe dispozitivul tău. Vezi secțiunea 11 privind transferurile internaționale.
+5.3 Procesarea AI: Când trimiți un mesaj, textul lui este transmis (în mod tranzitoriu, fără a fi stocat de noi) prin serverul nostru de procesare către Anthropic PBC (Statele Unite), furnizorul modelului AI Claude, exclusiv pentru a genera un răspuns, care este apoi returnat pe dispozitivul tău. Vezi secțiunea 12 privind transferurile internaționale.
 
 5.4 Emailuri: Folosim Resend (cu servere în Uniunea Europeană, Irlanda) exclusiv pentru a-ți trimite codul de autentificare pe email. Resend procesează adresa ta de email doar pentru a livra acel mesaj.
 
@@ -91,7 +92,7 @@ Partajăm date doar cu următorii procesatori, strict pentru a opera Serviciul, 
 
 (a) Supabase — bază de date, autentificare și găzduire backend (UE, Frankfurt). Stochează datele de cont și contorul de utilizare descrise în secțiunile 2.1–2.2. NU stochează conținutul conversațiilor tale.
 
-(b) Anthropic PBC — furnizor de model AI (SUA). Primește textul mesajului tău în mod tranzitoriu pentru a genera un răspuns. Anthropic nu folosește datele din API pentru a-și antrena modelele; poate păstra date limitate pentru o perioadă scurtă, în scopuri de siguranță, conform propriilor termeni.
+(b) Anthropic PBC — furnizor de model AI (SUA). Primește textul mesajului tău în mod tranzitoriu pentru a genera un răspuns. Anthropic nu folosește datele din API pentru a-și antrena modelele; Conform politicilor Anthropic, textul transmis prin API poate fi păstrat de Anthropic pentru o perioadă scurtă (în mod normal până la câteva zile) exclusiv în scopuri de siguranță și prevenire a abuzurilor, după care este șters. În cazul în care un mesaj este semnalat ca o posibilă încălcare a politicilor de utilizare, Anthropic îl poate păstra pe o perioadă mai lungă, conform propriilor termeni.
 
 (c) Resend — furnizor de email tranzacțional (UE, Irlanda). Primește adresa ta de email exclusiv pentru a livra codul de autentificare.
 
@@ -145,17 +146,21 @@ Niciun sistem nu este complet sigur. Îți recomandăm să eviți includerea uno
 
 10. CONFIDENȚIALITATEA COPIILOR
 
-TruthMirror este destinat strict utilizatorilor de 18 ani și peste. Verificăm vârsta la crearea contului prin data nașterii. Nu colectăm cu bună știință date de la nimeni sub 18 ani. Dacă descoperim că un utilizator este sub 18 ani, contul este blocat, iar datele personale asociate sunt șterse, păstrând doar elementele minime de pe lista de blocare (secțiunea 7.3) strict pentru a împiedica recrearea contului. Aplicația folosește un calcul automat al statisticilor de pattern-uri. Aceste calcule nu produc decizii legale sau cu efecte similare semnificative asupra ta. Păstrezi întotdeauna controlul asupra modului în care interpretezi sau acționezi pe baza rezultatelor Aplicației.
+TruthMirror este destinat strict utilizatorilor de 18 ani și peste. Verificăm vârsta la crearea contului prin data nașterii. Nu colectăm cu bună știință date de la nimeni sub 18 ani. Dacă descoperim că un utilizator este sub 18 ani, contul este blocat, iar datele personale asociate sunt șterse, păstrând doar elementele minime de pe lista de blocare (secțiunea 7.3) strict pentru a împiedica recrearea contului.
 
-11. TRANSFERURI INTERNAȚIONALE
+11. PROFILARE ȘI DECIZII AUTOMATE
+
+Aplicația folosește un calcul automat al statisticilor de pattern-uri comportamentale (de exemplu, frecvența unor tipare precum „evitare" sau „intelectualizare") pentru a-ți afișa evoluția în timp. Aceste calcule au loc pe dispozitivul tău și nu produc decizii legale sau cu efecte similare semnificative asupra ta în sensul Articolului 22 din GDPR. Rezultatele sunt pur informative — păstrezi întotdeauna controlul deplin asupra modului în care le interpretezi sau acționezi pe baza lor.
+
+12. TRANSFERURI INTERNAȚIONALE
 
 Majoritatea datelor tale (cont, utilizare, email, analiză) sunt procesate în Uniunea Europeană. Singura excepție este textul mesajelor tale, care este transmis tranzitoriu către Anthropic în Statele Unite pentru a genera răspunsul AI — fără a fi stocat de noi. Acest transfer se realizează pe baza Clauzelor Contractuale Standard aprobate de Comisia Europeană, mecanismul legal recunoscut pentru transferul de date în afara UE. Pentru întrebări despre acest transfer, ne poți contacta la support@truthmirror.net.
 
-12. MODIFICĂRI ALE ACESTEI POLITICI
+13. MODIFICĂRI ALE ACESTEI POLITICI
 
 Putem actualiza această Politică de Confidențialitate din când în când. Te vom notifica despre modificările importante prin Aplicație. „Data intrării în vigoare" din partea de sus va indica cea mai recentă revizuire.
 
-13. CONTACT
+14. CONTACT
 
 Pentru întrebări legate de confidențialitate sau pentru a-ți exercita drepturile GDPR, contactează:
 Social Media Group SRL
