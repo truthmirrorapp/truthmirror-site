@@ -151,9 +151,10 @@ Toate drepturile asupra Aplicației, inclusiv design-ul, codul, brand-ul, numele
 14.2 Nu suntem răspunzători pentru:
 (a) orice decizie pe care o iei bazat pe output-ul AI;
 (b) consecințe emoționale, psihologice sau fizice ale folosirii Serviciului;
-(c) pierderi de date din cauza defecțiunilor tehnice (recomandăm să-ți exporți datele regulat);
+(c) pierderi de date din cauza defecțiunilor tehnice — îți recomandăm să-ți exporți datele și să creezi backup-uri criptate în mod regulat; doar tu deții codul de recuperare al backup-ului, iar noi nu putem recupera backup-ul sau codul dacă le pierzi;
 (d) întreruperi de serviciu, erori sau downtime;
-(e) servicii terțe (Apple, Google, Anthropic) de care depindem.
+(e) servicii terțe (Apple, Google, Anthropic) de care depindem;
+(f) pierderea conținutului stocat pe dispozitivul tău dacă îți pierzi, deteriorezi, schimbi sau resetezi dispozitivul fără un backup valid, sau dacă îți pierzi codul de recuperare al backup-ului.
 
 14.3 Răspunderea noastră agregată maximă față de tine în orice perioadă de 12 luni este limitată la suma pe care ne-ai plătit-o pentru Serviciu în ultimele 12 luni, sau €100, oricare e mai mare.
 

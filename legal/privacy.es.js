@@ -139,6 +139,7 @@ Implementamos medidas técnicas y organizativas adecuadas para proteger tus dato
 - Los datos del backend están protegidos por controles de acceso y cifrados en reposo por el proveedor de alojamiento;
 - El email de la lista de bloqueo se conserva solo como hash irreversible, nunca en texto claro;
 - La clave de nuestro proveedor de IA se almacena solo en el servidor, nunca en la App;
+- Las copias de seguridad que creas se cifran en tu dispositivo con un código de recuperación que solo tú posees — nunca recibimos ni almacenamos la copia ni el código;
 - La posibilidad de bloquear la app con PIN o biometría (Face ID / huella dactilar);
 - Revisión periódica de seguridad de nuestra infraestructura.
 

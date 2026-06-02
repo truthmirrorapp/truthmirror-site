@@ -139,6 +139,7 @@ Implementăm măsuri tehnice și organizatorice adecvate pentru a-ți proteja da
 - Datele din backend sunt protejate prin controale de acces și criptate în repaus de furnizorul de găzduire;
 - Adresa de email de pe lista de blocare este păstrată doar ca hash ireversibil, niciodată în clar;
 - Cheia furnizorului nostru AI este stocată doar pe server, niciodată în Aplicație;
+- Backup-urile pe care le creezi sunt criptate pe dispozitivul tău cu un cod de recuperare pe care doar tu îl deții — noi nu primim și nu stocăm niciodată backup-ul sau codul;
 - Posibilitatea de a bloca aplicația cu PIN sau date biometrice (Face ID / amprentă);
 - Revizuirea periodică de securitate a infrastructurii noastre.
 

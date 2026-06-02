@@ -151,9 +151,10 @@ All rights to the App, including its design, code, brand, name "TruthMirror", lo
 14.2 We are not liable for:
 (a) any decision you make based on AI output;
 (b) emotional, psychological, or physical consequences of using the Service;
-(c) data loss due to technical failure (we recommend exporting your data regularly);
+(c) data loss due to technical failure — we recommend exporting your data and creating encrypted backups regularly; you alone hold the backup recovery code, and we cannot recover your backup or its code if you lose it;
 (d) service interruptions, errors, or downtime;
-(e) third-party services (Apple, Google, Anthropic) on which we depend.
+(e) third-party services (Apple, Google, Anthropic) on which we depend;
+(f) loss of content stored on your device if you lose, damage, replace, or reset your device without a valid backup, or if you lose your backup recovery code.
 
 14.3 Our maximum aggregate liability to you in any 12-month period is limited to the amount you paid us for the Service in the preceding 12 months, or €100, whichever is greater.
 

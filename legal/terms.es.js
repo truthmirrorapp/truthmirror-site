@@ -151,9 +151,10 @@ Todos los derechos sobre la App, incluyendo su diseño, código, marca, nombre "
 14.2 No somos responsables de:
 (a) cualquier decisión que tomes basándote en la salida de IA;
 (b) consecuencias emocionales, psicológicas o físicas del uso del Servicio;
-(c) pérdida de datos por fallo técnico (recomendamos exportar tus datos regularmente);
+(c) pérdida de datos por fallo técnico — te recomendamos exportar tus datos y crear copias de seguridad cifradas con regularidad; solo tú posees el código de recuperación de la copia de seguridad, y no podemos recuperar tu copia ni su código si los pierdes;
 (d) interrupciones del servicio, errores o tiempo de inactividad;
-(e) servicios de terceros (Apple, Google, Anthropic) de los que dependemos.
+(e) servicios de terceros (Apple, Google, Anthropic) de los que dependemos;
+(f) la pérdida del contenido almacenado en tu dispositivo si pierdes, dañas, cambias o restableces tu dispositivo sin una copia de seguridad válida, o si pierdes el código de recuperación de tu copia de seguridad.
 
 14.3 Nuestra responsabilidad agregada máxima hacia ti en cualquier período de 12 meses se limita a la cantidad que nos pagaste por el Servicio en los 12 meses anteriores, o €100, lo que sea mayor.
 

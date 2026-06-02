@@ -139,6 +139,7 @@ We implement appropriate technical and organizational measures to protect your d
 - Backend data is protected by access controls and encrypted at rest by the hosting provider;
 - The email on the block list is kept only as an irreversible hash, never in clear text;
 - Our AI provider key is stored only on the server, never in the App;
+- Backups you create are encrypted on your device with a recovery code that only you hold — we never receive or store the backup or the code;
 - The ability to lock the app with a PIN or biometrics (Face ID / fingerprint);
 - Periodic security review of our infrastructure.
 
