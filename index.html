@@ -82,6 +82,10 @@
     .tm-faq-item p{font-size:16px !important}
     .tm-disclaimer p{font-size:16.5px !important;font-weight:600 !important;color:#f3e9e9 !important}
 
+    /* consent line under waitlist forms */
+    .tm-consent{font-size:12.5px;line-height:1.5;color:#8a8a8a;max-width:420px;margin:10px auto 0;text-align:center}
+    .tm-consent a{color:#b6b6b6;text-decoration:underline}
+
     /* ===== SCREENSHOTS SHOWCASE (added) ===== */
     .tm-shots{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:40px}
     .tm-shot{flex:0 0 auto;width:248px;border-radius:30px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.6);border:1px solid #222;transition:transform .25s ease;position:relative}
@@ -140,6 +144,7 @@
         <input type="email" name="email" placeholder="your@email.com" required data-i18n-placeholder="waitlist.placeholder">
         <button type="submit" data-i18n="waitlist.button">Join the waitlist</button>
       </form>
+      <p class="tm-consent" data-i18n="waitlist.consent">By joining, you agree to our <a href="/privacy.html">Privacy Policy</a>. We use your email only to notify you at launch.</p>
       <p class="hero-note" data-i18n="hero.note">We'll notify you when we launch on App Store and Google Play.</p>
     </div>
   </section>
@@ -402,6 +407,7 @@
         <input type="email" name="email" placeholder="your@email.com" required data-i18n-placeholder="waitlist.placeholder">
         <button type="submit" data-i18n="waitlist.button">Join the waitlist</button>
       </form>
+      <p class="tm-consent" data-i18n="waitlist.consent">By joining, you agree to our <a href="/privacy.html">Privacy Policy</a>. We use your email only to notify you at launch.</p>
       <p class="waitlist-success" id="waitlistSuccess" data-i18n="waitlist.success">Got it. We'll let you know.</p>
     </div>
   </section>
