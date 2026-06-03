@@ -24,6 +24,40 @@
   <meta name="twitter:title" content="TruthMirror — The AI mirror that won't lie to you">
   <meta name="twitter:description" content="An AI that asks the questions you've been avoiding. No advice, no comfort — just the truth, tracked over time so you can't lie to yourself twice.">
   <meta name="twitter:image" content="https://www.truthmirror.net/og-image.png">
+  <!-- Structured data: Organization + WebSite (helps Google understand the brand) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.truthmirror.net/#organization",
+        "name": "TruthMirror",
+        "url": "https://www.truthmirror.net",
+        "logo": "https://www.truthmirror.net/favicon.png",
+        "email": "socialmediagroup@truthmirror.net",
+        "description": "An AI that asks the questions you've been avoiding. No advice. No comfort. Just truth.",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "Social Media Group SRL",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "București",
+            "addressCountry": "RO"
+          }
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.truthmirror.net/#website",
+        "name": "TruthMirror",
+        "url": "https://www.truthmirror.net",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://www.truthmirror.net/#organization" }
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
