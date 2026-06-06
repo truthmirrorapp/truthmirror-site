@@ -63,7 +63,7 @@ REFLECTION (€4.99/month or €49/year):
 - PDF export (1/month)
 
 MIRROR (€9.99/month or €99/year):
-- 50 AI questions per day
+- 40 AI questions per day
 - Everything in Reflection
 - Weekly Insights Report
 - Unlimited PDF export
