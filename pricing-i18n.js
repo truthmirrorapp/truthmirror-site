@@ -22,7 +22,7 @@ const PRICING_I18N = {
       },
       mirror: {
         name: "Mirror", period: "per month", desc: "Deep work",
-        f1: "50 questions per day", f2: "Everything in Reflection, plus:",
+        f1: "40 questions per day", f2: "Everything in Reflection, plus:",
         f3: "Weekly Insights Report", f4: "Unlimited PDF export",
         f5: "Conversation tagging", f6: "Custom personality (Gentle / Direct / Unfiltered)",
         f7: "6 separate contexts", f8: "Priority support 24h",
@@ -69,7 +69,7 @@ const PRICING_I18N = {
       },
       mirror: {
         name: "Mirror", period: "pe lună", desc: "Lucru profund",
-        f1: "50 întrebări pe zi", f2: "Tot ce e în Reflection, plus:",
+        f1: "40 întrebări pe zi", f2: "Tot ce e în Reflection, plus:",
         f3: "Raport săptămânal de insights", f4: "Export PDF nelimitat",
         f5: "Etichete pe conversații", f6: "Personalitate ajustabilă (Blând / Direct / Brut)",
         f7: "6 contexte separate", f8: "Suport prioritar 24h",
@@ -116,7 +116,7 @@ const PRICING_I18N = {
       },
       mirror: {
         name: "Mirror", period: "al mes", desc: "Trabajo profundo",
-        f1: "50 preguntas al día", f2: "Todo en Reflection, además:",
+        f1: "40 preguntas al día", f2: "Todo en Reflection, además:",
         f3: "Informe semanal de insights", f4: "Exportar PDF ilimitado",
         f5: "Etiquetas en conversaciones", f6: "Personalidad ajustable (Suave / Directo / Sin filtro)",
         f7: "6 contextos separados", f8: "Soporte prioritario 24h",
@@ -163,7 +163,7 @@ const PRICING_I18N = {
       },
       mirror: {
         name: "Mirror", period: "月額", desc: "深い取り組み",
-        f1: "1日50の質問", f2: "Reflection のすべて、さらに:",
+        f1: "1日40の質問", f2: "Reflection のすべて、さらに:",
         f3: "週次インサイトレポート", f4: "PDF書き出し無制限",
         f5: "対話のタグ付け", f6: "性格のカスタマイズ（やさしい / 直球 / ありのまま）",
         f7: "6つの個別コンテキスト", f8: "24時間優先サポート",
