@@ -100,6 +100,8 @@ We share data only with the following processors, strictly to operate the Servic
 
 (e) RevenueCat, Apple and Google — subscription and payment management and processing. We never receive your full card details.
 
+(f) Formspree — provider of the waitlist/contact form on our website (US). If you choose to submit your email address through the form on truthmirror.net, it is received by Formspree solely to deliver it to us, so we can notify you about the launch. This transfer is based on the Standard Contractual Clauses (see section 12).
+
 Each processor is bound by a data processing agreement under Article 28 GDPR.
 
 7. DATA RETENTION
@@ -155,7 +157,7 @@ The App performs an automated calculation of behavioral pattern statistics (for 
 
 12. INTERNATIONAL TRANSFERS
 
-Most of your data (account, usage, email, analytics) is processed in the European Union. The only exception is the text of your messages, which is transmitted transiently to Anthropic in the United States to generate the AI reply — without being stored by us. This transfer is carried out on the basis of the Standard Contractual Clauses approved by the European Commission, the recognized legal mechanism for transferring data outside the EU. For questions about this transfer, you can contact us at support@truthmirror.net.
+Most of your data (account, usage, email, analytics) is processed in the European Union. There are two exceptions: (1) the text of your messages, which is transmitted transiently to Anthropic in the United States to generate the AI reply — without being stored by us; and (2) the email address you optionally submit through the form on our website, which is received by Formspree in the United States. Both transfers are carried out on the basis of the Standard Contractual Clauses approved by the European Commission, the recognized legal mechanism for transferring data outside the EU. For questions about these transfers, you can contact us at support@truthmirror.net.
 
 13. CHANGES TO THIS POLICY
 

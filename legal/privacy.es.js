@@ -100,6 +100,8 @@ Compartimos datos solo con los siguientes encargados, estrictamente para operar 
 
 (e) RevenueCat, Apple y Google — gestión y procesamiento de suscripciones y pagos. Nunca recibimos los datos completos de tu tarjeta.
 
+(f) Formspree — proveedor del formulario de lista de espera/contacto de nuestro sitio web (EE. UU.). Si decides enviar tu dirección de email a través del formulario en truthmirror.net, Formspree la recibe únicamente para entregárnosla, de modo que podamos avisarte del lanzamiento. Esta transferencia se basa en las Cláusulas Contractuales Tipo (ver sección 12).
+
 Cada encargado está vinculado por un acuerdo de tratamiento de datos según el Artículo 28 del RGPD.
 
 7. CONSERVACIÓN DE LOS DATOS
@@ -155,7 +157,7 @@ La App realiza un cálculo automatizado de estadísticas de patrones de comporta
 
 12. TRANSFERENCIAS INTERNACIONALES
 
-La mayoría de tus datos (cuenta, uso, email, analítica) se tratan en la Unión Europea. La única excepción es el texto de tus mensajes, que se transmite de forma transitoria a Anthropic en Estados Unidos para generar la respuesta de la IA — sin que lo almacenemos. Esta transferencia se realiza sobre la base de las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea, el mecanismo legal reconocido para transferir datos fuera de la UE. Para preguntas sobre esta transferencia, puedes contactarnos en support@truthmirror.net.
+La mayoría de tus datos (cuenta, uso, email, analítica) se tratan en la Unión Europea. Hay dos excepciones: (1) el texto de tus mensajes, que se transmite de forma transitoria a Anthropic en Estados Unidos para generar la respuesta de la IA — sin que lo almacenemos; y (2) la dirección de email que envías opcionalmente a través del formulario de nuestro sitio web, que es recibida por Formspree en Estados Unidos. Ambas transferencias se realizan sobre la base de las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea, el mecanismo legal reconocido para transferir datos fuera de la UE. Para preguntas sobre estas transferencias, puedes contactarnos en support@truthmirror.net.
 
 13. CAMBIOS EN ESTA POLÍTICA
 

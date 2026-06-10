@@ -100,6 +100,8 @@ Partajăm date doar cu următorii procesatori, strict pentru a opera Serviciul, 
 
 (e) RevenueCat, Apple și Google — gestionarea și procesarea abonamentelor și a plăților. Nu primim niciodată detaliile complete ale cardului tău.
 
+(f) Formspree — furnizorul formularului de listă de așteptare/contact de pe site-ul nostru (SUA). Dacă alegi să-ți trimiți adresa de email prin formularul de pe truthmirror.net, aceasta este primită de Formspree exclusiv pentru a ne-o livra nouă, ca să te putem anunța despre lansare. Acest transfer se bazează pe Clauzele Contractuale Standard (vezi secțiunea 12).
+
 Fiecare procesator este obligat printr-un acord de prelucrare a datelor conform Articolului 28 GDPR.
 
 7. PĂSTRAREA DATELOR
@@ -155,7 +157,7 @@ Aplicația folosește un calcul automat al statisticilor de pattern-uri comporta
 
 12. TRANSFERURI INTERNAȚIONALE
 
-Majoritatea datelor tale (cont, utilizare, email, analiză) sunt procesate în Uniunea Europeană. Singura excepție este textul mesajelor tale, care este transmis tranzitoriu către Anthropic în Statele Unite pentru a genera răspunsul AI — fără a fi stocat de noi. Acest transfer se realizează pe baza Clauzelor Contractuale Standard aprobate de Comisia Europeană, mecanismul legal recunoscut pentru transferul de date în afara UE. Pentru întrebări despre acest transfer, ne poți contacta la support@truthmirror.net.
+Majoritatea datelor tale (cont, utilizare, email, analiză) sunt procesate în Uniunea Europeană. Există două excepții: (1) textul mesajelor tale, care este transmis tranzitoriu către Anthropic în Statele Unite pentru a genera răspunsul AI — fără a fi stocat de noi; și (2) adresa de email pe care o trimiți opțional prin formularul de pe site-ul nostru, care este primită de Formspree în Statele Unite. Ambele transferuri se realizează pe baza Clauzelor Contractuale Standard aprobate de Comisia Europeană, mecanismul legal recunoscut pentru transferul de date în afara UE. Pentru întrebări despre aceste transferuri, ne poți contacta la support@truthmirror.net.
 
 13. MODIFICĂRI ALE ACESTEI POLITICI
 
