@@ -1,5 +1,6 @@
 const translations = {
   en: {
+    'hero.eyebrow': "For those ready to stop lying to themselves",
     'hero.title': "The mirror that won't lie to you.",
     'hero.subtitle': "An AI that asks the questions you've been avoiding.<br>No advice. No comfort. Just truth.",
     'hero.note': "We'll notify you when we launch on App Store and Google Play.",
@@ -53,6 +54,7 @@ const translations = {
     'footer.disclaimer': "Not a substitute for therapy or medical care.",
   },
   ro: {
+    'hero.eyebrow': "Pentru cei pregătiți să nu se mai mintă singuri",
     'hero.title': "Oglinda care nu te va minți.",
     'hero.subtitle': "Un AI care pune întrebările pe care le-ai evitat.<br>Fără sfaturi. Fără mângâieri. Doar adevăr.",
     'hero.note': "Te anunțăm când lansăm pe App Store și Google Play.",
@@ -106,6 +108,7 @@ const translations = {
     'footer.disclaimer': "Nu înlocuiește terapia sau îngrijirea medicală.",
   },
   es: {
+    'hero.eyebrow': "Para quienes están listos para dejar de mentirse",
     'hero.title': "El espejo que no te mentirá.",
     'hero.subtitle': "Una IA que hace las preguntas que has estado evitando.<br>Sin consejos. Sin consuelo. Solo verdad.",
     'hero.note': "Te avisamos cuando lancemos en App Store y Google Play.",
@@ -159,6 +162,7 @@ const translations = {
     'footer.disclaimer': "No sustituye la terapia ni la atención médica.",
   },
   ja: {
+    'hero.eyebrow': "自分への嘘をやめる準備ができた人へ",
     'hero.title': "あなたに嘘をつかない鏡。",
     'hero.subtitle': "あなたが避けてきた問いを投げかけるAI。<br>助言なし。慰めなし。ただ真実だけ。",
     'hero.note': "App Store と Google Play でのローンチ時にお知らせします。",
