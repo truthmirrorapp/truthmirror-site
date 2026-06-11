@@ -7,7 +7,7 @@ Versión: 2026-05-28
 
 Esta Política de Privacidad explica cómo Social Media Group SRL («nosotros», «nos», «nuestro») recopila, utiliza, almacena y protege tus datos personales cuando usas la aplicación móvil y el sitio web de TruthMirror (la «Aplicación», el «Servicio»).
 
-Somos el responsable del tratamiento (data controller) de tus datos. El almacenamiento y el tratamiento efectivos se realizan a través de proveedores de infraestructura de confianza que actúan como encargados del tratamiento (processors) en nuestro nombre y según nuestras instrucciones (véase la sección 6).
+Somos el responsable del tratamiento (data controller) de tus datos. El almacenamiento y el tratamiento efectivos se realizan a través de proveedores de infraestructura de confianza que actúan como encargados del tratamiento (processors) en nuestro nombre y según nuestras instrucciones (véase la sección 6). Al estar establecidos en la Unión Europea (Rumanía), no es necesaria la designación de un representante conforme al Artículo 27 del RGPD.
 
 Nos comprometemos a proteger tu privacidad y a cumplir el Reglamento General de Protección de Datos (RGPD), la Ley rumana 190/2018 y la legislación aplicable en materia de protección de datos.
 

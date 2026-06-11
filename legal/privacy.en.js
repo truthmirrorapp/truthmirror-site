@@ -7,7 +7,7 @@ Version: 2026-05-28
 
 This Privacy Policy explains how Social Media Group SRL ("we", "us", "our") collects, uses, stores and protects your personal data when you use the TruthMirror mobile app and website (the "App", the "Service").
 
-We are the data controller for your data. Actual storage and processing is carried out through trusted infrastructure providers acting as processors on our behalf and on our instructions (see section 6).
+We are the data controller for your data. Actual storage and processing is carried out through trusted infrastructure providers acting as processors on our behalf and on our instructions (see section 6). As we are established in the European Union (Romania), the appointment of a representative under Article 27 GDPR is not required.
 
 We are committed to protecting your privacy and to complying with the General Data Protection Regulation (GDPR), Romanian Law 190/2018 and applicable data protection legislation.
 

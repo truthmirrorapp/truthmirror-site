@@ -7,7 +7,7 @@ Versiunea: 2026-05-28
 
 Această Politică de Confidențialitate explică modul în care Social Media Group SRL („noi", „nouă", „al nostru") colectează, utilizează, stochează și protejează datele tale cu caracter personal atunci când folosești aplicația mobilă și site-ul TruthMirror („Aplicația", „Serviciul").
 
-Suntem operatorul de date (data controller) pentru datele tale. Stocarea și procesarea efectivă se realizează prin furnizori de infrastructură de încredere, care acționează ca persoane împuternicite (processors) în numele nostru și pe baza instrucțiunilor noastre (vezi secțiunea 6).
+Suntem operatorul de date (data controller) pentru datele tale. Stocarea și procesarea efectivă se realizează prin furnizori de infrastructură de încredere, care acționează ca persoane împuternicite (processors) în numele nostru și pe baza instrucțiunilor noastre (vezi secțiunea 6). Fiind stabiliți în Uniunea Europeană (România), desemnarea unui reprezentant conform Articolului 27 GDPR nu este necesară.
 
 Ne angajăm să îți protejăm confidențialitatea și să respectăm Regulamentul General privind Protecția Datelor (GDPR), Legea română 190/2018 și legislația aplicabilă privind protecția datelor.
 
