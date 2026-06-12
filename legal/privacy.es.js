@@ -112,6 +112,8 @@ Cada encargado está vinculado por un acuerdo de tratamiento de datos según el 
 
 7.3 Excepción para la protección de menores y la prevención del abuso: Si una cuenta es bloqueada (por ejemplo, porque pertenece a una persona menor de 18 años o por abuso), conservamos la versión criptográfica irreversible (hash) de la dirección de email y el identificador del dispositivo en una lista de bloqueo, incluso después de eliminar la cuenta. Esto es estrictamente necesario para evitar la reactivación de una cuenta bloqueada y para proteger a los menores. Esta lista NO contiene tu email en texto claro y no puede usarse para contactarte ni para marketing. La base legal es nuestro interés legítimo en proteger a los menores y la integridad del Servicio (Artículo 6(1)(f) del RGPD).
 
+7.4 Exportaciones locales (PDF y tarjetas para compartir): Tanto la exportación en PDF de tus conversaciones (disponible en los planes de pago) como las tarjetas para compartir (imágenes que contienen una respuesta del espejo) se generan íntegramente en tu dispositivo. Una tarjeta para compartir contiene exclusivamente la respuesta del espejo — nunca tus mensajes, tu nombre ni el contexto seleccionado. El PDF contiene tus conversaciones tal como existen localmente en tu dispositivo. Ninguno de estos archivos se transmite a nuestros servidores y ninguno sale de tu dispositivo salvo mediante tu acción explícita, a través del menú de compartir del sistema operativo. Lo que decidas hacer con ellos después queda enteramente bajo tu control (ver también los Términos de Servicio, sección 11).
+
 8. TUS DERECHOS SEGÚN EL RGPD
 
 Tienes derecho a:

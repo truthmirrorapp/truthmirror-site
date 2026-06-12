@@ -50,10 +50,12 @@ GLIMPSE (GRATIS):
 - Detección básica de patrones
 - Historial de 7 días
 - Recursos de crisis
+- Tarjetas para compartir (imágenes con la respuesta del espejo)
 - Disponible en inglés, rumano, español y japonés
 
 REFLECTION (€4,99/mes o €49/año):
 - 20 preguntas de IA al día
+- Todo lo de Glimpse
 - Historial completo de conversaciones
 - Gráfico de evolución de patrones
 - Seguimiento de Honesty Score
@@ -133,6 +135,8 @@ Nos reservamos el derecho de suspender o terminar cuentas que violen estas regla
 Conservas la propiedad del texto que escribes en TruthMirror ("Tu Contenido"). Al usar el Servicio, nos otorgas una licencia limitada, no exclusiva, para procesar Tu Contenido únicamente para proporcionarte el Servicio (generar respuestas de IA, detectar patrones, calcular estadísticas, almacenar historial de conversaciones).
 
 NO usamos Tu Contenido para entrenar modelos de IA. NO vendemos Tu Contenido a ningún tercero. Consulta nuestra Política de Privacidad para los detalles completos de manejo de datos.
+
+Distribución de contenido: La Aplicación te permite exportar conversaciones en PDF (en los planes de pago) y crear tarjetas para compartir que contienen respuestas del espejo. Estos archivos se generan localmente y salen de tu dispositivo únicamente mediante tu acción explícita. Eres el único responsable del contenido que decidas distribuir y de las consecuencias de su distribución, incluso frente a terceros. Las respuestas del espejo distribuidas siguen sujetas a la sección 12 (Contenido generado por IA).
 
 12. CONTENIDO GENERADO POR IA
 

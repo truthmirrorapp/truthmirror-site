@@ -50,10 +50,12 @@ GLIMPSE (GRATIS):
 - Detectare pattern-uri de bază
 - Istoric 7 zile
 - Resurse de criză
+- Carduri de distribuire (imagini cu răspunsul oglinzii)
 - Disponibil în engleză, română, spaniolă și japoneză
 
 REFLECTION (€4,99/lună sau €49/an):
 - 20 întrebări AI pe zi
+- Tot ce e în Glimpse
 - Istoric complet al conversațiilor
 - Grafic Pattern Evolution
 - Honesty Score în timp
@@ -133,6 +135,8 @@ Ne rezervăm dreptul de a suspenda sau termina conturile care încalcă aceste r
 Păstrezi proprietatea asupra textului pe care îl scrii în TruthMirror ("Conținutul tău"). Prin utilizarea Serviciului, ne acorzi o licență limitată, neexclusivă, de a procesa Conținutul tău doar pentru a-ți furniza Serviciul (generare răspunsuri AI, detectare pattern-uri, calcularea statisticilor, stocare istoric conversații).
 
 NU folosim Conținutul tău pentru a antrena modele AI. NU vindem Conținutul tău către nicio terță parte. Vezi Politica de Confidențialitate pentru detalii complete despre gestionarea datelor.
+
+Distribuirea conținutului: Aplicația îți permite să exporți conversații în format PDF (pe planurile plătite) și să creezi carduri de distribuire care conțin răspunsuri ale oglinzii. Aceste fișiere sunt generate local și părăsesc dispozitivul doar prin acțiunea ta explicită. Ești singurul responsabil pentru conținutul pe care alegi să-l distribui și pentru consecințele distribuirii lui, inclusiv față de terți. Răspunsurile oglinzii distribuite rămân supuse secțiunii 12 (Conținut generat de AI).
 
 12. CONȚINUT GENERAT DE AI
 

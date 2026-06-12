@@ -50,10 +50,12 @@ GLIMPSE (FREE):
 - Basic pattern detection
 - 7 days history retention
 - Crisis resources
+- Share cards (images with the mirror's reply)
 - Available in English, Romanian, Spanish, and Japanese
 
 REFLECTION (€4.99/month or €49/year):
 - 20 AI questions per day
+- Everything in Glimpse
 - Full conversation history
 - Pattern Evolution chart
 - Honesty Score tracking
@@ -133,6 +135,8 @@ We reserve the right to suspend or terminate accounts violating these rules, wit
 You retain ownership of the text you write into TruthMirror ("Your Content"). By using the Service, you grant us a limited, non-exclusive license to process Your Content solely to provide the Service to you (generating AI responses, detecting patterns, computing statistics, storing conversation history).
 
 We do NOT use Your Content to train AI models. We do NOT sell Your Content to any third party. See our Privacy Policy for full data-handling details.
+
+Content distribution: The App lets you export conversations as PDF (on paid plans) and create share cards containing replies of the mirror. These files are generated locally and leave your device only through your explicit action. You are solely responsible for the content you choose to distribute and for the consequences of distributing it, including towards third parties. Distributed mirror replies remain subject to section 12 (AI-Generated Content).
 
 12. AI-GENERATED CONTENT
 

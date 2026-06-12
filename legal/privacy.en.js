@@ -112,6 +112,8 @@ Each processor is bound by a data processing agreement under Article 28 GDPR.
 
 7.3 Exception for protection of minors and abuse prevention: If an account is blocked (for example because it belongs to a person under 18 or for abuse), we keep the irreversible cryptographic version (hash) of the email address and the device identifier on a block list, even after the account is deleted. This is strictly necessary to prevent reactivation of a blocked account and to protect minors. This list does NOT contain your email in clear text and cannot be used to contact you or for marketing. The legal basis is our legitimate interest in protecting minors and the integrity of the Service (Article 6(1)(f) GDPR).
 
+7.4 Local exports (PDF and share cards): Both the PDF export of your conversations (available on paid plans) and the share cards (images containing a reply of the mirror) are generated entirely on your device. A share card contains only the mirror's reply — never your messages, your name, or the selected context. The PDF contains your conversations as they exist locally on your device. Neither of these files is ever transmitted to our servers, and neither leaves your device except through your explicit action via the operating system's share menu. What you choose to do with them afterwards is entirely under your control (see also the Terms of Service, section 11).
+
 8. YOUR RIGHTS UNDER GDPR
 
 You have the right to:
