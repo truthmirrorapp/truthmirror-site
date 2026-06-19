@@ -43,7 +43,7 @@ const translations = {
     'waitlist.placeholder': 'your@email.com',
     'waitlist.button': 'Join the waitlist',
     'waitlist.success': "Got it. We'll let you know.",
-    'waitlist.consent': 'By joining, you agree to our <a href="/privacy.html">Privacy Policy</a>. We use your email only to notify you at launch.',
+    'waitlist.consent': 'By joining, you agree to our <a href="/privacy">Privacy Policy</a>. We use your email only to notify you at launch.',
     'footer.tag': "The mirror that won't lie to you.",
     'footer.legal': 'Legal',
     'footer.about': 'About',
@@ -97,7 +97,7 @@ const translations = {
     'waitlist.placeholder': 'your@email.com',
     'waitlist.button': 'Înscrie-te pe waitlist',
     'waitlist.success': "Am primit. Te anunțăm.",
-    'waitlist.consent': 'Prin înscriere, ești de acord cu <a href="/privacy.html">Politica de confidențialitate</a>. Folosim emailul tău doar ca să te anunțăm la lansare.',
+    'waitlist.consent': 'Prin înscriere, ești de acord cu <a href="/privacy">Politica de confidențialitate</a>. Folosim emailul tău doar ca să te anunțăm la lansare.',
     'footer.tag': "Oglinda care nu te va minți.",
     'footer.legal': 'Legal',
     'footer.about': 'Despre',
@@ -151,7 +151,7 @@ const translations = {
     'waitlist.placeholder': 'your@email.com',
     'waitlist.button': 'Únete a la waitlist',
     'waitlist.success': "Recibido. Te avisaremos.",
-    'waitlist.consent': 'Al unirte, aceptas nuestra <a href="/privacy.html">Política de privacidad</a>. Usamos tu email solo para avisarte en el lanzamiento.',
+    'waitlist.consent': 'Al unirte, aceptas nuestra <a href="/privacy">Política de privacidad</a>. Usamos tu email solo para avisarte en el lanzamiento.',
     'footer.tag': "El espejo que no te mentirá.",
     'footer.legal': 'Legal',
     'footer.about': 'Acerca de',
@@ -205,7 +205,7 @@ const translations = {
     'waitlist.placeholder': 'your@email.com',
     'waitlist.button': 'ウェイトリストに登録',
     'waitlist.success': "受け付けました。準備ができ次第お知らせします。",
-    'waitlist.consent': '登録すると、<a href="/privacy.html">プライバシーポリシー</a>に同意したものとみなされます。メールアドレスはローンチのお知らせにのみ使用します。',
+    'waitlist.consent': '登録すると、<a href="/privacy">プライバシーポリシー</a>に同意したものとみなされます。メールアドレスはローンチのお知らせにのみ使用します。',
     'footer.tag': "あなたに嘘をつかない鏡。",
     'footer.legal': '法的情報',
     'footer.about': '概要',
@@ -249,8 +249,14 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
   });
 
-  const form = document.getElementById('waitlistForm');
-  if (form) {
+  // Trateaza AMBELE formulare de waitlist: cel din hero (waitlistFormHero) si
+  // cel de jos (waitlistForm). Inainte era prins doar cel de jos -> hero-ul
+  // facea POST cu navigare full-page la Formspree. In plus, mesajul de succes
+  // se afiseaza prin clasa `.show` (CSS: .waitlist-success.show { display:block })
+  // -- vechiul cod folosea `.hidden`, care nici nu exista in CSS, deci succesul
+  // nu aparea niciodata. Acum: ascundem formularul inline si aratam mesajul.
+  function bindWaitlist(form) {
+    if (!form) return;
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const data = new FormData(form);
@@ -261,8 +267,20 @@ document.addEventListener('DOMContentLoaded', () => {
           headers: { Accept: 'application/json' },
         });
         if (res.ok) {
-          form.classList.add('hidden');
-          document.getElementById('waitlistSuccess').classList.remove('hidden');
+          form.style.display = 'none';
+          const section = form.closest('section') || document.body;
+          let succ = section.querySelector('.waitlist-success');
+          if (!succ) {
+            // hero-ul nu are element de succes propriu -> il cream sub formular,
+            // cu textul tradus in limba curenta.
+            succ = document.createElement('p');
+            succ.className = 'waitlist-success';
+            const lang = document.documentElement.lang || 'en';
+            const tbl = translations[lang] || translations.en;
+            succ.innerHTML = (tbl && tbl['waitlist.success']) || "Got it. We'll let you know.";
+            form.parentNode.insertBefore(succ, form.nextSibling);
+          }
+          succ.classList.add('show');
         } else {
           alert('Something went wrong. Try again.');
         }
@@ -271,4 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  bindWaitlist(document.getElementById('waitlistForm'));
+  bindWaitlist(document.getElementById('waitlistFormHero'));
 });
