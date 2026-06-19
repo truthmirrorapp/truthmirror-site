@@ -207,7 +207,7 @@
     }
 
     const saved = localStorage.getItem('tm.site.lang');
-    const browser = navigator.language.slice(0, 2);
+    const browser = (navigator.language || 'en').slice(0, 2);
     const initialLang = ['en','ro','es','ja'].includes(saved) ? saved : (['en','ro','es','ja'].includes(browser) ? browser : 'en');
 
     document.addEventListener('DOMContentLoaded', () => {

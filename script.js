@@ -238,7 +238,7 @@ function setLanguage(lang) {
 function detectInitialLang() {
   const saved = localStorage.getItem('tm.site.lang');
   if (saved && translations[saved]) return saved;
-  const browser = navigator.language.slice(0, 2);
+  const browser = (navigator.language || 'en').slice(0, 2);
   return translations[browser] ? browser : 'en';
 }
 
@@ -267,7 +267,10 @@ document.addEventListener('DOMContentLoaded', () => {
           headers: { Accept: 'application/json' },
         });
         if (res.ok) {
-          form.style.display = 'none';
+          // setProperty cu 'important' ca sa invinga regula mobila
+          // `.waitlist-hero{display:flex !important}` din index.html — altfel
+          // pe ecrane <=768px formularul ramanea vizibil sub mesajul de succes.
+          form.style.setProperty('display', 'none', 'important');
           const section = form.closest('section') || document.body;
           let succ = section.querySelector('.waitlist-success');
           if (!succ) {
