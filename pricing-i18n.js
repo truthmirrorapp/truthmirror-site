@@ -2,7 +2,7 @@ const PRICING_I18N = {
   en: {
     pricing: {
       title: "What you get",
-      subtitle: "Transparent pricing. 30 days money-back. Cancel anytime.",
+      subtitle: "Transparent pricing. No hidden fees. Cancel anytime.",
       recommended: "Most chosen",
       comingSoon: "In ~6 months",
       storeNote: "Local price is set by the App Store / Google Play.",
@@ -39,9 +39,9 @@ const PRICING_I18N = {
     guarantees: {
       title: "No fine print",
       subtitle: "If we ask for your money, we earn it.",
-      refund: { title: "30 days money-back", desc: "Full refund within 30 days. No questions, no friction." },
+      refund: { title: "Refunds via the store", desc: "Not for you? We'll help you get a refund through Apple or Google within 30 days." },
       cancel: { title: "Cancel in 2 taps", desc: "Settings → Subscription → Cancel. No retention tricks." },
-      trial: { title: "7 days free trial", desc: "Reflection and Mirror come with free 7-day trial. Cancel before, pay nothing." },
+      start: { title: "Free to start", desc: "Glimpse is free forever. Try the mirror before you ever pay." },
       ads: { title: "No ads. Ever.", desc: "A self-reflection tool with ads makes no sense." },
       data: { title: "Your data is yours", desc: "Export anytime, delete anytime. Never sold. GDPR." }
     }
@@ -49,7 +49,7 @@ const PRICING_I18N = {
   ro: {
     pricing: {
       title: "Ce primești",
-      subtitle: "Prețuri transparente. 30 zile money-back. Anulezi oricând.",
+      subtitle: "Prețuri transparente. Fără costuri ascunse. Anulezi oricând.",
       recommended: "Cel mai ales",
       comingSoon: "În ~6 luni",
       storeNote: "Prețul local este stabilit de App Store / Google Play.",
@@ -86,9 +86,9 @@ const PRICING_I18N = {
     guarantees: {
       title: "Fără clauze ascunse",
       subtitle: "Dacă cerem bani, îi câștigăm.",
-      refund: { title: "30 zile money-back", desc: "Banii înapoi în 30 zile. Fără întrebări, fără friction." },
+      refund: { title: "Refund prin store", desc: "Nu ți se potrivește? Te ajutăm să obții refund prin Apple sau Google în 30 de zile." },
       cancel: { title: "Anulezi în 2 tap-uri", desc: "Settings → Abonament → Anulează. Fără tactici de retenție." },
-      trial: { title: "7 zile trial gratis", desc: "Reflection și Mirror vin cu trial de 7 zile gratis. Anulezi înainte, nu plătești." },
+      start: { title: "Începi gratis", desc: "Glimpse e gratis pentru totdeauna. Încerci oglinda înainte să plătești." },
       ads: { title: "Fără reclame. Niciodată.", desc: "O aplicație de auto-reflecție cu reclame n-are sens." },
       data: { title: "Datele tale sunt ale tale", desc: "Export oricând, ștergere oricând. Niciodată vândute. GDPR." }
     }
@@ -96,7 +96,7 @@ const PRICING_I18N = {
   es: {
     pricing: {
       title: "Lo que obtienes",
-      subtitle: "Precios transparentes. 30 días money-back. Cancela cuando quieras.",
+      subtitle: "Precios transparentes. Sin costes ocultos. Cancela cuando quieras.",
       recommended: "Más elegido",
       comingSoon: "En ~6 meses",
       storeNote: "El precio local lo establece la App Store / Google Play.",
@@ -133,9 +133,9 @@ const PRICING_I18N = {
     guarantees: {
       title: "Sin letra pequeña",
       subtitle: "Si pedimos tu dinero, lo merecemos.",
-      refund: { title: "30 días money-back", desc: "Reembolso completo en 30 días. Sin preguntas, sin fricción." },
+      refund: { title: "Reembolsos vía store", desc: "¿No es para ti? Te ayudamos a obtener un reembolso a través de Apple o Google en 30 días." },
       cancel: { title: "Cancela en 2 toques", desc: "Ajustes → Suscripción → Cancelar. Sin tácticas de retención." },
-      trial: { title: "7 días de prueba gratis", desc: "Reflection y Mirror vienen con 7 días de prueba gratis. Cancela antes, no pagas." },
+      start: { title: "Empieza gratis", desc: "Glimpse es gratis para siempre. Prueba el espejo antes de pagar." },
       ads: { title: "Sin anuncios. Nunca.", desc: "Una herramienta de autorreflexión con anuncios no tiene sentido." },
       data: { title: "Tus datos son tuyos", desc: "Exporta cuando quieras, elimina cuando quieras. Nunca vendidos. GDPR." }
     }
@@ -143,7 +143,7 @@ const PRICING_I18N = {
   ja: {
     pricing: {
       title: "得られるもの",
-      subtitle: "明朗な料金。30日間返金保証。いつでも解約可能。",
+      subtitle: "明朗な料金。隠れた費用なし。いつでも解約可能。",
       recommended: "最も選ばれています",
       comingSoon: "約6か月後",
       storeNote: "現地通貨での価格は App Store / Google Play が設定します。",
@@ -180,9 +180,9 @@ const PRICING_I18N = {
     guarantees: {
       title: "隠れた条件なし",
       subtitle: "料金をいただくなら、それに値する価値を。",
-      refund: { title: "30日間返金保証", desc: "30日以内なら全額返金。質問も手間もなし。" },
+      refund: { title: "返金はストア経由", desc: "合わなければ、30日以内にApple／Google経由の返金をお手伝いします。" },
       cancel: { title: "2タップで解約", desc: "設定 → サブスクリプション → 解約。引き止めの仕掛けなし。" },
-      trial: { title: "7日間の無料トライアル", desc: "Reflection と Mirror は7日間の無料トライアル付き。期限前に解約すれば料金は一切かかりません。" },
+      start: { title: "無料で始められる", desc: "Glimpseはずっと無料。支払う前に鏡を試せます。" },
       ads: { title: "広告なし。ずっと。", desc: "自己内省のツールに広告は意味をなしません。" },
       data: { title: "あなたのデータはあなたのもの", desc: "いつでもエクスポート、いつでも削除。販売は一切なし。GDPR準拠。" }
     }
