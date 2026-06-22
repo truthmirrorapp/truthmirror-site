@@ -86,13 +86,13 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 5.4 Uso razonable (fair use). Los planes con preguntas «ilimitadas» están destinados a un uso personal, individual y de buena fe. Para proteger el Servicio y a los demás usuarios, nos reservamos el derecho de aplicar medidas razonables de prevención de abusos — por ejemplo, en casos de automatización, acceso programático no autorizado, uso compartido de la cuenta entre varias personas, reventa o un volumen de uso claramente desproporcionado respecto al uso humano normal. En tales casos podemos limitar temporalmente la tasa de uso, contactar al usuario o, en casos graves, suspender la cuenta, de acuerdo con la sección 10 (Uso aceptable).
 
 
-6. PRUEBA GRATUITA
+6. PLAN GRATUITO Y SUSCRIPCIONES DE PAGO
 
-6.1 Los planes de pago (Reflection y Mirror) incluyen una prueba gratuita de 7 días.
+6.1 El plan Glimpse es gratuito y no requiere ningún pago ni suscripción.
 
-6.2 Si no cancelas antes de que termine la prueba, se te cobrará automáticamente a la tarifa estándar.
+6.2 Las funciones de pago (Reflection y Mirror) se desbloquean inmediatamente tras una compra exitosa. Las suscripciones no incluyen un período de prueba gratuita; el cobro comienza en el momento de la compra.
 
-6.3 Cada usuario tiene derecho a una prueba gratuita por plan. El abuso repetido de pruebas puede resultar en la denegación de la prueba.
+6.3 Cada suscripción de pago se cobra por adelantado por el período que elijas (mensual o anual) y se renueva según lo descrito en la sección 7.
 
 7. FACTURACIÓN, RENOVACIÓN AUTOMÁTICA Y REEMBOLSOS
 
@@ -102,15 +102,17 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 - iOS: Ajustes → Apple ID → Suscripciones → TruthMirror
 - Android: Google Play → Perfil → Pagos y suscripciones
 
-7.3 GARANTÍA DE 30 DÍAS DE DEVOLUCIÓN. Si TruthMirror no cumple tus expectativas, puedes solicitar un reembolso completo dentro de los 30 días posteriores a tu primer cargo, escribiendo a support@truthmirror.net con tu ID de transacción. Los reembolsos se procesan en 5 días hábiles a través del método de pago original. No se requiere motivo. Nos reservamos el derecho de rechazar solicitudes de reembolso abusivas, fraudulentas o repetidas.
+7.3 REEMBOLSOS. Todas las compras se procesan a través de Apple App Store o Google Play, por lo que los reembolsos se emiten conforme a las políticas respectivas de Apple y Google. Si TruthMirror no cumple tus expectativas, escríbenos a support@truthmirror.net dentro de los 30 días posteriores a tu primer cargo y te ayudaremos a obtener un reembolso a través de la tienda correspondiente. Podemos negarnos a asistir solicitudes abusivas, fraudulentas o repetidas.
 
 7.4 DESISTIMIENTO DEL CONSUMIDOR UE. Los consumidores de la UE/EEE tienen derecho legal a desistir de los contratos de servicios digitales dentro de los 14 días posteriores a la compra. Para ejercer este derecho, contacta support@truthmirror.net. Al comenzar a usar el Servicio inmediatamente después de la compra, puedes renunciar a este derecho según el Artículo 16(m) de la Directiva 2011/83/UE.
 
-7.5 La garantía de 30 días de devolución de la sección 7.3 se añade, no reemplaza, tus derechos legales bajo la legislación de protección al consumidor de la UE.
+7.5 La asistencia para reembolsos descrita en la sección 7.3 se añade, no reemplaza, tus derechos legales bajo la legislación de protección al consumidor de la UE.
 
-8. CANCELACIÓN
+8. CANCELACIÓN Y ELIMINACIÓN DE CUENTA
 
-Puedes cancelar tu suscripción en cualquier momento, sin necesidad de motivo, a través de los ajustes de tu cuenta de App Store o Google Play. La cancelación entra en vigor al final del período de facturación actual; conservas el acceso a las funciones de pago hasta entonces. No usamos tácticas de retención, encuestas de salida ni fricción para desalentar la cancelación.
+8.1 Puedes cancelar tu suscripción en cualquier momento, sin necesidad de motivo, a través de los ajustes de tu cuenta de App Store o Google Play. La cancelación entra en vigor al final del período de facturación actual; conservas el acceso a las funciones de pago hasta entonces. No usamos tácticas de retención, encuestas de salida ni fricción para desalentar la cancelación.
+
+8.2 Puedes eliminar tu cuenta y los datos asociados en cualquier momento, ya sea desde la App (Ajustes → «Eliminar cuenta») o a través de nuestra página de eliminación de cuenta en https://www.truthmirror.net/delete-account. Consulta nuestra Política de privacidad para saber qué se elimina y qué puede conservarse para la protección de menores.
 
 9. SIN PUBLICIDAD
 

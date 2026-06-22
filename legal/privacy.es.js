@@ -108,7 +108,7 @@ Cada encargado está vinculado por un acuerdo de tratamiento de datos según el 
 
 7.1 En tu dispositivo: El historial de conversaciones, las estadísticas y las puntuaciones existen solo en tu dispositivo, bajo tu control. La vista del historial en la app muestra los últimos 7 días en el plan gratuito (Glimpse) y el historial completo en los planes de pago. Puedes exportar (en los planes de pago) o eliminar todo en cualquier momento, y eliminar la App borra estos datos.
 
-7.2 Datos de la cuenta: Los conservamos mientras tu cuenta esté activa. Puedes eliminar tu cuenta en cualquier momento directamente en la App (Ajustes → «Eliminar cuenta»), lo que elimina los datos asociados (email, fecha de nacimiento, identificador de dispositivo, preferencias, contador de uso), salvo lo descrito en la sección 7.3. Si una cuenta permanece inactiva durante 24 meses, eliminamos los datos asociados.
+7.2 Datos de la cuenta: Los conservamos mientras tu cuenta esté activa. Puedes eliminar tu cuenta en cualquier momento directamente en la App (Ajustes → «Eliminar cuenta») o a través de nuestra página de eliminación de cuenta en https://www.truthmirror.net/delete-account, lo que elimina los datos asociados (email, fecha de nacimiento, identificador de dispositivo, preferencias, contador de uso), salvo lo descrito en la sección 7.3. Si una cuenta permanece inactiva durante 24 meses, eliminamos los datos asociados.
 
 7.3 Excepción para la protección de menores y la prevención del abuso: Si una cuenta es bloqueada (por ejemplo, porque pertenece a una persona menor de 18 años o por abuso), conservamos la versión criptográfica irreversible (hash) de la dirección de email y el identificador del dispositivo en una lista de bloqueo, incluso después de eliminar la cuenta. Esto es estrictamente necesario para evitar la reactivación de una cuenta bloqueada y para proteger a los menores. Esta lista NO contiene tu email en texto claro y no puede usarse para contactarte ni para marketing. La base legal es nuestro interés legítimo en proteger a los menores y la integridad del Servicio (Artículo 6(1)(f) del RGPD).
 
@@ -125,8 +125,9 @@ Tienes derecho a:
 (f) OPOSICIÓN — oponerte al tratamiento basado en intereses legítimos;
 (g) RETIRADA DEL CONSENTIMIENTO — en cualquier momento, sin afectar al tratamiento lícito anterior.
 
-Puedes ejercer el derecho de supresión (c) directamente en la App:
+Puedes ejercer el derecho de supresión (c) directamente en la App o desde nuestro sitio web:
 - Ajustes → «Eliminar cuenta» elimina permanentemente tu cuenta, los datos de la cuenta en nuestro proveedor de backend (email, fecha de nacimiento, identificador de dispositivo, preferencias, contador de uso) Y todos los datos de tu dispositivo (conversaciones, estadísticas, puntuación, PIN).
+- Desde la web: nuestra página de eliminación de cuenta en https://www.truthmirror.net/delete-account explica cómo eliminar tu cuenta, incluso por correo si no puedes acceder a la App.
 - Ajustes → «Eliminar todos mis datos» elimina solo los datos de tu dispositivo (conversaciones, estadísticas), conservando la cuenta.
 - La exportación a PDF (en los planes de pago) cubre la portabilidad (e) de los datos de tu dispositivo (conversaciones, estadísticas). Para una copia de los datos de cuenta almacenados en el servidor (email, fecha de nacimiento, preferencia de idioma, plan de suscripción), escribe a support@truthmirror.net.
 

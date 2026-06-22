@@ -108,7 +108,7 @@ Fiecare procesator este obligat printr-un acord de prelucrare a datelor conform 
 
 7.1 Pe dispozitivul tău: Istoricul conversațiilor, statisticile și scorurile există doar pe dispozitivul tău, sub controlul tău. Vizualizarea istoricului în aplicație arată ultimele 7 zile pe planul gratuit (Glimpse) și istoricul complet pe planurile plătite. Poți exporta (pe planurile plătite) sau șterge totul oricând, iar ștergerea Aplicației elimină aceste date.
 
-7.2 Datele de cont: Le păstrăm cât timp contul tău este activ. Poți șterge contul oricând direct din Aplicație (Setări → „Șterge contul"), ceea ce elimină datele asociate (email, dată naștere, identificator dispozitiv, preferințe, contor de utilizare), cu excepția descrisă în secțiunea 7.3. Dacă un cont rămâne inactiv timp de 24 de luni, ștergem datele asociate.
+7.2 Datele de cont: Le păstrăm cât timp contul tău este activ. Poți șterge contul oricând direct din Aplicație (Setări → „Șterge contul") sau prin pagina noastră de ștergere a contului de la https://www.truthmirror.net/delete-account, ceea ce elimină datele asociate (email, dată naștere, identificator dispozitiv, preferințe, contor de utilizare), cu excepția descrisă în secțiunea 7.3. Dacă un cont rămâne inactiv timp de 24 de luni, ștergem datele asociate.
 
 7.3 Excepție pentru protecția minorilor și prevenirea abuzului: Dacă un cont este blocat (de exemplu pentru că aparține unei persoane sub 18 ani sau pentru abuz), păstrăm versiunea criptografică ireversibilă (hash) a adresei de email și identificatorul dispozitivului pe o listă de blocare, chiar și după ștergerea contului. Acest lucru este strict necesar pentru a împiedica reactivarea unui cont blocat și pentru a proteja minorii. Această listă NU conține emailul tău în clar și nu poate fi folosită pentru a te contacta sau pentru marketing. Temeiul legal este interesul nostru legitim de a proteja minorii și integritatea Serviciului (Articolul 6(1)(f) GDPR).
 
@@ -125,8 +125,9 @@ Ai dreptul la:
 (f) OPOZIȚIE — să te opui prelucrării bazate pe interese legitime;
 (g) RETRAGEREA CONSIMȚĂMÂNTULUI — oricând, fără a afecta prelucrarea legală anterioară.
 
-Poți exercita dreptul la ștergere (c) direct în Aplicație:
+Poți exercita dreptul la ștergere (c) direct în Aplicație sau de pe site-ul nostru:
 - Setări → „Șterge contul" șterge definitiv contul tău, datele de cont de la furnizorul nostru de backend (email, dată naștere, identificator dispozitiv, preferințe, contor de utilizare) ȘI toate datele de pe dispozitivul tău (conversații, statistici, scor, PIN).
+- De pe web: pagina noastră de ștergere a contului de la https://www.truthmirror.net/delete-account explică cum îți ștergi contul, inclusiv prin email dacă nu mai poți accesa Aplicația.
 - Setări → „Șterge toate datele mele" șterge doar datele de pe dispozitiv (conversații, statistici), păstrând contul.
 - Exportul PDF (pe planurile plătite) acoperă portabilitatea (e) a datelor de pe dispozitivul tău (conversații, statistici). Pentru o copie a datelor de cont stocate pe server (email, dată naștere, preferința de limbă, planul de abonament), scrie la support@truthmirror.net.
 

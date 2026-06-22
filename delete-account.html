@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account &amp; Data Deletion — TruthMirror</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="description" content="How to delete your TruthMirror account and the data associated with it — in-app or by email — and what we delete or retain under the GDPR.">
+  <link rel="canonical" href="https://www.truthmirror.net/delete-account">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TruthMirror">
+  <meta property="og:url" content="https://www.truthmirror.net/delete-account">
+  <meta property="og:title" content="Account &amp; Data Deletion — TruthMirror">
+  <meta property="og:description" content="How to delete your TruthMirror account and data — in-app or by email.">
+  <meta property="og:image" content="https://www.truthmirror.net/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Account &amp; Data Deletion — TruthMirror">
+  <meta name="twitter:description" content="How to delete your TruthMirror account and data — in-app or by email.">
+  <meta name="twitter:image" content="https://www.truthmirror.net/og-image.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ---- Stil dedicat documentului legal (self-contained, identic cu privacy/terms) ---- */
+    .legal-doc {
+      --ld-accent: #CC0000;
+      --ld-accent-soft: rgba(204, 0, 0, 0.10);
+      --ld-accent-line: rgba(204, 0, 0, 0.35);
+      --ld-text: #e8e6e3;
+      --ld-text-muted: #b5b2ae;
+      --ld-text-dim: #8a8784;
+      --ld-border: #242424;
+      --ld-surface: #121212;
+      max-width: 820px;
+      margin: 0 auto;
+      font-family: 'Georgia', 'Iowan Old Style', 'Palatino', serif;
+      line-height: 1.75;
+      color: var(--ld-text-muted);
+    }
+    .legal-doc .ld-section {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.18rem;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+      color: var(--ld-text);
+      margin: 2.6rem 0 0.9rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--ld-border);
+      scroll-margin-top: 1rem;
+    }
+    .legal-doc .ld-section:first-child { border-top: none; padding-top: 0; margin-top: 0.5rem; }
+    .legal-doc .ld-section .ld-num { color: var(--ld-accent); margin-right: 0.5rem; }
+    .legal-doc .ld-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: var(--ld-text-muted);
+      margin: 1.4rem 0 0.45rem;
+    }
+    .legal-doc .ld-sub .ld-subnum { color: var(--ld-text); font-weight: 800; margin-right: 0.35rem; }
+    .legal-doc .ld-p { margin: 0.8rem 0; font-size: 1.04rem; }
+    .legal-doc .ld-list { list-style: none; margin: 0.6rem 0 1rem; padding: 0; }
+    .legal-doc .ld-list li {
+      position: relative; padding-left: 1.4rem; margin: 0.4rem 0; font-size: 1.02rem;
+    }
+    .legal-doc .ld-list li::before {
+      content: ""; position: absolute; left: 0; top: 0.72em;
+      width: 6px; height: 6px; background: var(--ld-accent); border-radius: 50%;
+    }
+    .legal-doc strong { color: var(--ld-text); font-weight: 700; }
+    .legal-doc a { color: var(--ld-accent); }
+
+    /* ---- Rând de acțiuni (linkuri clicabile către email / privacy / terms) ---- */
+    .delete-actions {
+      max-width: 820px;
+      margin: 2.8rem auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .delete-actions a {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0.7rem 1.1rem;
+      border-radius: 8px;
+      border: 1px solid #242424;
+      color: #e8e6e3;
+      background: #121212;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+    .delete-actions a.primary {
+      border-color: #CC0000;
+      color: #fff;
+      background: rgba(204, 0, 0, 0.12);
+    }
+    .delete-actions a:hover { border-color: #CC0000; color: #fff; }
+
+    @media (max-width: 600px) {
+      .legal-doc .ld-section { font-size: 1.05rem; }
+      .legal-doc .ld-p, .legal-doc .ld-list li { font-size: 1rem; }
+      .delete-actions a { width: 100%; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">TruthMirror</a>
+    <div class="lang-switch">
+      <button data-lang="en" class="active">EN</button>
+      <button data-lang="ro">RO</button>
+      <button data-lang="es">ES</button>
+      <button data-lang="ja">JA</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="legal-page">
+      <a href="/" class="back-link">← <span data-i18n="back">Back</span></a>
+      <h1 data-i18n="title">Account &amp; Data Deletion</h1>
+      <p class="meta" data-i18n="subtitle">How to delete your TruthMirror account and data.</p>
+
+      <div id="legalContent" class="legal-doc">Loading...</div>
+
+      <div class="delete-actions">
+        <a class="primary" id="emailBtn" href="mailto:support@truthmirror.net?subject=Delete%20my%20account" data-i18n="emailBtn">Email us to delete</a>
+        <a href="/privacy" data-i18n="privacyBtn">Privacy Policy</a>
+        <a href="/terms" data-i18n="termsBtn">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ---- Conținut per limbă (text simplu; parserul îl transformă în HTML stilizat,
+    //      identic cu paginile Privacy/Terms). Emailul apare ca text lizibil aici
+    //      și ca link clicabil în rândul de acțiuni de mai jos. ----
+    const CONTENT = {
+      en: `ACCOUNT & DATA DELETION
+TruthMirror
+
+1. DELETE DIRECTLY IN THE APP (FASTEST)
+The quickest way to delete your account is inside the app:
+- Open TruthMirror and go to Settings.
+- Tap "Delete account" and confirm.
+This permanently and immediately deletes your account and all associated data. No further steps are needed.
+
+2. REQUEST DELETION BY EMAIL
+If you can no longer access the app, you can ask us to delete your account:
+- Email support@truthmirror.net from, or mentioning, the email address you used to sign in.
+- Use the subject "Delete my account".
+We verify each request and complete it without undue delay, and within 30 days at the latest.
+
+3. WHAT WE DELETE
+When your account is deleted, we remove from our servers:
+- Your email address;
+- Your date of birth;
+- Your device identifier;
+- Your language preference;
+- Your subscription indicator and the content-free usage counter.
+All data kept on your device (conversations, statistics, clarity score, tags and the app-lock PIN) is removed when you delete your account in the app or uninstall the app. We never store your conversations on our servers.
+
+4. WHAT WE MAY KEEP
+To protect minors and prevent abuse, if an account was blocked (for example because it belonged to a person under 18), we keep an irreversible cryptographic hash of the email address and the device identifier on a block list, even after deletion. This list never contains your email in clear text and cannot be used to contact you or for marketing. The legal basis is our legitimate interest in protecting minors and the integrity of the Service (Article 6(1)(f) GDPR). See section 7.3 of our Privacy Policy.
+
+5. SUBSCRIPTIONS
+Deleting your account does not automatically cancel a paid subscription billed by the App Store or Google Play. To stop future charges, cancel the subscription in your store account (App Store: Settings, Apple ID, Subscriptions; or Google Play: Profile, Payments & subscriptions).
+
+6. CONTACT
+For anything related to your data or your rights under the GDPR, contact support@truthmirror.net. See also our Privacy Policy and Terms of Service.`,
+
+      ro: `ȘTERGEREA CONTULUI ȘI A DATELOR
+TruthMirror
+
+1. ȘTERGE DIRECT DIN APLICAȚIE (CEL MAI RAPID)
+Cel mai rapid mod de a-ți șterge contul este din aplicație:
+- Deschide TruthMirror și mergi la Setări.
+- Apasă „Șterge contul" și confirmă.
+Asta îți șterge definitiv și imediat contul și toate datele asociate. Nu mai e nevoie de niciun alt pas.
+
+2. CERE ȘTERGEREA PRIN EMAIL
+Dacă nu mai poți accesa aplicația, ne poți cere să-ți ștergem contul:
+- Scrie la support@truthmirror.net de pe adresa de email cu care te-ai autentificat (sau menționând-o).
+- Folosește subiectul „Șterge contul meu".
+Verificăm fiecare cerere și o procesăm fără întârziere nejustificată, în cel mult 30 de zile.
+
+3. CE ȘTERGEM
+Când contul tău este șters, eliminăm de pe serverele noastre:
+- Adresa ta de email;
+- Data nașterii;
+- Identificatorul dispozitivului;
+- Preferința de limbă;
+- Indicatorul abonamentului și contorul de utilizare fără conținut.
+Toate datele păstrate pe dispozitivul tău (conversații, statistici, scorul de claritate, etichete și PIN-ul de blocare) sunt eliminate când îți ștergi contul din aplicație sau când dezinstalezi aplicația. Nu stocăm niciodată conversațiile tale pe serverele noastre.
+
+4. CE PUTEM PĂSTRA
+Pentru protecția minorilor și prevenirea abuzului, dacă un cont a fost blocat (de exemplu pentru că aparținea unei persoane sub 18 ani), păstrăm pe o listă de blocare o versiune criptografică ireversibilă (hash) a adresei de email și identificatorul dispozitivului, chiar și după ștergere. Această listă nu conține niciodată emailul tău în clar și nu poate fi folosită pentru a te contacta sau pentru marketing. Baza legală este interesul nostru legitim de a proteja minorii și integritatea Serviciului (Articolul 6(1)(f) GDPR). Vezi secțiunea 7.3 din Politica de confidențialitate.
+
+5. ABONAMENTE
+Ștergerea contului nu anulează automat un abonament plătit facturat prin App Store sau Google Play. Ca să oprești plățile viitoare, anulează abonamentul din contul tău de store (App Store: Setări, Apple ID, Abonamente; sau Google Play: Profil, Plăți și abonamente).
+
+6. CONTACT
+Pentru orice legat de datele tale sau de drepturile tale conform GDPR, scrie la support@truthmirror.net. Vezi și Politica de confidențialitate și Termenii și condițiile.`,
+
+      es: `ELIMINACIÓN DE CUENTA Y DATOS
+TruthMirror
+
+1. ELIMINA DIRECTAMENTE EN LA APP (LO MÁS RÁPIDO)
+La forma más rápida de eliminar tu cuenta es dentro de la app:
+- Abre TruthMirror y ve a Ajustes.
+- Toca «Eliminar cuenta» y confirma.
+Esto elimina de forma permanente e inmediata tu cuenta y todos los datos asociados. No hace falta nada más.
+
+2. SOLICITA LA ELIMINACIÓN POR CORREO
+Si ya no puedes acceder a la app, puedes pedirnos que eliminemos tu cuenta:
+- Escribe a support@truthmirror.net desde la dirección de correo con la que iniciaste sesión (o mencionándola).
+- Usa el asunto «Eliminar mi cuenta».
+Verificamos cada solicitud y la completamos sin demora indebida, y como máximo en 30 días.
+
+3. QUÉ ELIMINAMOS
+Cuando se elimina tu cuenta, borramos de nuestros servidores:
+- Tu dirección de correo;
+- Tu fecha de nacimiento;
+- El identificador de tu dispositivo;
+- Tu preferencia de idioma;
+- El indicador de tu suscripción y el contador de uso sin contenido.
+Todos los datos guardados en tu dispositivo (conversaciones, estadísticas, puntuación de claridad, etiquetas y el PIN de bloqueo) se eliminan cuando borras tu cuenta en la app o desinstalas la app. Nunca almacenamos tus conversaciones en nuestros servidores.
+
+4. QUÉ PODEMOS CONSERVAR
+Para proteger a los menores y prevenir abusos, si una cuenta fue bloqueada (por ejemplo, porque pertenecía a una persona menor de 18 años), conservamos en una lista de bloqueo una versión criptográfica irreversible (hash) de la dirección de correo y el identificador del dispositivo, incluso tras la eliminación. Esta lista nunca contiene tu correo en texto claro y no puede usarse para contactarte ni para marketing. La base legal es nuestro interés legítimo en proteger a los menores y la integridad del Servicio (Artículo 6(1)(f) del RGPD). Consulta la sección 7.3 de nuestra Política de privacidad.
+
+5. SUSCRIPCIONES
+Eliminar tu cuenta no cancela automáticamente una suscripción de pago facturada por App Store o Google Play. Para detener cargos futuros, cancela la suscripción en tu cuenta de la tienda (App Store: Ajustes, Apple ID, Suscripciones; o Google Play: Perfil, Pagos y suscripciones).
+
+6. CONTACTO
+Para cualquier asunto relacionado con tus datos o tus derechos bajo el RGPD, escribe a support@truthmirror.net. Consulta también nuestra Política de privacidad y los Términos del servicio.`,
+
+      ja: `アカウントとデータの削除
+TruthMirror
+
+1. アプリ内で直接削除する（最速）
+アカウントを削除する最も早い方法は、アプリ内から行うことです。
+- TruthMirror を開き、「設定」に移動します。
+- 「アカウントを削除」をタップして確認します。
+これにより、アカウントと関連するすべてのデータが即座に完全に削除されます。他に必要な手順はありません。
+
+2. メールで削除を依頼する
+アプリにアクセスできなくなった場合は、メールでアカウント削除を依頼できます。
+- ログインに使用したメールアドレスから（またはそのアドレスを記載して）support@truthmirror.net までご連絡ください。
+- 件名は「アカウントを削除」としてください。
+各依頼を確認し、不当に遅延することなく、遅くとも30日以内に対応します。
+
+3. 削除する内容
+アカウントが削除されると、当社のサーバーから次の情報を削除します。
+- メールアドレス
+- 生年月日
+- デバイス識別子
+- 言語設定
+- サブスクリプションの表示と、内容を含まない利用カウンター
+端末内に保存されたすべてのデータ（会話、統計、明晰さスコア、タグ、アプリロックのPIN）は、アプリ内でアカウントを削除するか、アプリをアンインストールすると削除されます。当社が会話をサーバーに保存することは一切ありません。
+
+4. 保持する場合がある内容
+未成年者の保護と不正利用の防止のため、アカウントがブロックされた場合（例：18歳未満の人物のものであった場合）、削除後もメールアドレスの不可逆な暗号ハッシュとデバイス識別子をブロックリストに保持します。このリストにメールアドレスが平文で含まれることはなく、連絡やマーケティングに使用することはできません。法的根拠は、未成年者の保護とサービスの完全性に対する当社の正当な利益です（GDPR 第6条1項(f)）。プライバシーポリシーの第7.3項をご覧ください。
+
+5. サブスクリプション
+アカウントを削除しても、App Store または Google Play で請求される有料サブスクリプションは自動的には解約されません。今後の請求を停止するには、ストアのアカウントでサブスクリプションを解約してください（App Store：設定、Apple ID、サブスクリプション、または Google Play：プロフィール、お支払いと定期購入）。
+
+6. お問い合わせ
+データや GDPR に基づくお客様の権利に関するご質問は、support@truthmirror.net までご連絡ください。プライバシーポリシーおよび利用規約もご参照ください。`,
+    };
+
+    const labels = {
+      en: { title: 'Account & Data Deletion', subtitle: 'How to delete your TruthMirror account and data.', back: 'Back', emailBtn: 'Email us to delete', privacyBtn: 'Privacy Policy', termsBtn: 'Terms of Service' },
+      ro: { title: 'Ștergerea contului și a datelor', subtitle: 'Cum îți ștergi contul și datele TruthMirror.', back: 'Înapoi', emailBtn: 'Scrie-ne pentru ștergere', privacyBtn: 'Politica de confidențialitate', termsBtn: 'Termeni și condiții' },
+      es: { title: 'Eliminación de cuenta y datos', subtitle: 'Cómo eliminar tu cuenta y tus datos de TruthMirror.', back: 'Atrás', emailBtn: 'Escríbenos para eliminar', privacyBtn: 'Política de privacidad', termsBtn: 'Términos del servicio' },
+      ja: { title: 'アカウントとデータの削除', subtitle: 'TruthMirror のアカウントとデータを削除する方法。', back: '戻る', emailBtn: '削除を依頼する', privacyBtn: 'プライバシーポリシー', termsBtn: '利用規約' },
+    };
+
+    function escHtml(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+    const reSection = /^(\d{1,2})\.\s+(.+)$/;
+    const reSub = /^(\d{1,2}\.\d{1,2})\s+(.+)$/;
+    const reBullet = /^-\s+(.+)$/;
+
+    function buildHtml(raw){
+      const lines = raw.replace(/\r\n/g,'\n').split('\n');
+      let i = 0;
+      // sar peste titlul doc + TruthMirror (le avem deja in <h1>/<p class=meta>)
+      while (i < lines.length && !reSection.test(lines[i].trim())) i++;
+      const out = [];
+      let bullets = [];
+      const flush = () => {
+        if (bullets.length){
+          out.push('<ul class="ld-list">' + bullets.map(b=>'<li>'+escHtml(b)+'</li>').join('') + '</ul>');
+          bullets = [];
+        }
+      };
+      for (; i < lines.length; i++){
+        const ln = lines[i].trim();
+        if (!ln){ flush(); continue; }
+        const mBul = ln.match(reBullet);
+        if (mBul){ bullets.push(mBul[1]); continue; }
+        flush();
+        const mSub = ln.match(reSub);
+        const mSec = ln.match(reSection);
+        if (mSec && !mSub){
+          out.push('<h2 class="ld-section" id="s-'+mSec[1]+'"><span class="ld-num">'+mSec[1]+'.</span>'+escHtml(mSec[2])+'</h2>');
+        } else if (mSub){
+          out.push('<h3 class="ld-sub"><span class="ld-subnum">'+escHtml(mSub[1])+'</span>'+escHtml(mSub[2])+'</h3>');
+        } else {
+          out.push('<p class="ld-p">'+escHtml(ln)+'</p>');
+        }
+      }
+      flush();
+      return out.join('\n');
+    }
+
+    function render(lang){
+      const raw = CONTENT[lang] || CONTENT.en;
+      document.getElementById('legalContent').innerHTML = buildHtml(raw);
+      document.documentElement.lang = lang;
+      const l = labels[lang] || labels.en;
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-i18n');
+        if (l[key]) el.textContent = l[key];
+      });
+      document.querySelectorAll('.lang-switch button').forEach((btn) => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+      localStorage.setItem('tm.site.lang', lang);
+    }
+
+    const saved = localStorage.getItem('tm.site.lang');
+    const browser = (navigator.language || 'en').slice(0, 2);
+    const initialLang = ['en','ro','es','ja'].includes(saved) ? saved : (['en','ro','es','ja'].includes(browser) ? browser : 'en');
+
+    document.addEventListener('DOMContentLoaded', () => {
+      render(initialLang);
+      document.querySelectorAll('.lang-switch button').forEach((btn) => {
+        btn.addEventListener('click', () => render(btn.dataset.lang));
+      });
+    });
+  </script>
+</body>
+</html>

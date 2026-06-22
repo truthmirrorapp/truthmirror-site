@@ -108,7 +108,7 @@ Each processor is bound by a data processing agreement under Article 28 GDPR.
 
 7.1 On your device: Conversation history, statistics and scores exist only on your device, under your control. The in-app history view shows the last 7 days on the free plan (Glimpse) and the full history on paid plans. You can export (on paid plans) or delete everything at any time, and deleting the App removes this data.
 
-7.2 Account data: We keep it as long as your account is active. You can delete your account at any time directly in the App (Settings → "Delete account"), which removes the associated data (email, date of birth, device identifier, preferences, usage counter), except as described in section 7.3. If an account stays inactive for 24 months, we delete the associated data.
+7.2 Account data: We keep it as long as your account is active. You can delete your account at any time directly in the App (Settings → "Delete account") or via our account-deletion page at https://www.truthmirror.net/delete-account, which removes the associated data (email, date of birth, device identifier, preferences, usage counter), except as described in section 7.3. If an account stays inactive for 24 months, we delete the associated data.
 
 7.3 Exception for protection of minors and abuse prevention: If an account is blocked (for example because it belongs to a person under 18 or for abuse), we keep the irreversible cryptographic version (hash) of the email address and the device identifier on a block list, even after the account is deleted. This is strictly necessary to prevent reactivation of a blocked account and to protect minors. This list does NOT contain your email in clear text and cannot be used to contact you or for marketing. The legal basis is our legitimate interest in protecting minors and the integrity of the Service (Article 6(1)(f) GDPR).
 
@@ -125,8 +125,9 @@ You have the right to:
 (f) OBJECTION — object to processing based on legitimate interests;
 (g) WITHDRAWAL OF CONSENT — at any time, without affecting prior lawful processing.
 
-You can exercise the right to erasure (c) directly in the App:
+You can exercise the right to erasure (c) directly in the App or from our website:
 - Settings → "Delete account" permanently deletes your account, the account data at our backend provider (email, date of birth, device identifier, preferences, usage counter) AND all data on your device (conversations, statistics, score, PIN).
+- From the web: our account-deletion page at https://www.truthmirror.net/delete-account explains how to delete your account, including by email if you cannot access the App.
 - Settings → "Delete all my data" deletes only the data on your device (conversations, statistics), keeping the account.
 - PDF export (on paid plans) covers portability (e) of the data on your device (conversations, statistics). For a copy of the account data stored on the server (email, date of birth, language preference, subscription plan), write to support@truthmirror.net.
 

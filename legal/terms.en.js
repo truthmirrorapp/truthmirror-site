@@ -86,13 +86,13 @@ TRUTH (€19.99/month or €199/year) — Launching approximately 6 months after
 5.4 Fair use. Plans with "unlimited" questions are intended for personal, individual, good-faith use. To protect the Service and other users, we reserve the right to apply reasonable abuse-prevention measures — for example, in cases of automation, unauthorized programmatic access, account sharing among multiple people, resale, or a volume of usage clearly disproportionate to normal human use. In such cases we may temporarily rate-limit usage, contact the user, or, in serious cases, suspend the account, in accordance with section 10 (Acceptable Use).
 
 
-6. FREE TRIAL
+6. FREE PLAN AND PAID SUBSCRIPTIONS
 
-6.1 Paid tiers (Reflection and Mirror) include a 7-day free trial.
+6.1 The Glimpse plan is free and does not require any payment or subscription.
 
-6.2 If you do not cancel before the trial ends, you will be charged automatically at the standard rate.
+6.2 Paid features (Reflection and Mirror) unlock immediately upon a successful purchase. Subscriptions do not include a free trial period; billing begins at the time of purchase.
 
-6.3 Each user is entitled to one free trial per tier. Repeated trial abuse may result in trial denial.
+6.3 Each paid subscription is billed in advance for the period you select (monthly or annual) and renews as described in section 7.
 
 7. BILLING, AUTO-RENEWAL, AND REFUNDS
 
@@ -102,15 +102,17 @@ TRUTH (€19.99/month or €199/year) — Launching approximately 6 months after
 - iOS: Settings → Apple ID → Subscriptions → TruthMirror
 - Android: Google Play → Profile → Payments & subscriptions
 
-7.3 30-DAY MONEY-BACK GUARANTEE. If TruthMirror does not meet your expectations, you may request a full refund within 30 days of your first paid charge by emailing support@truthmirror.net with your transaction ID. Refunds are processed within 5 business days through the original payment method. No reason required. We reserve the right to deny abusive, fraudulent, or repeated refund requests.
+7.3 REFUNDS. All purchases are processed by the Apple App Store or Google Play, so refunds are issued in accordance with Apple's and Google's respective policies. If TruthMirror does not meet your expectations, contact us at support@truthmirror.net within 30 days of your first paid charge and we will help you obtain a refund through the relevant store. We may decline to assist with abusive, fraudulent, or repeated requests.
 
 7.4 EU CONSUMER WITHDRAWAL. EU/EEA consumers have a statutory right to withdraw from contracts for digital services within 14 days of purchase. To exercise this right, contact support@truthmirror.net. By starting to use the Service immediately upon purchase, you may waive this right in accordance with Article 16(m) of Directive 2011/83/EU.
 
-7.5 The 30-day money-back guarantee in section 7.3 is in addition to, not in place of, your statutory rights under EU consumer law.
+7.5 The refund assistance described in section 7.3 is in addition to, not in place of, your statutory rights under EU consumer law.
 
-8. CANCELLATION
+8. CANCELLATION AND ACCOUNT DELETION
 
-You may cancel your subscription at any time, with no reason required, through your App Store or Google Play account settings. Cancellation takes effect at the end of the current billing period; you retain access to paid features until then. We do not use retention tactics, exit surveys, or friction to discourage cancellation.
+8.1 You may cancel your subscription at any time, with no reason required, through your App Store or Google Play account settings. Cancellation takes effect at the end of the current billing period; you retain access to paid features until then. We do not use retention tactics, exit surveys, or friction to discourage cancellation.
+
+8.2 You may delete your account and its associated data at any time, either from within the App (Settings → "Delete account") or via our account-deletion page at https://www.truthmirror.net/delete-account. See our Privacy Policy for what is deleted and what may be retained for the protection of minors.
 
 9. NO ADVERTISING
 

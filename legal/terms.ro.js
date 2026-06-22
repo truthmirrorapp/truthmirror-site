@@ -86,13 +86,13 @@ TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lan
 5.4 Utilizare rezonabilă (fair use). Planurile cu întrebări „nelimitate" sunt destinate utilizării personale, individuale și de bună-credință. Pentru a proteja Serviciul și pe ceilalți utilizatori, ne rezervăm dreptul de a aplica măsuri rezonabile de prevenire a abuzului — de exemplu, în caz de automatizare, acces programatic neautorizat, partajarea contului între mai multe persoane, revânzare sau un volum de utilizare vădit disproporționat față de utilizarea umană normală. În astfel de cazuri putem limita temporar rata de utilizare, contacta utilizatorul sau, în situații grave, suspenda contul, în conformitate cu secțiunea 10 (Utilizare acceptabilă).
 
 
-6. TRIAL GRATIS
+6. PLANUL GRATUIT ȘI ABONAMENTELE PLĂTITE
 
-6.1 Planurile plătite (Reflection și Mirror) includ un trial gratis de 7 zile.
+6.1 Planul Glimpse este gratuit și nu necesită nicio plată sau abonament.
 
-6.2 Dacă nu anulezi înainte de încheierea trialului, vei fi taxat automat la tariful standard.
+6.2 Funcțiile plătite (Reflection și Mirror) se deblochează imediat după o achiziție reușită. Abonamentele nu includ o perioadă de trial gratuit; facturarea începe în momentul achiziției.
 
-6.3 Fiecare utilizator are dreptul la un singur trial gratis per plan. Abuzul repetat al trialurilor poate duce la refuzul trialului.
+6.3 Fiecare abonament plătit este facturat în avans pentru perioada aleasă (lunar sau anual) și se reînnoiește conform secțiunii 7.
 
 7. FACTURARE, REÎNNOIRE AUTOMATĂ ȘI RAMBURSĂRI
 
@@ -102,15 +102,17 @@ TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lan
 - iOS: Setări → Apple ID → Abonamente → TruthMirror
 - Android: Google Play → Profil → Plăți și abonamente
 
-7.3 GARANȚIE 30 ZILE MONEY-BACK. Dacă TruthMirror nu îți îndeplinește așteptările, poți cere rambursare integrală în 30 zile de la prima taxare, scriind la support@truthmirror.net cu ID-ul tranzacției. Rambursările sunt procesate în 5 zile lucrătoare prin metoda originală de plată. Nu e necesar un motiv. Ne rezervăm dreptul de a refuza cererile de rambursare abuzive, frauduloase sau repetate.
+7.3 RAMBURSĂRI. Toate achizițiile sunt procesate prin Apple App Store sau Google Play, deci rambursările se acordă conform politicilor Apple și Google. Dacă TruthMirror nu îți îndeplinește așteptările, scrie-ne la support@truthmirror.net în 30 de zile de la prima taxare și te vom ajuta să obții o rambursare prin store-ul respectiv. Putem refuza să asistăm cererile abuzive, frauduloase sau repetate.
 
 7.4 RETRAGERE CONSUMATOR UE. Consumatorii din UE/SEE au dreptul legal de a se retrage din contractele pentru servicii digitale în 14 zile de la cumpărare. Pentru a exercita acest drept, contactează support@truthmirror.net. Prin începerea utilizării Serviciului imediat după cumpărare, poți renunța la acest drept conform Articolului 16(m) din Directiva 2011/83/UE.
 
-7.5 Garanția de 30 zile money-back din secțiunea 7.3 se adaugă, nu înlocuiește, drepturile tale legale conform legislației UE de protecție a consumatorilor.
+7.5 Asistența pentru rambursare descrisă în secțiunea 7.3 se adaugă, nu înlocuiește, drepturile tale legale conform legislației UE de protecție a consumatorilor.
 
-8. ANULARE
+8. ANULARE ȘI ȘTERGEREA CONTULUI
 
-Îți poți anula abonamentul oricând, fără să fie necesar un motiv, prin setările contului tău App Store sau Google Play. Anularea intră în vigoare la sfârșitul perioadei curente de facturare; păstrezi accesul la funcțiile plătite până atunci. Nu folosim tactici de retenție, survey-uri de ieșire, sau friction pentru a descuraja anularea.
+8.1 Îți poți anula abonamentul oricând, fără să fie necesar un motiv, prin setările contului tău App Store sau Google Play. Anularea intră în vigoare la sfârșitul perioadei curente de facturare; păstrezi accesul la funcțiile plătite până atunci. Nu folosim tactici de retenție, survey-uri de ieșire, sau friction pentru a descuraja anularea.
+
+8.2 Îți poți șterge contul și datele asociate oricând, fie din Aplicație (Setări → „Șterge contul"), fie prin pagina noastră de ștergere a contului de la https://www.truthmirror.net/delete-account. Vezi Politica de confidențialitate pentru ce se șterge și ce poate fi păstrat pentru protecția minorilor.
 
 9. FĂRĂ RECLAME
 
