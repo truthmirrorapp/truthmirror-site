@@ -24,7 +24,7 @@
   <meta name="twitter:title" content="TruthMirror — The AI mirror that won't lie to you">
   <meta name="twitter:description" content="An AI that asks the questions you've been avoiding. No advice, no comfort — just the truth, tracked over time so you can't lie to yourself twice.">
   <meta name="twitter:image" content="https://www.truthmirror.net/og-image.png">
-  <!-- Structured data: Organization + WebSite (helps Google understand the brand) -->
+  <!-- Structured data: Organization + WebSite + MobileApplication (helps Google understand the brand and the app) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -54,6 +54,22 @@
         "url": "https://www.truthmirror.net",
         "inLanguage": "en",
         "publisher": { "@id": "https://www.truthmirror.net/#organization" }
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://www.truthmirror.net/#app",
+        "name": "TruthMirror: Self-Reflection",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "url": "https://www.truthmirror.net",
+        "installUrl": "https://apps.apple.com/app/id6782132719",
+        "publisher": { "@id": "https://www.truthmirror.net/#organization" },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "description": "Free to start. Optional subscriptions from €4.99/month."
+        }
       }
     ]
   }
@@ -79,6 +95,14 @@
     .tm-disclaimer{max-width:760px;margin:0 auto;text-align:center;padding:26px 30px;border:3px solid rgba(224,72,72,.85);border-radius:14px;background:rgba(224,72,72,.08)}
     .tm-disclaimer p{color:#f3e9e9;font-size:16.5px;line-height:1.65;margin:0;font-weight:600}
     .footer-disclaimer{color:#777;font-size:12px;margin-top:10px;line-height:1.5}
+
+    /* ===== STORE BADGES (launch) ===== */
+    .tm-badges{display:flex;gap:16px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:30px}
+    .tm-store-badge{display:inline-block;line-height:0;transition:transform .2s ease,opacity .2s ease}
+    .tm-store-badge:hover{transform:translateY(-3px);opacity:.92}
+    .tm-store-badge img{height:56px;width:auto;display:block}
+    .tm-badges-note{font-size:13.5px;color:#8a8a8a;text-align:center;margin-top:14px;line-height:1.5}
+    @media(max-width:480px){.tm-store-badge img{height:48px}}
 
     /* ===== SIZE + TIDY OVERRIDES (added) ===== */
     body{line-height:1.65;-webkit-font-smoothing:antialiased}
@@ -116,10 +140,6 @@
     .tm-faq-item p{font-size:16px !important}
     .tm-disclaimer p{font-size:16.5px !important;font-weight:600 !important;color:#f3e9e9 !important}
 
-    /* consent line under waitlist forms */
-    .tm-consent{font-size:12.5px;line-height:1.5;color:#8a8a8a;max-width:420px;margin:10px auto 0;text-align:center}
-    .tm-consent a{color:#b6b6b6;text-decoration:underline}
-
     /* ===== SCREENSHOTS SHOWCASE (added) ===== */
     .tm-shots{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:40px}
     .tm-shot{flex:0 0 auto;width:248px;border-radius:30px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.6);border:1px solid #222;transition:transform .25s ease;position:relative}
@@ -149,9 +169,6 @@
       .pricing-grid,.how-grid,.guarantees-grid{display:grid !important;grid-template-columns:1fr !important;flex-direction:column !important;flex-wrap:wrap !important;gap:18px !important;width:100% !important;max-width:100% !important}
       .pricing-card,.how-step,.guarantee{flex:1 1 100% !important;width:100% !important;max-width:100% !important;min-width:0 !important;margin-left:0 !important;margin-right:0 !important}
       .footer-grid{display:grid !important;grid-template-columns:1fr !important;flex-direction:column !important;gap:26px !important}
-      /* forms stack and fill width */
-      .waitlist,.waitlist-hero{display:flex !important;flex-direction:column !important;align-items:stretch !important;gap:10px !important;width:100% !important;max-width:100% !important}
-      .waitlist input,.waitlist-hero input,.waitlist button,.waitlist-hero button{width:100% !important}
       .navbar{flex-wrap:wrap !important;gap:8px !important}
       .section{padding-top:56px !important;padding-bottom:56px !important}
     }
@@ -175,12 +192,15 @@
       <p class="eyebrow" data-i18n="hero.eyebrow">For those ready to stop lying to themselves</p>
       <h1 data-i18n="hero.title">The mirror that won't lie to you.</h1>
       <p class="hero-sub" data-i18n="hero.subtitle">An AI that asks the questions you've avoided. No advice. No comfort. Just truth.</p>
-      <form id="waitlistFormHero" class="waitlist-hero" action="https://formspree.io/f/mqennowj" method="POST">
-        <input type="email" name="email" placeholder="your@email.com" required data-i18n-placeholder="waitlist.placeholder">
-        <button type="submit" data-i18n="waitlist.button">Join the waitlist</button>
-      </form>
-      <p class="tm-consent" data-i18n="waitlist.consent">By joining, you agree to our <a href="/privacy">Privacy Policy</a>. We use your email only to notify you at launch.</p>
-      <p class="hero-note" data-i18n="hero.note">We'll notify you when we launch on App Store and Google Play.</p>
+      <div class="tm-badges">
+        <a href="https://apps.apple.com/app/id6782132719" class="tm-store-badge" rel="noopener" aria-label="Download on the App Store">
+          <img src="badges/app-store-badge.svg" alt="Download on the App Store">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=net.truthmirror.app" class="tm-store-badge" rel="noopener" aria-label="Get it on Google Play">
+          <img src="badges/google-play-badge.png" alt="Get it on Google Play">
+        </a>
+      </div>
+      <p class="hero-note" data-i18n="hero.note">Free to start. Available for iPhone and Android.</p>
     </div>
   </section>
 
@@ -293,7 +313,7 @@
             <li data-pricing-i18n="pricing.glimpse.f4">Crisis support</li>
             <li data-pricing-i18n="pricing.glimpse.f5">EN / RO / ES / JA</li>
           </ul>
-          <a href="#waitlist" class="tier-cta" data-pricing-i18n="pricing.glimpse.cta">Start free</a>
+          <a href="#download" class="tier-cta" data-pricing-i18n="pricing.glimpse.cta">Start free</a>
         </div>
 
         <div class="pricing-card">
@@ -312,7 +332,7 @@
             <li data-pricing-i18n="pricing.reflection.f8">PDF export (1/month)</li>
           </ul>
           <div class="tier-annual" data-pricing-i18n="pricing.reflection.annual">Annual: €49 (2 months free)</div>
-          <a href="#waitlist" class="tier-cta" data-pricing-i18n="pricing.reflection.cta">Join waitlist</a>
+          <a href="#download" class="tier-cta" data-pricing-i18n="pricing.reflection.cta">Download the app</a>
           <p class="tier-store-note" data-pricing-i18n="pricing.storeNote">Local price is set by the App Store / Google Play.</p>
         </div>
 
@@ -333,7 +353,7 @@
             <li data-pricing-i18n="pricing.mirror.f8">Priority support 24h</li>
           </ul>
           <div class="tier-annual" data-pricing-i18n="pricing.mirror.annual">Annual: €99 (2 months free)</div>
-          <a href="#waitlist" class="tier-cta primary" data-pricing-i18n="pricing.mirror.cta">Join waitlist</a>
+          <a href="#download" class="tier-cta primary" data-pricing-i18n="pricing.mirror.cta">Download the app</a>
           <p class="tier-store-note" data-pricing-i18n="pricing.storeNote">Local price is set by the App Store / Google Play.</p>
         </div>
 
@@ -440,18 +460,21 @@
     </div>
   </section>
 
-  <!-- WAITLIST CTA -->
-  <section id="waitlist" class="section waitlist-section">
+  <!-- DOWNLOAD CTA -->
+  <section id="download" class="section waitlist-section">
     <div class="container">
       <span class="section-num">08</span>
-      <h2 class="section-title" data-i18n="waitlist.title">Join the waitlist</h2>
-      <p class="section-sub" data-i18n="waitlist.subtitle">Get early access. Be first to know when we launch.</p>
-      <form id="waitlistForm" class="waitlist" action="https://formspree.io/f/mqennowj" method="POST">
-        <input type="email" name="email" placeholder="your@email.com" required data-i18n-placeholder="waitlist.placeholder">
-        <button type="submit" data-i18n="waitlist.button">Join the waitlist</button>
-      </form>
-      <p class="tm-consent" data-i18n="waitlist.consent">By joining, you agree to our <a href="/privacy">Privacy Policy</a>. We use your email only to notify you at launch.</p>
-      <p class="waitlist-success" id="waitlistSuccess" data-i18n="waitlist.success">Got it. We'll let you know.</p>
+      <h2 class="section-title" data-i18n="download.title">Get TruthMirror</h2>
+      <p class="section-sub" data-i18n="download.subtitle">Officially live on the App Store and Google Play. Free to start.</p>
+      <div class="tm-badges">
+        <a href="https://apps.apple.com/app/id6782132719" class="tm-store-badge" rel="noopener" aria-label="Download on the App Store">
+          <img src="badges/app-store-badge.svg" alt="Download on the App Store">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=net.truthmirror.app" class="tm-store-badge" rel="noopener" aria-label="Get it on Google Play">
+          <img src="badges/google-play-badge.png" alt="Get it on Google Play">
+        </a>
+      </div>
+      <p class="tm-badges-note" data-i18n="download.note">iPhone (iOS 15+) and Android. 18+.</p>
     </div>
   </section>
 

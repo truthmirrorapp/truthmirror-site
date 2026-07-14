@@ -18,7 +18,7 @@ const PRICING_I18N = {
         f3: "Pattern Evolution chart", f4: "Honesty Score tracking",
         f5: "Daily reminder", f6: "Streak counter",
         f7: "3 separate contexts", f8: "PDF export (1/month)",
-        annual: "Annual: €49 (2 months free)", cta: "Join waitlist"
+        annual: "Annual: €49 (2 months free)", cta: "Download the app"
       },
       mirror: {
         name: "Mirror", period: "per month", desc: "Deep work",
@@ -26,7 +26,7 @@ const PRICING_I18N = {
         f3: "Weekly Insights Report", f4: "Unlimited PDF export",
         f5: "Conversation tagging", f6: "Custom personality (Gentle / Direct / Unfiltered)",
         f7: "6 separate contexts", f8: "Priority support 24h",
-        annual: "Annual: €99 (2 months free)", cta: "Join waitlist"
+        annual: "Annual: €99 (2 months free)", cta: "Download the app"
       },
       truth: {
         name: "Truth", period: "per month", desc: "Total clarity",
@@ -65,7 +65,7 @@ const PRICING_I18N = {
         f3: "Grafic Pattern Evolution", f4: "Honesty Score în timp",
         f5: "Reminder zilnic", f6: "Streak counter",
         f7: "3 contexte separate", f8: "Export PDF (1/lună)",
-        annual: "Anual: €49 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
+        annual: "Anual: €49 (2 luni gratis)", cta: "Descarcă aplicația"
       },
       mirror: {
         name: "Mirror", period: "pe lună", desc: "Lucru profund",
@@ -73,7 +73,7 @@ const PRICING_I18N = {
         f3: "Raport săptămânal de insights", f4: "Export PDF nelimitat",
         f5: "Etichete pe conversații", f6: "Personalitate ajustabilă (Blând / Direct / Brut)",
         f7: "6 contexte separate", f8: "Suport prioritar 24h",
-        annual: "Anual: €99 (2 luni gratis)", cta: "Înscrie-te pe waitlist"
+        annual: "Anual: €99 (2 luni gratis)", cta: "Descarcă aplicația"
       },
       truth: {
         name: "Truth", period: "pe lună", desc: "Claritate totală",
@@ -112,7 +112,7 @@ const PRICING_I18N = {
         f3: "Gráfico de evolución de patrones", f4: "Seguimiento Honesty Score",
         f5: "Recordatorio diario", f6: "Contador de racha",
         f7: "3 contextos separados", f8: "Exportar PDF (1/mes)",
-        annual: "Anual: €49 (2 meses gratis)", cta: "Únete a la waitlist"
+        annual: "Anual: €49 (2 meses gratis)", cta: "Descarga la app"
       },
       mirror: {
         name: "Mirror", period: "al mes", desc: "Trabajo profundo",
@@ -120,7 +120,7 @@ const PRICING_I18N = {
         f3: "Informe semanal de insights", f4: "Exportar PDF ilimitado",
         f5: "Etiquetas en conversaciones", f6: "Personalidad ajustable (Suave / Directo / Sin filtro)",
         f7: "6 contextos separados", f8: "Soporte prioritario 24h",
-        annual: "Anual: €99 (2 meses gratis)", cta: "Únete a la waitlist"
+        annual: "Anual: €99 (2 meses gratis)", cta: "Descarga la app"
       },
       truth: {
         name: "Truth", period: "al mes", desc: "Claridad total",
@@ -159,7 +159,7 @@ const PRICING_I18N = {
         f3: "パターン推移グラフ", f4: "誠実度スコアの記録",
         f5: "毎日のリマインダー", f6: "連続記録カウンター",
         f7: "3つの個別コンテキスト", f8: "PDF書き出し（月1回）",
-        annual: "年額: €49（2か月分無料）", cta: "ウェイトリストに登録"
+        annual: "年額: €49（2か月分無料）", cta: "アプリをダウンロード"
       },
       mirror: {
         name: "Mirror", period: "月額", desc: "深い取り組み",
@@ -167,7 +167,7 @@ const PRICING_I18N = {
         f3: "週次インサイトレポート", f4: "PDF書き出し無制限",
         f5: "対話のタグ付け", f6: "性格のカスタマイズ（やさしい / 直球 / ありのまま）",
         f7: "6つの個別コンテキスト", f8: "24時間優先サポート",
-        annual: "年額: €99（2か月分無料）", cta: "ウェイトリストに登録"
+        annual: "年額: €99（2か月分無料）", cta: "アプリをダウンロード"
       },
       truth: {
         name: "Truth", period: "月額", desc: "完全な明晰さ",

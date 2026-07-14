@@ -3,7 +3,7 @@ const translations = {
     'hero.eyebrow': "For those ready to stop lying to themselves",
     'hero.title': "The mirror that won't lie to you.",
     'hero.subtitle': "An AI that asks the questions you've been avoiding.<br>No advice. No comfort. Just truth.",
-    'hero.note': "We'll notify you when we launch on App Store and Google Play.",
+    'hero.note': "Free to start. Available for iPhone and Android.",
     'demo.title': "See the mirror in action",
     'demo.subtitle': "No advice. No comfort. Just the question underneath your answer.",
     'demo.u1': "I keep putting off the talk with my boss about a raise.",
@@ -38,12 +38,9 @@ const translations = {
     'faq.q7': "Why no advice?",
     'faq.a7': "Advice is easy to nod at and easy to ignore. A question you can't answer honestly changes more than advice ever will.",
     'disclaimer.text': "TruthMirror is not a substitute for therapy or medical care. If you're in crisis, please contact a professional or your local emergency line.",
-    'waitlist.title': 'Join the waitlist',
-    'waitlist.subtitle': 'Get early access. Be first to know when we launch.',
-    'waitlist.placeholder': 'your@email.com',
-    'waitlist.button': 'Join the waitlist',
-    'waitlist.success': "Got it. We'll let you know.",
-    'waitlist.consent': 'By joining, you agree to our <a href="/privacy">Privacy Policy</a>. We use your email only to notify you at launch.',
+    'download.title': 'Get TruthMirror',
+    'download.subtitle': 'Officially live on the App Store and Google Play. Free to start.',
+    'download.note': 'iPhone (iOS 15+) and Android. 18+.',
     'footer.tag': "The mirror that won't lie to you.",
     'footer.legal': 'Legal',
     'footer.about': 'About',
@@ -58,7 +55,7 @@ const translations = {
     'hero.eyebrow': "Pentru cei pregătiți să nu se mai mintă singuri",
     'hero.title': "Oglinda care nu te va minți.",
     'hero.subtitle': "Un AI care pune întrebările pe care le-ai evitat.<br>Fără sfaturi. Fără mângâieri. Doar adevăr.",
-    'hero.note': "Te anunțăm când lansăm pe App Store și Google Play.",
+    'hero.note': "Începi gratuit. Disponibil pe iPhone și Android.",
     'demo.title': "Vezi oglinda în acțiune",
     'demo.subtitle': "Fără sfaturi. Fără mângâieri. Doar întrebarea de sub răspunsul tău.",
     'demo.u1': "Tot amân discuția cu șeful despre o mărire.",
@@ -93,12 +90,9 @@ const translations = {
     'faq.q7': "De ce fără sfaturi?",
     'faq.a7': "Sfaturile sunt ușor de aprobat și ușor de ignorat. O întrebare la care nu poți răspunde sincer schimbă mai mult decât o va face vreodată un sfat.",
     'disclaimer.text': "TruthMirror nu înlocuiește terapia sau îngrijirea medicală. Dacă ești în criză, contactează un specialist sau linia locală de urgență.",
-    'waitlist.title': 'Înscrie-te pe waitlist',
-    'waitlist.subtitle': 'Acces timpuriu. Afli primul când lansăm.',
-    'waitlist.placeholder': 'your@email.com',
-    'waitlist.button': 'Înscrie-te pe waitlist',
-    'waitlist.success': "Am primit. Te anunțăm.",
-    'waitlist.consent': 'Prin înscriere, ești de acord cu <a href="/privacy">Politica de confidențialitate</a>. Folosim emailul tău doar ca să te anunțăm la lansare.',
+    'download.title': 'Descarcă TruthMirror',
+    'download.subtitle': 'Oficial pe App Store și Google Play. Începi gratuit.',
+    'download.note': 'iPhone (iOS 15+) și Android. 18+.',
     'footer.tag': "Oglinda care nu te va minți.",
     'footer.legal': 'Legal',
     'footer.about': 'Despre',
@@ -113,7 +107,7 @@ const translations = {
     'hero.eyebrow': "Para quienes están listos para dejar de mentirse",
     'hero.title': "El espejo que no te mentirá.",
     'hero.subtitle': "Una IA que hace las preguntas que has estado evitando.<br>Sin consejos. Sin consuelo. Solo verdad.",
-    'hero.note': "Te avisamos cuando lancemos en App Store y Google Play.",
+    'hero.note': "Gratis para empezar. Disponible para iPhone y Android.",
     'demo.title': "Mira el espejo en acción",
     'demo.subtitle': "Sin consejos. Sin consuelo. Solo la pregunta que hay bajo tu respuesta.",
     'demo.u1': "Sigo posponiendo la charla con mi jefe sobre un aumento.",
@@ -148,12 +142,9 @@ const translations = {
     'faq.q7': "¿Por qué sin consejos?",
     'faq.a7': "Los consejos son fáciles de asentir y fáciles de ignorar. Una pregunta que no puedes responder con honestidad cambia más que cualquier consejo.",
     'disclaimer.text': "TruthMirror no sustituye la terapia ni la atención médica. Si estás en crisis, contacta con un profesional o tu línea de emergencia local.",
-    'waitlist.title': 'Únete a la waitlist',
-    'waitlist.subtitle': 'Acceso anticipado. Sé el primero en saber cuándo lanzamos.',
-    'waitlist.placeholder': 'your@email.com',
-    'waitlist.button': 'Únete a la waitlist',
-    'waitlist.success': "Recibido. Te avisaremos.",
-    'waitlist.consent': 'Al unirte, aceptas nuestra <a href="/privacy">Política de privacidad</a>. Usamos tu email solo para avisarte en el lanzamiento.',
+    'download.title': 'Descarga TruthMirror',
+    'download.subtitle': 'Oficialmente en App Store y Google Play. Gratis para empezar.',
+    'download.note': 'iPhone (iOS 15+) y Android. 18+.',
     'footer.tag': "El espejo que no te mentirá.",
     'footer.legal': 'Legal',
     'footer.about': 'Acerca de',
@@ -168,7 +159,7 @@ const translations = {
     'hero.eyebrow': "自分への嘘をやめる準備ができた人へ",
     'hero.title': "あなたに嘘をつかない鏡。",
     'hero.subtitle': "あなたが避けてきた問いを投げかけるAI。<br>助言なし。慰めなし。ただ真実だけ。",
-    'hero.note': "App Store と Google Play でのローンチ時にお知らせします。",
+    'hero.note': "無料で始められます。iPhone・Android対応。",
     'demo.title': "鏡の動きを見る",
     'demo.subtitle': "助言なし。慰めなし。あなたの答えの下にある問いだけ。",
     'demo.u1': "昇給について上司と話すのを、ずっと先延ばしにしている。",
@@ -203,12 +194,9 @@ const translations = {
     'faq.q7': "なぜ助言しないのですか？",
     'faq.a7': "助言はうなずくのも無視するのも簡単です。正直に答えられない問いは、どんな助言よりも多くを変えます。",
     'disclaimer.text': "TruthMirrorはセラピーや医療の代わりにはなりません。危機的状況にある場合は、専門家またはお住まいの地域の緊急連絡先にご連絡ください。",
-    'waitlist.title': 'ウェイトリストに登録',
-    'waitlist.subtitle': '早期アクセス。ローンチ時にいち早くお知らせします。',
-    'waitlist.placeholder': 'your@email.com',
-    'waitlist.button': 'ウェイトリストに登録',
-    'waitlist.success': "受け付けました。準備ができ次第お知らせします。",
-    'waitlist.consent': '登録すると、<a href="/privacy">プライバシーポリシー</a>に同意したものとみなされます。メールアドレスはローンチのお知らせにのみ使用します。',
+    'download.title': 'TruthMirrorをダウンロード',
+    'download.subtitle': 'App StoreとGoogle Playで正式リリース。無料で始められます。',
+    'download.note': 'iPhone（iOS 15以降）・Android対応。18歳以上。',
     'footer.tag': "あなたに嘘をつかない鏡。",
     'footer.legal': '法的情報',
     'footer.about': '概要',
@@ -252,51 +240,4 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.lang-switch button').forEach((btn) => {
     btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
   });
-
-  // Trateaza AMBELE formulare de waitlist: cel din hero (waitlistFormHero) si
-  // cel de jos (waitlistForm). Inainte era prins doar cel de jos -> hero-ul
-  // facea POST cu navigare full-page la Formspree. In plus, mesajul de succes
-  // se afiseaza prin clasa `.show` (CSS: .waitlist-success.show { display:block })
-  // -- vechiul cod folosea `.hidden`, care nici nu exista in CSS, deci succesul
-  // nu aparea niciodata. Acum: ascundem formularul inline si aratam mesajul.
-  function bindWaitlist(form) {
-    if (!form) return;
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const data = new FormData(form);
-      try {
-        const res = await fetch(form.action, {
-          method: 'POST',
-          body: data,
-          headers: { Accept: 'application/json' },
-        });
-        if (res.ok) {
-          // setProperty cu 'important' ca sa invinga regula mobila
-          // `.waitlist-hero{display:flex !important}` din index.html — altfel
-          // pe ecrane <=768px formularul ramanea vizibil sub mesajul de succes.
-          form.style.setProperty('display', 'none', 'important');
-          const section = form.closest('section') || document.body;
-          let succ = section.querySelector('.waitlist-success');
-          if (!succ) {
-            // hero-ul nu are element de succes propriu -> il cream sub formular,
-            // cu textul tradus in limba curenta.
-            succ = document.createElement('p');
-            succ.className = 'waitlist-success';
-            const lang = document.documentElement.lang || 'en';
-            const tbl = translations[lang] || translations.en;
-            succ.innerHTML = (tbl && tbl['waitlist.success']) || "Got it. We'll let you know.";
-            form.parentNode.insertBefore(succ, form.nextSibling);
-          }
-          succ.classList.add('show');
-        } else {
-          alert('Something went wrong. Try again.');
-        }
-      } catch {
-        alert('Network error. Try again.');
-      }
-    });
-  }
-
-  bindWaitlist(document.getElementById('waitlistForm'));
-  bindWaitlist(document.getElementById('waitlistFormHero'));
 });
