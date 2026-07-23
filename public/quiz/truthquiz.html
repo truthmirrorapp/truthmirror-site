@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Can you handle the truth? — TruthMirror</title>
+<meta name="description" content="5 questions. No signup. An AI that calls you out." />
+<meta name="theme-color" content="#0A0A0A" />
+<!-- Social cards -->
+<meta property="og:title" content="Can you handle the truth?" />
+<meta property="og:description" content="5 questions. No signup. An AI that calls you out." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://truthmirror.net/quiz" />
+<meta property="og:image" content="https://truthmirror.net/og-quiz.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0A0A0A;
+    --ink:#F2ECDD;
+    --muted:rgba(242,236,221,.52);
+    --faint:rgba(242,236,221,.32);
+    --gold:#D4AF37;
+    --gold-soft:rgba(212,175,55,.55);
+    --line:rgba(212,175,55,.22);
+    --line-strong:rgba(212,175,55,.45);
+    --card:#111009;
+    --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+    --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{height:100%}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:16px;
+    line-height:1.5;
+    overflow-x:hidden;
+    min-height:100dvh;
+  }
+  body::before{ /* faint gold breath in the void */
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(60% 42% at 50% -6%, rgba(212,175,55,.10), transparent 70%);
+  }
+  .stage{position:relative;z-index:1;max-width:560px;margin:0 auto;padding:0 22px;min-height:100dvh;display:flex;flex-direction:column}
+
+  /* ---------- shared ---------- */
+  .brand{display:flex;align-items:center;gap:10px;padding:26px 2px 0}
+  .brand .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 14px rgba(212,175,55,.8)}
+  .brand .word{font-family:var(--sans);font-weight:600;font-size:12px;letter-spacing:.42em;color:var(--gold)}
+  .kicker{font-size:11px;font-weight:600;letter-spacing:.34em;color:var(--gold);text-transform:uppercase}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    border:0;border-radius:999px;cursor:pointer;text-decoration:none;
+    font-family:var(--sans);font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+    transition:transform .18s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+  }
+  .btn:active{transform:scale(.97)}
+  .btn-gold{
+    background:linear-gradient(180deg,#E2C158,#C79E2B);color:#151203;
+    font-size:13px;padding:18px 26px;width:100%;
+    box-shadow:0 10px 34px rgba(212,175,55,.28), inset 0 1px 0 rgba(255,255,255,.35);
+  }
+  .btn-gold:hover{box-shadow:0 14px 44px rgba(212,175,55,.4)}
+  .btn-ghost{
+    background:transparent;color:var(--ink);border:1px solid var(--line-strong);
+    font-size:12px;padding:15px 20px;width:100%;
+  }
+  .btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+  .micro{font-size:11px;letter-spacing:.3em;color:var(--faint);text-transform:uppercase;text-align:center}
+  button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+
+  /* ---------- screens ---------- */
+  .screen{
+    flex:1;display:none;flex-direction:column;
+    opacity:0;transform:translateY(14px);
+  }
+  .screen.on{display:flex;animation:rise .5s cubic-bezier(.22,.9,.3,1) forwards}
+  .screen.leaving{animation:sink .26s ease forwards}
+  @keyframes rise{to{opacity:1;transform:translateY(0)}}
+  @keyframes sink{to{opacity:0;transform:translateY(-12px)}}
+
+  /* ---------- intro ---------- */
+  #intro .body{flex:1;display:flex;flex-direction:column;justify-content:center;text-align:center;gap:0;padding:28px 0 40px}
+  #intro .kicker{opacity:0;animation:fadeUp .6s .15s ease forwards}
+  #intro h1{
+    font-family:var(--serif);font-weight:600;color:var(--ink);
+    font-size:clamp(42px,11vw,58px);line-height:1.06;margin:18px 0 20px;
+    opacity:0;animation:fadeUp .6s .3s ease forwards;
+  }
+  #intro h1 em{font-style:italic;color:var(--gold);font-weight:600}
+  #intro .sub{font-family:var(--serif);font-style:italic;font-size:18px;color:var(--muted);opacity:0;animation:fadeUp .6s .45s ease forwards}
+  #intro .cta{margin-top:44px;opacity:0;animation:fadeUp .6s .6s ease forwards}
+  #intro .micro{margin-top:18px;opacity:0;animation:fadeUp .6s .72s ease forwards}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+  .foot{padding:0 0 26px;text-align:center}
+  .foot .micro{letter-spacing:.4em}
+
+  /* ---------- quiz ---------- */
+  .progress{height:2px;background:rgba(212,175,55,.14);border-radius:2px;margin-top:22px;overflow:hidden}
+  .progress i{display:block;height:100%;width:0%;background:linear-gradient(90deg,var(--gold),#F0D77B);box-shadow:0 0 12px rgba(212,175,55,.7);transition:width .5s cubic-bezier(.22,.9,.3,1)}
+  #quiz .body{flex:1;display:flex;flex-direction:column;justify-content:center;padding:26px 0 30px}
+  .qcount{font-size:11px;letter-spacing:.34em;color:var(--gold);text-transform:uppercase;margin-bottom:14px}
+  .qtext{
+    font-family:var(--serif);font-weight:600;font-size:clamp(26px,6.8vw,34px);
+    line-height:1.22;margin-bottom:30px;min-height:2.4em;
+  }
+  .opts{display:flex;flex-direction:column;gap:12px}
+  .opt{
+    position:relative;display:flex;align-items:flex-start;gap:14px;text-align:left;
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:17px 18px;color:var(--ink);cursor:pointer;width:100%;
+    font-family:var(--sans);font-size:15.5px;line-height:1.45;
+    transition:border-color .2s, background .2s, transform .15s, opacity .3s;
+  }
+  .opt:hover{border-color:var(--line-strong);transform:translateY(-1px)}
+  .opt .tag{
+    flex:none;width:26px;height:26px;border-radius:50%;margin-top:1px;
+    border:1px solid var(--line-strong);color:var(--gold);
+    display:flex;align-items:center;justify-content:center;
+    font-size:12px;font-weight:600;letter-spacing:.05em;
+    transition:background .2s,color .2s;
+  }
+  .opt.picked{border-color:var(--gold);background:#161307;box-shadow:0 0 0 1px var(--gold), 0 8px 30px rgba(212,175,55,.15)}
+  .opt.picked .tag{background:var(--gold);color:#151203}
+  .opt.dim{opacity:.32;pointer-events:none}
+  .opts.locked .opt{pointer-events:none}
+  .react{
+    margin-top:26px;min-height:56px;
+    font-family:var(--serif);font-style:italic;font-size:19px;color:var(--gold);
+    opacity:0;transform:translateY(8px);
+  }
+  .react.show{animation:reactIn .45s ease forwards}
+  .react::before{content:"— ";color:var(--gold-soft)}
+  @keyframes reactIn{to{opacity:1;transform:translateY(0)}}
+
+  /* ---------- verdict ---------- */
+  #verdict{position:relative}
+  #dust{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+  #verdict .body{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:22px 0 34px}
+  .ringwrap{position:relative;width:196px;height:196px;margin:8px 0 24px}
+  .ringwrap svg{width:100%;height:100%;transform:rotate(-90deg)}
+  .ring-bg{fill:none;stroke:rgba(212,175,55,.14);stroke-width:2}
+  .ring-fg{fill:none;stroke:var(--gold);stroke-width:2.6;stroke-linecap:round;
+    filter:drop-shadow(0 0 6px rgba(212,175,55,.65));
+    stroke-dasharray:578;stroke-dashoffset:578;transition:stroke-dashoffset 1.6s cubic-bezier(.22,.9,.3,1)}
+  .score{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+  .score b{font-family:var(--serif);font-weight:700;font-size:56px;line-height:1;color:var(--ink)}
+  .score span{font-size:10px;letter-spacing:.32em;color:var(--muted);text-transform:uppercase}
+  .vkicker{margin-bottom:14px}
+  .vline{
+    font-family:var(--serif);font-weight:600;font-style:italic;
+    font-size:clamp(22px,5.9vw,28px);line-height:1.32;max-width:26ch;
+    opacity:0;transform:translateY(10px);
+  }
+  .vline.show{animation:reactIn .6s .2s ease forwards}
+  .actions{width:100%;display:flex;flex-direction:column;gap:12px;margin-top:38px}
+  .stores{display:flex;gap:12px}
+  .stores .btn{flex:1}
+  .again{margin-top:20px;background:none;border:0;color:var(--faint);font-family:var(--sans);
+    font-size:11px;letter-spacing:.28em;text-transform:uppercase;cursor:pointer;padding:8px}
+  .again:hover{color:var(--gold)}
+  .toast{
+    position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);z-index:9;
+    background:#161307;border:1px solid var(--line-strong);color:var(--gold);
+    font-size:12px;letter-spacing:.2em;text-transform:uppercase;
+    padding:12px 22px;border-radius:999px;opacity:0;pointer-events:none;
+    transition:opacity .3s, transform .3s;
+  }
+  .toast.show{opacity:1;transform:translate(-50%,0)}
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation-duration:.001s!important;transition-duration:.001s!important}
+    #dust{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- INTRO -->
+  <section id="intro" class="screen on">
+    <div class="brand"><span class="dot"></span><span class="word">TRUTHMIRROR</span></div>
+    <div class="body">
+      <div class="kicker">A self-reflection quiz</div>
+      <h1>Can you handle <em>the truth?</em></h1>
+      <div class="sub">An AI that calls you out.</div>
+      <div class="cta"><button class="btn btn-gold" id="startBtn">Start</button></div>
+      <div class="micro">5 questions &nbsp;·&nbsp; No signup</div>
+    </div>
+    <div class="foot"><div class="micro">truthmirror.net</div></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="screen">
+    <div class="brand"><span class="dot"></span><span class="word">TRUTHMIRROR</span></div>
+    <div class="progress"><i id="bar"></i></div>
+    <div class="body">
+      <div class="qcount" id="qcount">Question 1 of 5</div>
+      <div class="qtext" id="qtext"></div>
+      <div class="opts" id="opts"></div>
+      <div class="react" id="react"></div>
+    </div>
+  </section>
+
+  <!-- VERDICT -->
+  <section id="verdict" class="screen">
+    <canvas id="dust"></canvas>
+    <div class="brand"><span class="dot"></span><span class="word">TRUTHMIRROR</span></div>
+    <div class="body">
+      <div class="ringwrap">
+        <svg viewBox="0 0 196 196"><circle class="ring-bg" cx="98" cy="98" r="92"/><circle class="ring-fg" id="ring" cx="98" cy="98" r="92"/></svg>
+        <div class="score"><b id="scoreNum">0</b><span>Honesty Score / 100</span></div>
+      </div>
+      <div class="kicker vkicker" id="vkicker"></div>
+      <div class="vline" id="vline"></div>
+      <div class="actions">
+        <button class="btn btn-gold" id="shareBtn">Share your verdict</button>
+        <div class="stores">
+          <a class="btn btn-ghost" id="iosBtn" href="#" target="_blank" rel="noopener">App&nbsp;Store</a>
+          <a class="btn btn-ghost" id="playBtn" href="#" target="_blank" rel="noopener">Google&nbsp;Play</a>
+        </div>
+        <a class="btn btn-ghost" id="pdfBtn" href="#" target="_blank" rel="noopener" style="display:none">Get the 10 questions the mirror would ask you</a>
+      </div>
+      <button class="again" id="againBtn">Take it again</button>
+    </div>
+    <div class="foot"><div class="micro">An AI that calls you out &nbsp;·&nbsp; truthmirror.net</div></div>
+  </section>
+
+</div>
+<div class="toast" id="toast">Copied — now paste it somewhere brave</div>
+
+<script>
+/* ================= CONFIG — the only things to edit ================= */
+var QUIZ_URL     = "https://truthmirror.net/quiz";
+var APPSTORE_URL = "https://apps.apple.com/app/truthmirror-self-reflection/id6782132719";
+var PLAY_URL     = "https://play.google.com/store/apps/details?id=net.truthmirror.app";
+var SHOW_PDF_BONUS = false;                                   /* true cand PDF-ul e gata */
+var PDF_URL      = "https://truthmirror.net/10-questions.pdf";
+/* ==================================================================== */
+
+var QUESTIONS = [
+  { q: "When you say \u201cI\u2019ll start Monday,\u201d what usually happens?",
+    o: [ { t: "I start Monday", p: 0,  r: "We\u2019ll check back Monday." },
+         { t: "I start\u2026 a Monday", p: 5,  r: "A Monday. Any Monday." },
+         { t: "Monday is a concept, not a date", p: 10, r: "At least you know." } ] },
+  { q: "Your last excuse was:",
+    o: [ { t: "Actually true", p: 0,  r: "Rare. Suspicious, but rare." },
+         { t: "Technically true", p: 5,  r: "\u201cTechnically.\u201d Noted." },
+         { t: "Beautifully crafted", p: 10, r: "Craftsmanship. Wasted." } ] },
+  { q: "How do you react when someone points out a pattern in your behavior?",
+    o: [ { t: "I consider it", p: 0,  r: "Easy to say here." },
+         { t: "I explain the context they\u2019re missing", p: 5,  r: "Context. Of course." },
+         { t: "I change the subject", p: 10, r: "Like right now?" } ] },
+  { q: "The goal you\u2019ve been \u201cabout to start\u201d \u2014 how old is it?",
+    o: [ { t: "Weeks", p: 0,  r: "Still fresh. Barely." },
+         { t: "Months", p: 5,  r: "Months of \u201cabout to.\u201d" },
+         { t: "It can legally drive", p: 10, r: "It has a learner\u2019s permit." } ] },
+  { q: "Be honest \u2014 why did you take this quiz?",
+    o: [ { t: "Curiosity", p: 0,  r: "Curiosity. Sure." },
+         { t: "Procrastinating something right now", p: 10, r: "It\u2019s still waiting for you." },
+         { t: "Someone sent it to me. Aggressively.", p: 5,  r: "They knew what they were doing." } ] }
+];
+
+var VERDICTS = [
+  { max: 15, k: "Verdict \u00b7 Suspiciously clean",
+    v: "Suspiciously honest. Or lying on a quiz about lying. Either way \u2014 interesting." },
+  { max: 30, k: "Verdict \u00b7 The Negotiator",
+    v: "You negotiate with yourself. And you always win. That\u2019s the problem." },
+  { max: 50, k: "Verdict \u00b7 The Architect",
+    v: "Your excuses have excuses. The mirror is going to enjoy you." }
+];
+
+var idx = 0, score = 0, locked = false;
+var $ = function(id){ return document.getElementById(id); };
+
+function swap(fromId, toId, after){
+  var a = $(fromId), b = $(toId);
+  a.classList.add("leaving");
+  setTimeout(function(){
+    a.classList.remove("on","leaving");
+    b.classList.add("on");
+    if (after) after();
+  }, 260);
+}
+
+/* ---------- quiz flow ---------- */
+function renderQ(){
+  locked = false;
+  var Q = QUESTIONS[idx];
+  $("qcount").textContent = "Question " + (idx+1) + " of 5";
+  $("bar").style.width = (idx/5*100) + "%";
+  $("qtext").textContent = Q.q;
+  var react = $("react");
+  react.classList.remove("show");
+  react.textContent = "";
+  var box = $("opts");
+  box.classList.remove("locked");
+  box.innerHTML = "";
+  var letters = ["A","B","C"];
+  Q.o.forEach(function(opt, i){
+    var b = document.createElement("button");
+    b.className = "opt";
+    b.style.opacity = "0";
+    b.style.transform = "translateY(10px)";
+    b.innerHTML = "<span class=\"tag\">" + letters[i] + "</span><span>" + opt.t + "</span>";
+    b.addEventListener("click", function(){ pick(b, opt); });
+    box.appendChild(b);
+    setTimeout(function(){
+      b.style.transition = "opacity .4s ease, transform .4s ease, border-color .2s, background .2s";
+      b.style.opacity = "1";
+      b.style.transform = "translateY(0)";
+    }, 90 + i*90);
+  });
+}
+
+function pick(btn, opt){
+  if (locked) return;
+  locked = true;
+  score += opt.p;
+  var box = $("opts");
+  box.classList.add("locked");
+  Array.prototype.forEach.call(box.children, function(c){
+    if (c !== btn) c.classList.add("dim");
+  });
+  btn.classList.add("picked");
+  if (navigator.vibrate) navigator.vibrate(12);
+  var react = $("react");
+  setTimeout(function(){
+    react.textContent = opt.r;
+    react.classList.add("show");
+  }, 240);
+  $("bar").style.width = ((idx+1)/5*100) + "%";
+  setTimeout(next, 1650);
+}
+
+function next(){
+  idx++;
+  if (idx < QUESTIONS.length){
+    var body = document.querySelector("#quiz .body");
+    body.style.transition = "opacity .22s ease";
+    body.style.opacity = "0";
+    setTimeout(function(){
+      renderQ();
+      body.style.opacity = "1";
+    }, 230);
+  } else {
+    swap("quiz","verdict", showVerdict);
+  }
+}
+
+/* ---------- verdict ---------- */
+function verdictFor(s){
+  for (var i=0;i<VERDICTS.length;i++){ if (s <= VERDICTS[i].max) return VERDICTS[i]; }
+  return VERDICTS[VERDICTS.length-1];
+}
+
+function showVerdict(){
+  var honesty = Math.max(0, 100 - score*2);
+  var V = verdictFor(score);
+  $("vkicker").textContent = V.k;
+  $("vline").textContent = "\u201c" + V.v + "\u201d";
+  /* count-up */
+  var el = $("scoreNum"), t0 = null, DUR = 1500;
+  function step(ts){
+    if(!t0) t0 = ts;
+    var p = Math.min(1,(ts-t0)/DUR);
+    var e = 1 - Math.pow(1-p,3);
+    el.textContent = Math.round(honesty*e);
+    if (p<1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+  /* ring: circumference 2*PI*92 ≈ 578 */
+  setTimeout(function(){ $("ring").style.strokeDashoffset = String(578 - 578*honesty/100); }, 120);
+  setTimeout(function(){ $("vline").classList.add("show"); }, 500);
+  startDust();
+  window.__share = { honesty: honesty, verdict: V.v };
+}
+
+/* ---------- gold dust ---------- */
+var dustOn = false;
+function startDust(){
+  if (dustOn || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  dustOn = true;
+  var c = $("dust"), x = c.getContext("2d"), P = [];
+  function size(){ c.width = c.offsetWidth * devicePixelRatio; c.height = c.offsetHeight * devicePixelRatio; }
+  size(); addEventListener("resize", size);
+  for (var i=0;i<38;i++){
+    P.push({ x: Math.random(), y: Math.random(), s: .6+Math.random()*1.7,
+             v: .00035+Math.random()*.0009, a: Math.random()*Math.PI*2, tw: .4+Math.random()*.6 });
+  }
+  (function loop(t){
+    x.clearRect(0,0,c.width,c.height);
+    P.forEach(function(p){
+      p.y -= p.v; p.a += .012;
+      if (p.y < -.02){ p.y = 1.02; p.x = Math.random(); }
+      var alpha = (0.18 + 0.5*Math.abs(Math.sin(t*.001*p.tw + p.a)));
+      x.beginPath();
+      x.fillStyle = "rgba(212,175,55," + alpha.toFixed(3) + ")";
+      x.arc(p.x*c.width, p.y*c.height, p.s*devicePixelRatio, 0, 7);
+      x.fill();
+    });
+    requestAnimationFrame(loop);
+  })(0);
+}
+
+/* ---------- share ---------- */
+function doShare(){
+  var s = window.__share || { honesty: 0, verdict: "" };
+  var text = "My Honesty Score: " + s.honesty + "/100.\n\u201c" + s.verdict + "\u201d\nCan you handle the truth?";
+  if (navigator.share){
+    navigator.share({ title: "Can you handle the truth?", text: text, url: QUIZ_URL }).catch(function(){});
+  } else {
+    var tmp = document.createElement("textarea");
+    tmp.value = text + "\n" + QUIZ_URL;
+    document.body.appendChild(tmp); tmp.select();
+    try { document.execCommand("copy"); } catch(e){}
+    document.body.removeChild(tmp);
+    var toast = $("toast");
+    toast.classList.add("show");
+    setTimeout(function(){ toast.classList.remove("show"); }, 2200);
+  }
+}
+
+/* ---------- wiring ---------- */
+$("startBtn").addEventListener("click", function(){
+  swap("intro","quiz", renderQ);
+});
+$("shareBtn").addEventListener("click", doShare);
+$("againBtn").addEventListener("click", function(){
+  idx = 0; score = 0;
+  $("ring").style.strokeDashoffset = "578";
+  $("scoreNum").textContent = "0";
+  $("vline").classList.remove("show");
+  swap("verdict","quiz", renderQ);
+});
+$("iosBtn").href = APPSTORE_URL;
+$("playBtn").href = PLAY_URL;
+if (SHOW_PDF_BONUS){ var pb = $("pdfBtn"); pb.href = PDF_URL; pb.style.display = "inline-flex"; }
+</script>
+</body>
+</html>
