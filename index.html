@@ -15,7 +15,7 @@
   <meta property="og:url" content="https://www.truthmirror.net/">
   <meta property="og:title" content="TruthMirror — The AI mirror that won't lie to you">
   <meta property="og:description" content="An AI that asks the questions you've been avoiding. No advice, no comfort — just the truth, tracked over time so you can't lie to yourself twice.">
-  <meta property="og:image" content="https://www.truthmirror.net/og-image.png">
+  <meta property="og:image" content="https://www.truthmirror.net/og-image.png?v=2">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
@@ -23,7 +23,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="TruthMirror — The AI mirror that won't lie to you">
   <meta name="twitter:description" content="An AI that asks the questions you've been avoiding. No advice, no comfort — just the truth, tracked over time so you can't lie to yourself twice.">
-  <meta name="twitter:image" content="https://www.truthmirror.net/og-image.png">
+  <meta name="twitter:image" content="https://www.truthmirror.net/og-image.png?v=2">
   <!-- Structured data: Organization + WebSite + MobileApplication (helps Google understand the brand and the app) -->
   <script type="application/ld+json">
   {
@@ -201,6 +201,11 @@
         </a>
       </div>
       <p class="hero-note" data-i18n="hero.note">Free to start. Available for iPhone and Android.</p>
+      <a href="/quiz" class="tm-quiz-link" id="tmQuizHero"
+         data-q-en="Not ready to download? Take the TruthQuiz"
+         data-q-ro="Nu ești încă hotărât? Încearcă TruthQuiz"
+         data-q-es="¿Aún no te decides? Prueba el TruthQuiz"
+         data-q-ja="まだ迷っている？ TruthQuizを試す">Not ready to download? Take the TruthQuiz</a>
     </div>
   </section>
 
@@ -537,6 +542,58 @@
       } else {
         setTimeout(applyScreens, 0);
       }
+    })();
+  </script>
+  <!-- TruthQuiz entry points: hero link styling + floating pill -->
+  <style>
+    .tm-quiz-link{display:inline-block;margin-top:26px;color:#D4AF37;text-decoration:none;
+      font-size:13.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+      border-bottom:1px solid rgba(212,175,55,.35);padding-bottom:4px;
+      transition:border-color .2s ease,opacity .2s ease}
+    .tm-quiz-link::after{content:" \2192"}
+    .tm-quiz-link:hover{border-color:#D4AF37;opacity:.92}
+    #tm-quiz-fab{position:fixed;right:18px;bottom:18px;z-index:9999;
+      display:inline-flex;align-items:center;gap:8px;
+      font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+      color:#D4AF37;text-decoration:none;background:rgba(10,10,10,.85);
+      border:1px solid rgba(212,175,55,.5);border-radius:999px;padding:13px 20px;
+      backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+      opacity:0;transform:translateY(16px);pointer-events:none;
+      transition:opacity .4s ease,transform .4s ease,border-color .25s;
+      animation:tmqPulse 3.5s ease-in-out infinite}
+    #tm-quiz-fab.tmq-on{opacity:1;transform:translateY(0);pointer-events:auto}
+    #tm-quiz-fab:hover{border-color:#D4AF37}
+    #tm-quiz-fab span{transition:transform .2s}
+    #tm-quiz-fab:hover span{transform:translateX(3px)}
+    @keyframes tmqPulse{0%,100%{box-shadow:0 0 0 0 rgba(212,175,55,.25)}
+      50%{box-shadow:0 0 22px 2px rgba(212,175,55,.35)}}
+    @media (prefers-reduced-motion:reduce){#tm-quiz-fab{animation:none}}
+  </style>
+  <a id="tm-quiz-fab" href="/quiz" aria-label="Take the TruthQuiz">TruthQuiz <span>&rarr;</span></a>
+  <script>
+    (function(){
+      var hero = document.getElementById('tmQuizHero');
+      function curLang(){
+        var b = document.querySelector('.lang-switch button.active');
+        return (b && b.getAttribute('data-lang')) || localStorage.getItem('tm.site.lang') || 'en';
+      }
+      function applyQuizLang(){
+        if(!hero) return;
+        hero.textContent = hero.getAttribute('data-q-' + curLang()) || hero.getAttribute('data-q-en');
+      }
+      document.querySelectorAll('.lang-switch button').forEach(function(b){
+        b.addEventListener('click', function(){ setTimeout(applyQuizLang, 0); });
+      });
+      if (document.readyState === 'loading'){
+        document.addEventListener('DOMContentLoaded', function(){ setTimeout(applyQuizLang, 0); });
+      } else { setTimeout(applyQuizLang, 0); }
+
+      var fab = document.getElementById('tm-quiz-fab');
+      addEventListener('scroll', function(){
+        var y = scrollY, max = document.documentElement.scrollHeight - innerHeight;
+        if (y > 450 && y < max - 500){ fab.classList.add('tmq-on'); }
+        else { fab.classList.remove('tmq-on'); }
+      }, {passive:true});
     })();
   </script>
 </body>
