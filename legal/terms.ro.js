@@ -1,7 +1,7 @@
 window.TERMS_RO = `TERMENI ȘI CONDIȚII
 TruthMirror
 Data intrării în vigoare: 28 mai 2026
-Versiunea: 2026-05-28
+Versiunea: 2026-07-28
 
 1. CINE SUNTEM
 
@@ -46,7 +46,7 @@ Dacă te confrunți cu o criză de sănătate mentală, gânduri suicidare sau e
 5.1 Oferim următoarele planuri:
 
 GLIMPSE (GRATIS):
-- 3 întrebări AI pe zi
+- 3 întrebări AI pe zi (alocările introductive pot ridica temporar această limită)
 - Detectare pattern-uri de bază
 - Istoric 7 zile
 - Resurse de criză

@@ -1,7 +1,7 @@
 window.PRIVACY_RO = `POLITICA DE CONFIDENȚIALITATE
 TruthMirror
 Data intrării în vigoare: 28 mai 2026
-Versiunea: 2026-05-28
+Versiunea: 2026-07-26
 
 1. INTRODUCERE
 
@@ -110,7 +110,7 @@ Fiecare procesator este obligat printr-un acord de prelucrare a datelor conform 
 
 7.2 Datele de cont: Le păstrăm cât timp contul tău este activ. Poți șterge contul oricând direct din Aplicație (Setări → „Șterge contul") sau prin pagina noastră de ștergere a contului de la https://www.truthmirror.net/delete-account, ceea ce elimină datele asociate (email, dată naștere, identificator dispozitiv, preferințe, contor de utilizare), cu excepția descrisă în secțiunea 7.3. Dacă un cont rămâne inactiv timp de 24 de luni, ștergem datele asociate.
 
-7.3 Excepție pentru protecția minorilor și prevenirea abuzului: Dacă un cont este blocat (de exemplu pentru că aparține unei persoane sub 18 ani sau pentru abuz), păstrăm versiunea criptografică ireversibilă (hash) a adresei de email și identificatorul dispozitivului pe o listă de blocare, chiar și după ștergerea contului. Acest lucru este strict necesar pentru a împiedica reactivarea unui cont blocat și pentru a proteja minorii. Această listă NU conține emailul tău în clar și nu poate fi folosită pentru a te contacta sau pentru marketing. Temeiul legal este interesul nostru legitim de a proteja minorii și integritatea Serviciului (Articolul 6(1)(f) GDPR).
+7.3 Excepție pentru protecția minorilor și prevenirea abuzului: Dacă un cont este blocat (de exemplu pentru că aparține unei persoane sub 18 ani sau pentru abuz), păstrăm versiunea criptografică ireversibilă (hash) a adresei de email și identificatorul dispozitivului pe o listă de blocare, chiar și după ștergerea contului. Acest lucru este strict necesar pentru a împiedica reactivarea unui cont blocat și pentru a proteja minorii. Această listă NU conține emailul tău în clar și nu poate fi folosită pentru a te contacta sau pentru marketing. Temeiul legal este interesul nostru legitim de a proteja minorii și integritatea Serviciului (Articolul 6(1)(f) GDPR). Separat, în același scop de prevenire a abuzului, păstrăm un identificator al dispozitivului împreună cu data la care acel dispozitiv a folosit prima dată Serviciul. Acest lucru este strict necesar pentru ca o alocație introductivă unică să nu poată fi revendicată în mod repetat prin ștergerea și recrearea de conturi pe același dispozitiv, motiv pentru care se păstrează inclusiv după ștergerea contului. Această înregistrare nu conține adresă de email, nume sau conținut al conversațiilor, nu este folosită pentru a te identifica și nu este niciodată folosită în scopuri de marketing. Temeiul legal este același interes legitim privind integritatea Serviciului (Articolul 6(1)(f) GDPR).
 
 7.4 Exporturi locale (PDF și carduri de distribuire): Atât exportul PDF al conversațiilor (disponibil pe planurile plătite), cât și cardurile de distribuire (imagini care conțin un răspuns al oglinzii) sunt generate integral pe dispozitivul tău. Un card de distribuire conține exclusiv răspunsul oglinzii — niciodată mesajele tale, numele tău sau contextul ales. PDF-ul conține conversațiile tale așa cum există ele local pe dispozitiv. Niciunul dintre aceste fișiere nu este transmis către serverele noastre și niciunul nu părăsește dispozitivul decât prin acțiunea ta explicită, prin meniul de partajare al sistemului de operare. Ce alegi să faci cu ele după aceea este în întregime sub controlul tău (vezi și Termenii și Condițiile, secțiunea 11).
 

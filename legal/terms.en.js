@@ -1,7 +1,7 @@
 window.TERMS_EN = `TERMS OF SERVICE
 TruthMirror
 Effective date: 28 May 2026
-Version: 2026-05-28
+Version: 2026-07-28
 
 1. WHO WE ARE
 
@@ -46,7 +46,7 @@ If you are experiencing a mental health crisis, suicidal thoughts, or are in dan
 5.1 We offer the following tiers:
 
 GLIMPSE (FREE):
-- 3 AI questions per day
+- 3 AI questions per day (introductory allowances may temporarily raise this limit)
 - Basic pattern detection
 - 7 days history retention
 - Crisis resources

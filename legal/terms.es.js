@@ -1,7 +1,7 @@
 window.TERMS_ES = `TÉRMINOS DE SERVICIO
 TruthMirror
 Fecha de entrada en vigor: 28 de mayo de 2026
-Versión: 2026-05-28
+Versión: 2026-07-28
 
 1. QUIÉNES SOMOS
 
@@ -46,7 +46,7 @@ Si estás experimentando una crisis de salud mental, pensamientos suicidas, o es
 5.1 Ofrecemos los siguientes planes:
 
 GLIMPSE (GRATIS):
-- 3 preguntas de IA al día
+- 3 preguntas de IA al día (las asignaciones introductorias pueden aumentar temporalmente este límite)
 - Detección básica de patrones
 - Historial de 7 días
 - Recursos de crisis

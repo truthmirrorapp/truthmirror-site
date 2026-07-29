@@ -1,7 +1,7 @@
 window.PRIVACY_EN = `PRIVACY POLICY
 TruthMirror
 Effective date: 28 May 2026
-Version: 2026-05-28
+Version: 2026-07-26
 
 1. INTRODUCTION
 
@@ -110,7 +110,7 @@ Each processor is bound by a data processing agreement under Article 28 GDPR.
 
 7.2 Account data: We keep it as long as your account is active. You can delete your account at any time directly in the App (Settings → "Delete account") or via our account-deletion page at https://www.truthmirror.net/delete-account, which removes the associated data (email, date of birth, device identifier, preferences, usage counter), except as described in section 7.3. If an account stays inactive for 24 months, we delete the associated data.
 
-7.3 Exception for protection of minors and abuse prevention: If an account is blocked (for example because it belongs to a person under 18 or for abuse), we keep the irreversible cryptographic version (hash) of the email address and the device identifier on a block list, even after the account is deleted. This is strictly necessary to prevent reactivation of a blocked account and to protect minors. This list does NOT contain your email in clear text and cannot be used to contact you or for marketing. The legal basis is our legitimate interest in protecting minors and the integrity of the Service (Article 6(1)(f) GDPR).
+7.3 Exception for protection of minors and abuse prevention: If an account is blocked (for example because it belongs to a person under 18 or for abuse), we keep the irreversible cryptographic version (hash) of the email address and the device identifier on a block list, even after the account is deleted. This is strictly necessary to prevent reactivation of a blocked account and to protect minors. This list does NOT contain your email in clear text and cannot be used to contact you or for marketing. The legal basis is our legitimate interest in protecting minors and the integrity of the Service (Article 6(1)(f) GDPR). Separately, and for the same purpose of abuse prevention, we keep a device identifier together with the date on which that device first used the Service. This is strictly necessary so that a one-time introductory allowance cannot be claimed repeatedly by deleting and recreating accounts on the same device, and it is therefore kept even after an account is deleted. This record contains no email address, no name and no conversation content, is not used to identify you and is never used for marketing. The legal basis is the same legitimate interest in the integrity of the Service (Article 6(1)(f) GDPR).
 
 7.4 Local exports (PDF and share cards): Both the PDF export of your conversations (available on paid plans) and the share cards (images containing a reply of the mirror) are generated entirely on your device. A share card contains only the mirror's reply — never your messages, your name, or the selected context. The PDF contains your conversations as they exist locally on your device. Neither of these files is ever transmitted to our servers, and neither leaves your device except through your explicit action via the operating system's share menu. What you choose to do with them afterwards is entirely under your control (see also the Terms of Service, section 11).
 
