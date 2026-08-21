@@ -1,7 +1,8 @@
+// LEGAL-V110-T — Terms actualizate pentru v1.1.0 (identic cu aplicatia).
 window.TERMS_EN = `TERMS OF SERVICE
 TruthMirror
 Effective date: 28 May 2026
-Version: 2026-07-28
+Version: 2026-08-20
 
 1. WHO WE ARE
 
@@ -80,6 +81,9 @@ TRUTH (€19.99/month or €199/year) — Launching approximately 6 months after
 - Voice mode (talk to the AI)
 - Monthly deep analysis report
 
+
+The daily question ("TruthQuestion") does not consume the daily question limit of any plan — it is free on all plans, including the Glimpse plan.
+
 5.2 Annual subscriptions provide approximately 2 months free compared to monthly billing.
 
 5.3 Prices may change with at least 30 days' prior notice. Existing subscribers will be notified through the App and/or email. Price changes do not apply to your current billing period.
@@ -113,6 +117,12 @@ TRUTH (€19.99/month or €199/year) — Launching approximately 6 months after
 8.1 You may cancel your subscription at any time, with no reason required, through your App Store or Google Play account settings. Cancellation takes effect at the end of the current billing period; you retain access to paid features until then. We do not use retention tactics, exit surveys, or friction to discourage cancellation.
 
 8.2 You may delete your account and its associated data at any time, either from within the App (Settings → "Delete account") or via our account-deletion page at https://www.truthmirror.net/delete-account. See our Privacy Policy for what is deleted and what may be retained for the protection of minors.
+
+8.3 Single session and session expiry. Your account works on one device at a time. Moving the account to another device requires a recent verification of your email address via an authentication code. Sessions inactive for more than 30 days expire; on return, re-authentication via email code is required.
+
+8.4 Verification for sensitive actions. For security reasons, deleting your account requires a recent verification of your email address (an authentication code received within the last minutes). Without this verification, the deletion request is refused and no data is deleted.
+
+8.5 Responsibility when disposing of your device. Before selling, donating or handing over your device, you are responsible for performing a factory reset or, at minimum, signing out of the device accounts (Google / Apple) and enabling App Lock. If you do not take these measures, third-party access to data stored locally on the device is at your own risk.
 
 9. NO ADVERTISING
 

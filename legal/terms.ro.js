@@ -1,7 +1,8 @@
+// LEGAL-V110-T — Terms actualizate pentru v1.1.0 (identic cu aplicatia).
 window.TERMS_RO = `TERMENI ȘI CONDIȚII
 TruthMirror
 Data intrării în vigoare: 28 mai 2026
-Versiunea: 2026-07-28
+Versiunea: 2026-08-20
 
 1. CINE SUNTEM
 
@@ -80,6 +81,9 @@ TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lan
 - Mod voce (vorbește cu AI)
 - Raport lunar de analiză profundă
 
+
+Întrebarea zilnică („TruthQuestion") nu consumă limita zilnică de întrebări a niciunui plan — este gratuită pe toate planurile, inclusiv pe planul Glimpse.
+
 5.2 Abonamentele anuale oferă aproximativ 2 luni gratis comparativ cu facturarea lunară.
 
 5.3 Prețurile se pot schimba cu un preaviz de cel puțin 30 zile. Abonații existenți vor fi notificați prin Aplicație și/sau email. Schimbările de preț nu se aplică perioadei tale curente de facturare.
@@ -113,6 +117,12 @@ TRUTH (€19,99/lună sau €199/an) — Lansare la aproximativ 6 luni după lan
 8.1 Îți poți anula abonamentul oricând, fără să fie necesar un motiv, prin setările contului tău App Store sau Google Play. Anularea intră în vigoare la sfârșitul perioadei curente de facturare; păstrezi accesul la funcțiile plătite până atunci. Nu folosim tactici de retenție, survey-uri de ieșire, sau friction pentru a descuraja anularea.
 
 8.2 Îți poți șterge contul și datele asociate oricând, fie din Aplicație (Setări → „Șterge contul"), fie prin pagina noastră de ștergere a contului de la https://www.truthmirror.net/delete-account. Vezi Politica de confidențialitate pentru ce se șterge și ce poate fi păstrat pentru protecția minorilor.
+
+8.3 Sesiune unică și expirarea sesiunilor. Contul tău funcționează pe un singur dispozitiv odată. Mutarea contului pe un alt dispozitiv necesită o verificare recentă a adresei de email printr-un cod de autentificare. Sesiunile inactive mai mult de 30 de zile expiră; la revenire este necesară re-autentificarea prin cod pe email.
+
+8.4 Verificare pentru acțiuni sensibile. Din motive de securitate, ștergerea contului necesită o verificare recentă a adresei de email (cod de autentificare primit în ultimele minute). Fără această verificare, cererea de ștergere este refuzată și nicio dată nu este ștearsă.
+
+8.5 Responsabilitatea la înstrăinarea dispozitivului. Înainte de a vinde, dona sau ceda dispozitivul, ești responsabil să efectuezi o resetare din fabrică sau, cel puțin, să te deloghezi din conturile dispozitivului (Google / Apple) și să activezi blocarea aplicației (App Lock). Dacă nu iei aceste măsuri, accesul terților la datele stocate local pe dispozitiv este pe răspunderea ta.
 
 9. FĂRĂ RECLAME
 

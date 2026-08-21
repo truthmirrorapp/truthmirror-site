@@ -1,7 +1,8 @@
+// LEGAL-V110-T — Privacy actualizata pentru v1.1.0 (identic cu aplicatia).
 window.PRIVACY_RO = `POLITICA DE CONFIDENȚIALITATE
 TruthMirror
 Data intrării în vigoare: 28 mai 2026
-Versiunea: 2026-07-26
+Versiunea: 2026-08-20
 
 1. INTRODUCERE
 
@@ -29,8 +30,12 @@ Pentru a-ți crea și securiza contul, colectăm:
 - Preferința ta de limbă;
 - Un indicator al planului tău de abonament (vezi 2.6 pentru gestionarea abonamentelor).
 
+- Data ultimei utilizări a contului (folosită pentru expirarea automată a sesiunilor inactive și pentru securitate);
+
 2.2 Date de utilizare (stocate prin furnizorul nostru de backend, fără conținut):
 - Data și ora fiecărei întrebări trimise — înregistrate FĂRĂ niciun conținut al mesajului — exclusiv pentru a aplica limitele zilnice de întrebări în funcție de planul tău.
+
+- Un indicator dacă cererea a fost întrebarea zilnică gratuită („TruthQuestion") sau o întrebare obișnuită, împreună cu data acesteia (fără niciun conținut);
 
 2.3 Date stocate DOAR pe dispozitivul tău (nu ne sunt transmise și nu sunt stocate în infrastructura noastră):
 - Conținutul text al conversațiilor tale cu AI-ul;
@@ -39,6 +44,8 @@ Pentru a-ți crea și securiza contul, colectăm:
 - Scorul de claritate și statisticile calculate din conversațiile tale;
 - Codul PIN de blocare a aplicației (stocat criptat, niciodată transmis);
 - Înregistrările consimțământului tău și setările aplicației.
+
+- Jurnalul local al întrebării zilei (ce zile au fost răspunse sau sărite) — folosit pentru istoricul din aplicație;
 
 2.4 Analiză anonimă de utilizare:
 Folosim Aptabase (cu servere în Uniunea Europeană) pentru statistici de utilizare strict anonime — de exemplu, câte persoane deschid aplicația sau ce limbă folosesc. Aceste evenimente conțin DOAR date tehnice anonime (nume de eveniment, numere, limbă, plan). NU conțin emailul tău, conținutul conversațiilor sau date care te pot identifica personal.
@@ -149,6 +156,8 @@ Implementăm măsuri tehnice și organizatorice adecvate pentru a-ți proteja da
 - Revizuirea periodică de securitate a infrastructurii noastre.
 
 Niciun sistem nu este complet sigur. Îți recomandăm să eviți includerea unor detalii de identificare foarte sensibile (nume complet, adresă, numere de act de identitate) în textul conversațiilor.
+
+- Deblocarea biometrică (Face ID / amprentă) este procesată în întregime de sistemul de operare al dispozitivului; Aplicația primește doar confirmarea reușitei și nu colectează, nu stochează și nu transmite niciodată date biometrice;
 
 10. CONFIDENȚIALITATEA COPIILOR
 

@@ -1,7 +1,8 @@
+// LEGAL-V110-T — Privacy actualizata pentru v1.1.0 (identic cu aplicatia).
 window.PRIVACY_ES = `POLÍTICA DE PRIVACIDAD
 TruthMirror
 Fecha de entrada en vigor: 28 de mayo de 2026
-Versión: 2026-07-26
+Versión: 2026-08-20
 
 1. INTRODUCCIÓN
 
@@ -29,8 +30,12 @@ Para crear y proteger tu cuenta, recopilamos:
 - Tu preferencia de idioma;
 - Un indicador de tu plan de suscripción (véase 2.6 para la gestión de suscripciones).
 
+- La fecha del último uso de tu cuenta (utilizada para la caducidad automática de sesiones inactivas y para seguridad);
+
 2.2 Datos de uso (almacenados a través de nuestro proveedor de backend, sin contenido):
 - La fecha y la hora de cada pregunta que envías — registradas SIN ningún contenido del mensaje — exclusivamente para aplicar los límites diarios de preguntas según tu plan.
+
+- Un indicador de si una solicitud fue la pregunta diaria gratuita ("TruthQuestion") o una pregunta normal, junto con su fecha (nunca ningún contenido);
 
 2.3 Datos almacenados SOLO en tu dispositivo (nunca nos llegan ni se almacenan en nuestra infraestructura):
 - El contenido de texto de tus conversaciones con la IA;
@@ -39,6 +44,8 @@ Para crear y proteger tu cuenta, recopilamos:
 - La puntuación de claridad y las estadísticas calculadas a partir de tus conversaciones;
 - El PIN de bloqueo de la app (almacenado cifrado, nunca transmitido);
 - Los registros de tu consentimiento y los ajustes de la app.
+
+- El diario local de la pregunta del día (qué días fueron respondidos u omitidos) — usado para el historial dentro de la app;
 
 2.4 Analítica de uso anónima:
 Usamos Aptabase (con servidores en la Unión Europea) para estadísticas de uso estrictamente anónimas — por ejemplo, cuántas personas abren la app o qué idioma usan. Estos eventos contienen SOLO datos técnicos anónimos (nombre del evento, números, idioma, plan). NO contienen tu email, el contenido de las conversaciones ni datos que puedan identificarte personalmente.
@@ -149,6 +156,8 @@ Implementamos medidas técnicas y organizativas adecuadas para proteger tus dato
 - Revisión periódica de seguridad de nuestra infraestructura.
 
 Ningún sistema es completamente seguro. Te recomendamos evitar incluir datos identificativos muy sensibles (nombre completo, dirección, números de documento de identidad) en el texto de las conversaciones.
+
+- El desbloqueo biométrico (Face ID / huella) es procesado íntegramente por el sistema operativo del dispositivo; la Aplicación solo recibe la confirmación de éxito y nunca recopila, almacena ni transmite datos biométricos;
 
 10. PRIVACIDAD DE LOS MENORES
 

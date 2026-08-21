@@ -1,7 +1,8 @@
+// LEGAL-V110-T — Privacy actualizata pentru v1.1.0 (identic cu aplicatia).
 window.PRIVACY_EN = `PRIVACY POLICY
 TruthMirror
 Effective date: 28 May 2026
-Version: 2026-07-26
+Version: 2026-08-20
 
 1. INTRODUCTION
 
@@ -29,8 +30,12 @@ To create and secure your account, we collect:
 - Your language preference;
 - An indicator of your subscription plan (see 2.6 for subscription management).
 
+- The date your account was last used (used for automatic expiry of inactive sessions and for security);
+
 2.2 Usage data (stored through our backend provider, content-free):
 - The date and time of each question you send — recorded WITHOUT any message content — solely to enforce the daily question limits according to your plan.
+
+- An indicator of whether a request was the free daily question ("TruthQuestion") or a regular question, together with its date (never any content);
 
 2.3 Data stored ONLY on your device (never sent to us or stored in our infrastructure):
 - The text content of your conversations with the AI;
@@ -39,6 +44,8 @@ To create and secure your account, we collect:
 - The clarity score and statistics calculated from your conversations;
 - The app lock PIN (stored encrypted, never transmitted);
 - Records of your consent and app settings.
+
+- The local daily-question journal (which days were answered or skipped) — used for the in-app history;
 
 2.4 Anonymous usage analytics:
 We use Aptabase (with servers in the European Union) for strictly anonymous usage statistics — for example, how many people open the app or which language they use. These events contain ONLY anonymous technical data (event name, numbers, language, plan). They do NOT contain your email, conversation content or data that can personally identify you.
@@ -149,6 +156,8 @@ We implement appropriate technical and organizational measures to protect your d
 - Periodic security review of our infrastructure.
 
 No system is completely secure. We recommend that you avoid including highly sensitive identifying details (full name, address, ID numbers) in conversation text.
+
+- Biometric unlock (Face ID / fingerprint) is processed entirely by the device's operating system; the App only receives a success confirmation and never collects, stores or transmits biometric data;
 
 10. CHILDREN'S PRIVACY
 

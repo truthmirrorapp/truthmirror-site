@@ -1,7 +1,8 @@
+// LEGAL-V110-T — Terms actualizate pentru v1.1.0 (identic cu aplicatia).
 window.TERMS_ES = `TÉRMINOS DE SERVICIO
 TruthMirror
 Fecha de entrada en vigor: 28 de mayo de 2026
-Versión: 2026-07-28
+Versión: 2026-08-20
 
 1. QUIÉNES SOMOS
 
@@ -80,6 +81,9 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 - Modo voz (habla con la IA)
 - Informe mensual de análisis profundo
 
+
+La pregunta diaria ("TruthQuestion") no consume el límite diario de preguntas de ningún plan — es gratuita en todos los planes, incluido el plan Glimpse.
+
 5.2 Las suscripciones anuales ofrecen aproximadamente 2 meses gratis en comparación con la facturación mensual.
 
 5.3 Los precios pueden cambiar con un preaviso de al menos 30 días. Los suscriptores existentes serán notificados a través de la App y/o correo electrónico. Los cambios de precio no se aplican a tu período de facturación actual.
@@ -113,6 +117,12 @@ TRUTH (€19,99/mes o €199/año) — Lanzamiento aproximadamente 6 meses despu
 8.1 Puedes cancelar tu suscripción en cualquier momento, sin necesidad de motivo, a través de los ajustes de tu cuenta de App Store o Google Play. La cancelación entra en vigor al final del período de facturación actual; conservas el acceso a las funciones de pago hasta entonces. No usamos tácticas de retención, encuestas de salida ni fricción para desalentar la cancelación.
 
 8.2 Puedes eliminar tu cuenta y los datos asociados en cualquier momento, ya sea desde la App (Ajustes → «Eliminar cuenta») o a través de nuestra página de eliminación de cuenta en https://www.truthmirror.net/delete-account. Consulta nuestra Política de privacidad para saber qué se elimina y qué puede conservarse para la protección de menores.
+
+8.3 Sesión única y caducidad de sesiones. Tu cuenta funciona en un solo dispositivo a la vez. Mover la cuenta a otro dispositivo requiere una verificación reciente de tu dirección de email mediante un código de autenticación. Las sesiones inactivas durante más de 30 días caducan; al volver, es necesaria la re-autenticación mediante código por email.
+
+8.4 Verificación para acciones sensibles. Por motivos de seguridad, eliminar tu cuenta requiere una verificación reciente de tu dirección de email (un código de autenticación recibido en los últimos minutos). Sin esta verificación, la solicitud de eliminación se rechaza y no se elimina ningún dato.
+
+8.5 Responsabilidad al desprenderte del dispositivo. Antes de vender, donar o ceder tu dispositivo, eres responsable de realizar un restablecimiento de fábrica o, como mínimo, cerrar sesión en las cuentas del dispositivo (Google / Apple) y activar el bloqueo de la aplicación (App Lock). Si no tomas estas medidas, el acceso de terceros a los datos almacenados localmente en el dispositivo corre por tu cuenta y riesgo.
 
 9. SIN PUBLICIDAD
 
